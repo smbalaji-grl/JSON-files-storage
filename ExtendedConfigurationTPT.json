@@ -1,0 +1,2132 @@
+{
+  "commonPackets": {
+    "MPP": {
+      "FreqMode": {
+        "128": {
+          "ID": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "NEG": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "PT": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ]
+        },
+        "360": {
+          "ID": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "NEG": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "PT": [
+            {
+              "FieldName": "TResponse",
+              "FieldDisplayString": "t_response",
+              "DefaultValue": "3",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 3,
+              "MaxValue": 10,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "RepeatCountCondition",
+              "FieldDisplayString": "Repeat Count Condition",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Until PRx Response": "0",
+                "Fixed Count": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Depth",
+              "FieldDisplayString": "Depth",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "0",
+                "One": "1",
+                "Two": "2",
+                "Three": "3"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ScopeTrigger",
+              "FieldDisplayString": "Scope Trigger",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "End of ASK": "0",
+                "Start of FSK": "1",
+                "End of FSK": "2"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Polarity",
+              "FieldDisplayString": "Polarity",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Positive": "0",
+                "Negative": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "FskCycle",
+              "FieldDisplayString": "FSK Cycles",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Cycle_512": "0x00",
+                "Cycle_256": "0x01",
+                "Cycle_128": "0x02",
+                "Cycle_64": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ParityInversion",
+              "FieldDisplayString": "Parity Inversion",
+              "DefaultValue": "",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "Disable": "0",
+                "Enable": "1"
+              },
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "ChecksumInversion",
+              "FieldDisplayString": "Checksum Inversion",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "MaskResponseTillCount",
+              "FieldDisplayString": "Mask Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true,
+              "ConditionalLogic": {
+                "EnableCondition": {
+                  "FieldName": "maskResponse",
+                  "Operator": "not_equals",
+                  "Value": "None"
+                }
+              }
+            },
+            {
+              "FieldName": "MaskResponseCondition",
+              "FieldDisplayString": "Mask Response",
+              "DefaultValue": "0",
+              "FieldType": "dropdown",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {
+                "None": "",
+                "Particular count": "0x00",
+                "Before count": "0x01",
+                "After count": "0x02",
+                "Mask and Unmask": "0x03"
+              },
+              "Editable": true,
+              "DisplayField": true
+            }
+          ]
+        }
+      },
+      "RuntimeInfo": [
+        {
+          "FieldName": "TResponse",
+          "FieldDisplayString": "t_response",
+          "DefaultValue": "3",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 3,
+          "MaxValue": 10,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCount",
+          "FieldDisplayString": "Repeat Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCountCondition",
+          "FieldDisplayString": "Repeat Count Condition",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Until PRx Response": "0",
+            "Fixed Count": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "PreambleCount",
+          "FieldDisplayString": "Preamble Count",
+          "DefaultValue": "23",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Depth",
+          "FieldDisplayString": "Depth",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Zero": "0",
+            "One": "1",
+            "Two": "2",
+            "Three": "3"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ScopeTrigger",
+          "FieldDisplayString": "Scope Trigger",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "End of ASK": "0",
+            "Start of FSK": "1",
+            "End of FSK": "2"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Polarity",
+          "FieldDisplayString": "Polarity",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Positive": "0",
+            "Negative": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "FskCycle",
+          "FieldDisplayString": "FSK Cycles",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Cycle_512": "0x00",
+            "Cycle_256": "0x01",
+            "Cycle_128": "0x02",
+            "Cycle_64": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ParityInversion",
+          "FieldDisplayString": "Parity Inversion",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "Disable": "0",
+            "Enable": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ChecksumInversion",
+          "FieldDisplayString": "Checksum Inversion",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RunTimeConfiguration",
+          "FieldDisplayString": "Run Time Configuration",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Once": "0",
+            "Continuous": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "MaskResponseTillCount",
+          "FieldDisplayString": "Mask Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true,
+          "ConditionalLogic": {
+            "EnableCondition": {
+              "FieldName": "MaskResponseCondition",
+              "Operator": "not_equals",
+              "Value": "None"
+            }
+          }
+        },
+        {
+          "FieldName": "MaskResponseCondition",
+          "FieldDisplayString": "Mask Response",
+          "DefaultValue": "0",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Particular count": "0x00",
+            "Before count": "0x01",
+            "After count": "0x02",
+            "Mask and Unmask": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        }
+      ]
+    },
+    "BPP_EPP": {
+      "ID": [
+        {
+          "FieldName": "TResponse",
+          "FieldDisplayString": "t_response",
+          "DefaultValue": "3",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 3,
+          "MaxValue": 10,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCount",
+          "FieldDisplayString": "Repeat Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCountCondition",
+          "FieldDisplayString": "Repeat Count Condition",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Until PRx Response": "0",
+            "Fixed Count": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "PreambleCount",
+          "FieldDisplayString": "Preamble Count",
+          "DefaultValue": "23",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Depth",
+          "FieldDisplayString": "Depth",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Zero": "0",
+            "One": "1",
+            "Two": "2",
+            "Three": "3"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ScopeTrigger",
+          "FieldDisplayString": "Scope Trigger",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "End of ASK": "0",
+            "Start of FSK": "1",
+            "End of FSK": "2"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Polarity",
+          "FieldDisplayString": "Polarity",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Positive": "0",
+            "Negative": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "FskCycle",
+          "FieldDisplayString": "FSK Cycles",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Cycle_512": "0x00",
+            "Cycle_256": "0x01",
+            "Cycle_128": "0x02",
+            "Cycle_64": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ParityInversion",
+          "FieldDisplayString": "Parity Inversion",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "Disable": "0",
+            "Enable": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ChecksumInversion",
+          "FieldDisplayString": "Checksum Inversion",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "MaskResponseTillCount",
+          "FieldDisplayString": "Mask Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true,
+          "ConditionalLogic": {
+            "EnableCondition": {
+              "FieldName": "MaskResponseCondition",
+              "Operator": "not_equals",
+              "Value": "None"
+            }
+          }
+        },
+        {
+          "FieldName": "MaskResponseCondition",
+          "FieldDisplayString": "Mask Response",
+          "DefaultValue": "0",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Particular count": "0x00",
+            "Before count": "0x01",
+            "After count": "0x02",
+            "Mask and Unmask": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        }
+      ],
+      "NEG": [
+        {
+          "FieldName": "TResponse",
+          "FieldDisplayString": "t_response",
+          "DefaultValue": "3",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 3,
+          "MaxValue": 10,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCount",
+          "FieldDisplayString": "Repeat Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCountCondition",
+          "FieldDisplayString": "Repeat Count Condition",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Until PRx Response": "0",
+            "Fixed Count": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "PreambleCount",
+          "FieldDisplayString": "Preamble Count",
+          "DefaultValue": "23",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Depth",
+          "FieldDisplayString": "Depth",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Zero": "0",
+            "One": "1",
+            "Two": "2",
+            "Three": "3"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ScopeTrigger",
+          "FieldDisplayString": "Scope Trigger",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "End of ASK": "0",
+            "Start of FSK": "1",
+            "End of FSK": "2"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Polarity",
+          "FieldDisplayString": "Polarity",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Positive": "0",
+            "Negative": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "FskCycle",
+          "FieldDisplayString": "FSK Cycles",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Cycle_512": "0x00",
+            "Cycle_256": "0x01",
+            "Cycle_128": "0x02",
+            "Cycle_64": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ParityInversion",
+          "FieldDisplayString": "Parity Inversion",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "Disable": "0",
+            "Enable": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ChecksumInversion",
+          "FieldDisplayString": "Checksum Inversion",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "MaskResponseTillCount",
+          "FieldDisplayString": "Mask Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true,
+          "ConditionalLogic": {
+            "EnableCondition": {
+              "FieldName": "MaskResponseCondition",
+              "Operator": "not_equals",
+              "Value": "None"
+            }
+          }
+        },
+        {
+          "FieldName": "MaskResponseCondition",
+          "FieldDisplayString": "Mask Response",
+          "DefaultValue": "0",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Particular count": "0x00",
+            "Before count": "0x01",
+            "After count": "0x02",
+            "Mask and Unmask": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        }
+      ],
+      "PT": [
+        {
+          "FieldName": "TResponse",
+          "FieldDisplayString": "t_response",
+          "DefaultValue": "3",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 3,
+          "MaxValue": 10,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCount",
+          "FieldDisplayString": "Repeat Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCountCondition",
+          "FieldDisplayString": "Repeat Count Condition",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Until PRx Response": "0",
+            "Fixed Count": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "PreambleCount",
+          "FieldDisplayString": "Preamble Count",
+          "DefaultValue": "23",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Depth",
+          "FieldDisplayString": "Depth",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Zero": "0",
+            "One": "1",
+            "Two": "2",
+            "Three": "3"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ScopeTrigger",
+          "FieldDisplayString": "Scope Trigger",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "End of ASK": "0",
+            "Start of FSK": "1",
+            "End of FSK": "2"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Polarity",
+          "FieldDisplayString": "Polarity",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Positive": "0",
+            "Negative": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "FskCycle",
+          "FieldDisplayString": "FSK Cycles",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Cycle_512": "0x00",
+            "Cycle_256": "0x01",
+            "Cycle_128": "0x02",
+            "Cycle_64": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ParityInversion",
+          "FieldDisplayString": "Parity Inversion",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "Disable": "0",
+            "Enable": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ChecksumInversion",
+          "FieldDisplayString": "Checksum Inversion",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "MaskResponseTillCount",
+          "FieldDisplayString": "Mask Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true,
+          "ConditionalLogic": {
+            "EnableCondition": {
+              "FieldName": "MaskResponseCondition",
+              "Operator": "not_equals",
+              "Value": "None"
+            }
+          }
+        },
+        {
+          "FieldName": "MaskResponseCondition",
+          "FieldDisplayString": "Mask Response",
+          "DefaultValue": "0",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Particular count": "0x00",
+            "Before count": "0x01",
+            "After count": "0x02",
+            "Mask and Unmask": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        }
+      ],
+      "RuntimeInfo": [
+        {
+          "FieldName": "TResponse",
+          "FieldDisplayString": "t_response",
+          "DefaultValue": "3",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 3,
+          "MaxValue": 10,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCount",
+          "FieldDisplayString": "Repeat Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RepeatCountCondition",
+          "FieldDisplayString": "Repeat Count Condition",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Until PRx Response": "0",
+            "Fixed Count": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "PreambleCount",
+          "FieldDisplayString": "Preamble Count",
+          "DefaultValue": "23",
+          "FieldType": "textbox",
+          "Units": "ms",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Depth",
+          "FieldDisplayString": "Depth",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Zero": "0",
+            "One": "1",
+            "Two": "2",
+            "Three": "3"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ScopeTrigger",
+          "FieldDisplayString": "Scope Trigger",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "End of ASK": "0",
+            "Start of FSK": "1",
+            "End of FSK": "2"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "Polarity",
+          "FieldDisplayString": "Polarity",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Positive": "0",
+            "Negative": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "FskCycle",
+          "FieldDisplayString": "FSK Cycles",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Cycle_512": "0x00",
+            "Cycle_256": "0x01",
+            "Cycle_128": "0x02",
+            "Cycle_64": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ParityInversion",
+          "FieldDisplayString": "Parity Inversion",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "Disable": "0",
+            "Enable": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "ChecksumInversion",
+          "FieldDisplayString": "Checksum Inversion",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RunTimeConfiguration",
+          "FieldDisplayString": "Run Time Configuration",
+          "DefaultValue": "",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Once": "0",
+            "Continuous": "1"
+          },
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RP16OddConfig",
+          "FieldDisplayString": "RP16 Odd Config",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "RP16EvenConfig",
+          "FieldDisplayString": "RP16 Even Config",
+          "DefaultValue": false,
+          "FieldType": "checkbox",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true
+        },
+        {
+          "FieldName": "MaskResponseTillCount",
+          "FieldDisplayString": "Mask Count",
+          "DefaultValue": "0",
+          "FieldType": "textbox",
+          "Units": "",
+          "MinValue": 0,
+          "MaxValue": 255,
+          "ComboBoxEntries": {},
+          "Editable": true,
+          "DisplayField": true,
+          "ConditionalLogic": {
+            "EnableCondition": {
+              "FieldName": "MaskResponseCondition",
+              "Operator": "not_equals",
+              "Value": "None"
+            }
+          }
+        },
+        {
+          "FieldName": "MaskResponseCondition",
+          "FieldDisplayString": "Mask Response",
+          "DefaultValue": "0",
+          "FieldType": "dropdown",
+          "Units": "",
+          "MinValue": null,
+          "MaxValue": null,
+          "ComboBoxEntries": {
+            "None": "",
+            "Particular count": "0x00",
+            "Before count": "0x01",
+            "After count": "0x02",
+            "Mask and Unmask": "0x03"
+          },
+          "Editable": true,
+          "DisplayField": true
+        }
+      ]
+    }
+  },
+  "1_3_3": {},
+  "2_0_0": {},
+  "2_0_1": {},
+  "2_1_0": {},
+  "2_2_1": {}
+}
