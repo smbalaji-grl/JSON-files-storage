@@ -43,597 +43,33 @@
         "DefaultSequenceConstraints": [
           {
             "Context": {
-              "CoilType": "TPR_1A",
-              "PowerProfile": "BPP"
+              "PowerProfile": "C3"
             },
             "PTxQIPacketName": "",
             "PRxRequiredFields": [],
             "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
+            "Version": "CommonSequence",
             "SourceMode": "C3"
           },
           {
             "Context": {
-              "CoilType": "TPR_1B",
-              "PowerProfile": "BPP"
+              "FrequencyMode": "128kHz"
             },
             "PTxQIPacketName": "",
             "PRxRequiredFields": [],
             "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
           },
           {
             "Context": {
-              "CoilType": "TPR_1C",
-              "PowerProfile": "BPP"
+              "FrequencyMode": "360kHz"
             },
             "PTxQIPacketName": "",
             "PRxRequiredFields": [],
             "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1D",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1E",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_3",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_4",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_5",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_6",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_5W",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1F",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_7",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1A",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1B",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1C",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP3",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP4",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_15W",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_1_2_4",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1A",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1B",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1C",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1D",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1E",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_3",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_4",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_5",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_6",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_5W",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1F",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_7",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1A",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1B",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1C",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP3",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP4",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_15W",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_0_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1A",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1B",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1C",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1D",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1E",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_3",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_4",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_5",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_6",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_5W",
-              "PowerProfile": "BPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_1F",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_7",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1A",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1B",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP1C",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP3",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_MP4",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
-          },
-          {
-            "Context": {
-              "CoilType": "TPR_THERMAL_15W",
-              "PowerProfile": "EPP"
-            },
-            "PTxQIPacketName": "",
-            "PRxRequiredFields": [],
-            "PTxRequiredFields": [],
-            "Version": "V_2_1",
-            "SourceMode": "C3"
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
           }
         ]
       },
@@ -1464,7 +900,19 @@
         "BooksReferred": null,
         "PowerProfileSupported": null,
         "PacketPhase": "ConfigPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "General Request",
@@ -16529,7 +15977,69 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": "MPP,APP",
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x07"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Extended Capabilities",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x04"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Power Loss Accounting Parameters",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x03"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Get Request",
@@ -17920,7 +17430,29 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": null,
         "PacketPhase": "ConfigPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Extended Power Receiver Capabilities",
@@ -36287,6 +35819,26 @@
             "PTxRequiredFields": [],
             "Version": "CommonSequence",
             "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "C3"
+            },
+            "PTxQIPacketName": "AnalogPing",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "C3"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "AnalogPing",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
           }
         ]
       },
@@ -36309,6 +35861,26 @@
               "FrequencyMode": "360kHz"
             },
             "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "C3"
+            },
+            "PTxQIPacketName": "DigitalPing",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "C3"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "DigitalPing",
             "PRxRequiredFields": [],
             "PTxRequiredFields": [],
             "Version": "CommonSequence",
