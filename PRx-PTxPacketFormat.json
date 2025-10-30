@@ -131,6 +131,50 @@
         "DefaultSequenceConstraints": [
           {
             "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
               "FrequencyMode": "128kHz"
             },
             "PTxQIPacketName": "",
@@ -4176,6 +4220,374 @@
             "PTxRequiredFields": [],
             "Version": "V_2_1",
             "SourceMode": "C3"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF0"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x01"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF0"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x01"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF3"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF3"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF0"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x01"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF0"
+              },
+              {
+                "FieldName": "Frequency_Selector",
+                "DefaultValue": "0x01"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x05"
+              },
+              {
+                "FieldName": "Re_ping_Delay_Value",
+                "DefaultValue": "12"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x05"
+              },
+              {
+                "FieldName": "Re_ping_Delay_Value",
+                "DefaultValue": "12"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xA0"
+              },
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF3"
+              },
+              {
+                "FieldName": "Load_Power(Low_Byte)",
+                "DefaultValue": "0"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0xF3"
+              },
+              {
+                "FieldName": "Load_Power(Low_Byte)",
+                "DefaultValue": "0"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x05"
+              },
+              {
+                "FieldName": "Re_ping_Delay_Value",
+                "DefaultValue": "12"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Request",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
           },
           {
             "Context": {
@@ -9994,6 +10406,94 @@
           },
           {
             "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
               "PowerProfile": "C3"
             },
             "PTxQIPacketName": "ACK",
@@ -11185,7 +11685,97 @@
         "BooksReferred": null,
         "PowerProfileSupported": null,
         "PacketPhase": "ConfigPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Proprietary(0x84)",
@@ -15471,7 +16061,31 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": "MPP,APP,MPP15,APP15,MPP25,APP25",
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Cloak",
@@ -15659,7 +16273,53 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": null,
         "PacketPhase": "PowerTxPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Proprietary(0x1A)",
@@ -15981,9 +16641,10 @@
         "DefaultSequenceConstraints": [
           {
             "Context": {
+              "PowerProfile": "MPP",
               "FrequencyMode": "128kHz"
             },
-            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PTxQIPacketName": "",
             "PRxRequiredFields": [
               {
                 "FieldName": "Parameter",
@@ -15991,44 +16652,63 @@
               }
             ],
             "PTxRequiredFields": [],
-            "Version": "CommonSequence",
+            "Version": "MPPV_2_1",
             "SourceMode": "MPP"
           },
           {
             "Context": {
-              "FrequencyMode": "360kHz"
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
             },
-            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PTxQIPacketName": "",
             "PRxRequiredFields": [
               {
                 "FieldName": "Parameter",
-                "DefaultValue": "0x07"
+                "DefaultValue": "0x00"
               }
             ],
             "PTxRequiredFields": [],
-            "Version": "CommonSequence",
+            "Version": "MPPV_2_1",
             "SourceMode": "MPP"
           },
           {
             "Context": {
+              "PowerProfile": "MPP",
               "FrequencyMode": "360kHz"
             },
-            "PTxQIPacketName": "Extended Power Transmitter Extended Capabilities",
+            "PTxQIPacketName": "",
             "PRxRequiredFields": [
               {
                 "FieldName": "Parameter",
-                "DefaultValue": "0x04"
+                "DefaultValue": "0x00"
               }
             ],
             "PTxRequiredFields": [],
-            "Version": "CommonSequence",
+            "Version": "MPPV_2_1",
             "SourceMode": "MPP"
           },
           {
             "Context": {
+              "PowerProfile": "APP",
               "FrequencyMode": "360kHz"
             },
-            "PTxQIPacketName": "Power Loss Accounting Parameters",
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
             "PRxRequiredFields": [
               {
                 "FieldName": "Parameter",
@@ -16036,7 +16716,295 @@
               }
             ],
             "PTxRequiredFields": [],
-            "Version": "CommonSequence",
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x03"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "Estimated_K",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x07"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0C"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0A"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x03"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x04"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Estimated_K",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x07"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0C"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x03"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0D"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x04"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x10"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0A"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x0B"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
             "SourceMode": "MPP"
           }
         ]
@@ -16162,7 +17130,69 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": "MPP,APP,MPP15,APP15,MPP25,APP25,MCPE,MCPM",
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x00"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Identification",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x07"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Extended Power Transmitter Extended Capabilities",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x04"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "Power Loss Accounting Parameters",
+            "PRxRequiredFields": [
+              {
+                "FieldName": "Parameter",
+                "DefaultValue": "0x03"
+              }
+            ],
+            "PTxRequiredFields": [],
+            "Version": "CommonSequence",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Enabled Data Streams",
@@ -16208,7 +17238,20 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": null,
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "CAL_ENTER",
@@ -17176,6 +18219,50 @@
         "DefaultSequenceConstraints": [
           {
             "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
               "FrequencyMode": "360kHz"
             },
             "PTxQIPacketName": "ACK",
@@ -17727,6 +18814,50 @@
         "DefaultSequenceConstraints": [
           {
             "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "ACK",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
               "FrequencyMode": "360kHz"
             },
             "PTxQIPacketName": "ACK",
@@ -18119,7 +19250,20 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": "MPP,APP,MPP15,APP15,MPP25,APP25",
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "CAL_CAPTURE",
@@ -18571,7 +19715,31 @@
         "BooksReferred": "MPP",
         "PowerProfileSupported": "MPP,APP,MPP15,APP15,MPP25,APP25",
         "PacketPhase": "NegotiationPhase",
-        "ExtendedConfiguration": []
+        "ExtendedConfiguration": [],
+        "DefaultSequenceConstraints": [
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          }
+        ]
       },
       {
         "QIPacketName": "Proprietary(0x2A)",
@@ -28259,6 +29427,94 @@
             "PTxRequiredFields": [],
             "Version": "V_2_1",
             "SourceMode": "C3"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "APP",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_1",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "128kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP15",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
+          },
+          {
+            "Context": {
+              "PowerProfile": "MPP25",
+              "FrequencyMode": "360kHz"
+            },
+            "PTxQIPacketName": "",
+            "PRxRequiredFields": [],
+            "PTxRequiredFields": [],
+            "Version": "MPPV_2_2",
+            "SourceMode": "MPP"
           },
           {
             "Context": {
