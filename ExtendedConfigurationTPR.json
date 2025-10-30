@@ -1,4 +1,3 @@
-
 {
   "commonPackets": {
     "MPP": {
@@ -15,7 +14,16 @@
               "MaxValue": 255,
               "ComboBoxEntries": {},
               "Editable": true,
-              "DisplayField": true
+              "DisplayField": true,
+              "ContextConstraints": [
+                {
+                  "Context": {
+                    "PowerProfile": "MPP"
+                  },
+                  "DefaultValue": "1",
+                  "Editable": true
+                }
+              ]
             },
             {
               "FieldName": "PreambleCount",
@@ -240,7 +248,7 @@
             {
               "FieldName": "Start_Of_PTphase_Loop_Packet",
               "FieldDisplayString": "Start Of PT Phase Loop Packet",
-              "DefaultValue": "",
+              "DefaultValue": null,
               "FieldType": "dropdown",
               "Units": "",
               "MinValue": null,
@@ -564,7 +572,7 @@
             {
               "FieldName": "Start_Of_PTphase_Loop_Packet",
               "FieldDisplayString": "Start Of PT Phase Loop Packet",
-              "DefaultValue": "",
+              "DefaultValue": null,
               "FieldType": "dropdown",
               "Units": "",
               "MinValue": null,
@@ -654,90 +662,460 @@
       }
     },
     "BPP_EPP": {
-      "ID": [
-        {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "23",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
+      "FreqMode": {
+        "Common": {
+          "ID": [
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Start",
+              "FieldDisplayString": "t Start",
+              "DefaultValue": "15",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Wake",
+              "FieldDisplayString": "t Wake",
+              "DefaultValue": "40",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Silent",
+              "FieldDisplayString": "t Silent",
+              "DefaultValue": "9.5",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "T_Charge",
+              "FieldDisplayString": "T Charge",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "T_Control",
+              "FieldDisplayString": "T Control",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "T_Recevied",
+              "FieldDisplayString": "T Received",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "T_Interval",
+              "FieldDisplayString": "T Interval",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Corrupt_Checksum",
+              "FieldDisplayString": "Corrupt Checksum",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Enable_Reserved_Bits",
+              "FieldDisplayString": "Enable Reserved Bits",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "loopingtIntervalTime",
+              "FieldDisplayString": "Looping Interval Time",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 10000,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "insertPacketAfterRP_CE",
+              "FieldDisplayString": "Insert Packet After RP CE",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "startOfPTphaseLoopPacket",
+              "FieldDisplayString": "Start of PT Phase Loop Packet",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 100,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Disable_Retry",
+              "FieldDisplayString": "Disable Retry",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PacketCount",
+              "FieldDisplayString": "Packet Count",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "NEG": [
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Start",
+              "FieldDisplayString": "t Start",
+              "DefaultValue": "15",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Silent",
+              "FieldDisplayString": "t Silent",
+              "DefaultValue": "9.5",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Corrupt_Checksum",
+              "FieldDisplayString": "Corrupt Checksum",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Enable_Reserved_Bits",
+              "FieldDisplayString": "Enable Reserved Bits",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "insertPacketAfterRP_CE",
+              "FieldDisplayString": "Insert Packet After RP CE",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "startOfPTphaseLoopPacket",
+              "FieldDisplayString": "Start of PT Phase Loop Packet",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 100,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Disable_Retry",
+              "FieldDisplayString": "Disable Retry",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PacketCount",
+              "FieldDisplayString": "Packet Count",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            }
+          ],
+          "PT": [
+            {
+              "FieldName": "RepeatCount",
+              "FieldDisplayString": "Repeat Count",
+              "DefaultValue": "0",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PreambleCount",
+              "FieldDisplayString": "Preamble Count",
+              "DefaultValue": "23",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "t_Start",
+              "FieldDisplayString": "t Start",
+              "DefaultValue": "15",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "T_Interval",
+              "FieldDisplayString": "T Interval",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Corrupt_Checksum",
+              "FieldDisplayString": "Corrupt Checksum",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Enable_Reserved_Bits",
+              "FieldDisplayString": "Enable Reserved Bits",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "loopingtIntervalTime",
+              "FieldDisplayString": "Looping Interval Time",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "ms",
+              "MinValue": 0,
+              "MaxValue": 10000,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "insertPacketAfterRP_CE",
+              "FieldDisplayString": "Insert Packet After RP CE",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "startOfPTphaseLoopPacket",
+              "FieldDisplayString": "Start of PT Phase Loop Packet",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 100,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "Disable_Retry",
+              "FieldDisplayString": "Disable Retry",
+              "DefaultValue": false,
+              "FieldType": "checkbox",
+              "Units": "",
+              "MinValue": null,
+              "MaxValue": null,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            },
+            {
+              "FieldName": "PacketCount",
+              "FieldDisplayString": "Packet Count",
+              "DefaultValue": "",
+              "FieldType": "textbox",
+              "Units": "",
+              "MinValue": 0,
+              "MaxValue": 255,
+              "ComboBoxEntries": {},
+              "Editable": true,
+              "DisplayField": true
+            }
+          ]
         }
-      ],
-      "NEG": [
-        {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "23",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        }
-      ],
-      "PT": [
-        {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "23",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 255,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        }
-      ]
+      }
     }
-  },
-  "1_3_3": {},
-  "2_0_0": {},
-  "2_0_1": {},
-  "2_1_0": {},
-  "2_2_1": {}
+  }
 }
-
