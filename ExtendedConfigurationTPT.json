@@ -1,9 +1,8 @@
 {
   "commonPackets": {
     "MPP": {
-      "FreqMode": {
-        "128": {
-          "ID": [
+        "128kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -183,7 +182,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -363,7 +362,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -544,8 +543,8 @@
             }
           ]
         },
-        "360": {
-          "ID": [
+        "360kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -725,7 +724,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -905,7 +904,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -1086,12 +1085,11 @@
             }
           ]
         }
-      }
+      
     },
-    "BPP_EPP": {
-      "FreqMode": {
-        "Common": {
-          "ID": [
+    "C3": {
+      "C3kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -1271,7 +1269,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -1451,7 +1449,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "TResponse",
               "FieldDisplayString": "t_response",
@@ -1851,7 +1849,6 @@
               "DisplayField": true
             }
           ]
-        }
       }
     }
   }

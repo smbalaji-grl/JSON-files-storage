@@ -1,9 +1,8 @@
 {
   "commonPackets": {
     "MPP": {
-      "FreqMode": {
-        "128": {
-          "ID": [
+        "128kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -98,7 +97,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -184,7 +183,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -335,8 +334,8 @@
             }
           ]
         },
-        "360": {
-          "ID": [
+        "360kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -422,7 +421,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -508,7 +507,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -659,12 +658,10 @@
             }
           ]
         }
-      }
     },
     "BPP_EPP": {
-      "FreqMode": {
-        "Common": {
-          "ID": [
+      "C3kHz": {
+          "ConfigPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -858,7 +855,7 @@
               "DisplayField": true
             }
           ],
-          "NEG": [
+          "NegotiationPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -980,7 +977,7 @@
               "DisplayField": true
             }
           ],
-          "PT": [
+          "PowerTxPhase": [
             {
               "FieldName": "RepeatCount",
               "FieldDisplayString": "Repeat Count",
@@ -1114,7 +1111,6 @@
               "DisplayField": true
             }
           ]
-        }
       }
     }
   }
