@@ -36,9 +36,9 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
-        "PacketPhase": "PingPhase",
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
+        "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
       {
@@ -92,8 +92,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -132,8 +132,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -172,8 +172,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -212,8 +212,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -252,8 +252,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -292,8 +292,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -332,8 +332,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -377,8 +377,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -417,8 +417,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -457,8 +457,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -500,7 +500,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -542,7 +542,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -1420,7 +1420,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -1514,8 +1514,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -1586,9 +1586,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -1634,9 +1634,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -1682,9 +1682,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported":["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -1751,7 +1751,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -1818,7 +1818,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -1919,8 +1919,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -1972,9 +1972,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -2026,9 +2026,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -2120,7 +2120,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -2178,9 +2178,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -2238,9 +2238,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -2357,7 +2357,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -2771,8 +2771,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -2854,8 +2854,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -2937,8 +2937,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -3002,9 +3002,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3068,9 +3068,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3210,9 +3210,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -3282,9 +3282,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3354,9 +3354,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3523,7 +3523,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -3599,9 +3599,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3677,9 +3677,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -3871,7 +3871,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -3952,8 +3952,8 @@
             ]
           }
         ],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred":  ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -4170,7 +4170,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -4487,7 +4487,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -4904,7 +4904,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -5421,7 +5421,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -5497,7 +5497,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "CLOAK",
         "ExtendedConfiguration": []
       },
@@ -5539,7 +5539,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -5581,7 +5581,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -5623,7 +5623,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -5671,7 +5671,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -5835,7 +5835,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -6009,7 +6009,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -6138,7 +6138,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -6273,7 +6273,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -6521,7 +6521,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
       },
@@ -6794,7 +6794,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -6861,7 +6861,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -6928,7 +6928,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7020,7 +7020,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7137,7 +7137,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7279,7 +7279,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7471,7 +7471,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7688,7 +7688,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
@@ -7797,7 +7797,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -7906,7 +7906,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8040,7 +8040,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8174,7 +8174,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8333,7 +8333,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8492,7 +8492,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8676,7 +8676,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -8860,7 +8860,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -9069,7 +9069,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -9278,7 +9278,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -9512,7 +9512,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -9746,7 +9746,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "PowerTxPhase",
         "ExtendedConfiguration": []
       },
@@ -10071,7 +10071,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       }
@@ -10090,8 +10090,8 @@
         "ByteCount": 0,
         "PacketEditable": true,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10107,8 +10107,8 @@
         "ByteCount": 0,
         "PacketEditable": true,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10124,8 +10124,8 @@
         "ByteCount": 0,
         "PacketEditable": true,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10141,25 +10141,8 @@
         "ByteCount": 0,
         "PacketEditable": true,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
-        "ExtendedConfiguration": []
-      },
-      {
-        "PRxData": {
-          "Header": "",
-          "SubHeader": []
-        },
-        "QIPacketName": "APP",
-        "PacketDisplayString": "APP",
-        "Mnemonic": "APP",
-        "Header": "",
-        "Selector": "",
-        "ByteCount": 0,
-        "PacketEditable": true,
-        "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10175,8 +10158,8 @@
         "ByteCount": 0,
         "PacketEditable": false,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10192,8 +10175,8 @@
         "ByteCount": 0,
         "PacketEditable": false,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10209,8 +10192,8 @@
         "ByteCount": 0,
         "PacketEditable": false,
         "Fields": [],
-        "BooksReferred": null,
-        "PowerProfileSupported": null,
+        "BooksReferred": ["Qi","MPP"],
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10285,7 +10268,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10372,7 +10355,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10459,7 +10442,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10505,7 +10488,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10605,7 +10588,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10657,7 +10640,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10757,7 +10740,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -10914,7 +10897,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11014,7 +10997,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11192,7 +11175,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11303,7 +11286,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11402,7 +11385,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11525,7 +11508,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11648,7 +11631,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11795,7 +11778,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -11942,7 +11925,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -12111,9 +12094,9 @@
           }
         ],
         "BooksReferred": [
-          "MPP"
+          "MPP" 
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -12284,7 +12267,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -12479,7 +12462,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -12674,7 +12657,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -12893,7 +12876,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13112,7 +13095,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13158,7 +13141,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13204,7 +13187,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13274,7 +13257,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13344,7 +13327,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13438,7 +13421,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13556,7 +13539,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13698,7 +13681,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13912,7 +13895,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -13986,10 +13969,11 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
+
       },
       {
         "PRxData": {
@@ -14246,9 +14230,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14410,9 +14394,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14456,9 +14440,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14502,9 +14486,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14572,9 +14556,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14642,9 +14626,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14736,9 +14720,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14830,9 +14814,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -14948,9 +14932,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15066,9 +15050,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15208,9 +15192,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15350,9 +15334,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15516,9 +15500,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15682,9 +15666,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -15872,9 +15856,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -16062,9 +16046,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -16348,9 +16332,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -16634,9 +16618,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -17016,9 +17000,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -17398,9 +17382,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -17876,9 +17860,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -18354,9 +18338,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -18928,9 +18912,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -19502,9 +19486,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -20172,9 +20156,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -20842,9 +20826,9 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       },
       {
@@ -20890,7 +20874,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -20936,7 +20920,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21006,7 +20990,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21076,8 +21060,8 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
-        "ExtendedConfiguration": []
+        "PowerProfileSupported": ["BPP","EPP"],
+        "ExtendedConfiguration": [] 
       },
       {
         "PRxData": {
@@ -21170,7 +21154,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21288,7 +21272,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21430,7 +21414,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21596,7 +21580,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -21786,7 +21770,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -22024,7 +22008,7 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP"],
         "ExtendedConfiguration": []
       },
       {
@@ -22043,7 +22027,7 @@
         "BooksReferred": [
           "MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["MPP","APP","MPP15","APP15","MPP25","APP25"],
         "ExtendedConfiguration": []
       }
     ]
@@ -23168,7 +23152,11 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported":  [
+          "BPP",
+          "EPP",
+          "EPP5"
+        ],
         "ExtendedConfiguration": []
       }
     ]
@@ -23339,7 +23327,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
         "PowerProfileSupported": [
           "BPP",
@@ -24097,7 +24085,11 @@
         "BooksReferred": [
           "Qi"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": [
+          "BPP",
+          "EPP",
+          "EPP5"
+        ],
         "ExtendedConfiguration": []
       }
     ]
@@ -25003,7 +24995,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
         "PowerProfileSupported": [
           "BPP",
@@ -26350,7 +26342,7 @@
             ]
           }
         ],
-        "BooksReferred": null,
+        "BooksReferred": ["Qi","MPP"],
         "PowerProfileSupported": [
           "BPP",
           "EPP",
@@ -27154,9 +27146,12 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
-        "PowerProfileSupported": null,
+        "PowerProfileSupported": ["BPP","EPP","MCPE",
+          "MCPM",
+          "MPP",
+          "APP"],
         "ExtendedConfiguration": []
       }
     ]
@@ -28128,7 +28123,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
         "PowerProfileSupported": [
           "BPP",
@@ -28627,9 +28622,7 @@
           "MPP15",
           "APP15",
           "MPP25",
-          "APP25",
-          "MCPE",
-          "MCPM"
+          "APP25"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
@@ -31326,7 +31319,7 @@
             ]
           }
         ],
-        "BooksReferred": null,
+        "BooksReferred": ["Qi","MPP"],
         "PowerProfileSupported": [
           "BPP",
           "EPP",
@@ -39456,7 +39449,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi"
+          "Qi","MPP"
         ],
         "PowerProfileSupported": [
           "BPP",
