@@ -659,8 +659,8 @@
           ]
         }
     },
-    "BPP_EPP": {
-      "C3kHz": {
+    "C3": {
+      "Default": {
           "ConfigPhase": [
             {
               "FieldName": "RepeatCount",

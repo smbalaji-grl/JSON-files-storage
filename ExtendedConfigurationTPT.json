@@ -1088,7 +1088,7 @@
       
     },
     "C3": {
-      "C3kHz": {
+      "Default": {
           "ConfigPhase": [
             {
               "FieldName": "TResponse",
