@@ -83,18 +83,6 @@
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
-            },
-            {
-              "FieldName": "Enable_Reserved_Bits",
-              "FieldDisplayString": "Enable Reserved Bits",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
             }
           ],
           "NegotiationPhase": [
@@ -399,18 +387,6 @@
             {
               "FieldName": "Corrupt_Checksum",
               "FieldDisplayString": "Corrupt Checksum",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "Enable_Reserved_Bits",
-              "FieldDisplayString": "Enable Reserved Bits",
               "DefaultValue": false,
               "FieldType": "checkbox",
               "Units": "",
@@ -783,18 +759,6 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Enable_Reserved_Bits",
-              "FieldDisplayString": "Enable Reserved Bits",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
               "FieldName": "loopingtIntervalTime",
               "FieldDisplayString": "Looping Interval Time",
               "DefaultValue": "",
@@ -917,18 +881,6 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Enable_Reserved_Bits",
-              "FieldDisplayString": "Enable Reserved Bits",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
               "FieldName": "insertPacketAfterRP_CE",
               "FieldDisplayString": "Insert Packet After RP CE",
               "DefaultValue": false,
@@ -1029,18 +981,6 @@
             {
               "FieldName": "Corrupt_Checksum",
               "FieldDisplayString": "Corrupt Checksum",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "Enable_Reserved_Bits",
-              "FieldDisplayString": "Enable Reserved Bits",
               "DefaultValue": false,
               "FieldType": "checkbox",
               "Units": "",
