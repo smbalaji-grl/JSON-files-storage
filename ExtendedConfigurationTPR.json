@@ -37,7 +37,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Wake",
+              "FieldName": "T_Wake",
               "FieldDisplayString": "t Wake",
               "DefaultValue": 40,
               "FieldType": "textbox",
@@ -49,7 +49,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": 15,
               "FieldType": "textbox",
@@ -61,7 +61,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": 9.5,
               "FieldType": "textbox",
@@ -111,7 +111,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": 15,
               "FieldType": "textbox",
@@ -123,7 +123,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": 9.5,
               "FieldType": "textbox",
@@ -209,7 +209,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Looping_tInterval_Time",
+              "FieldName": "loopingtIntervalTime",
               "FieldDisplayString": "Send packet every",
               "DefaultValue": "",
               "FieldType": "textbox",
@@ -221,7 +221,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Start_Of_PTphase_Loop_Packet",
+              "FieldName": "StartOfPTphaseLoopPacket",
               "FieldDisplayString": "after 1st ",
               "DefaultValue": null,
               "FieldType": "dropdown",
@@ -337,7 +337,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Wake",
+              "FieldName": "T_Wake",
               "FieldDisplayString": "t Wake",
               "DefaultValue": 40,
               "FieldType": "textbox",
@@ -349,7 +349,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": 15,
               "FieldType": "textbox",
@@ -361,7 +361,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": 9.5,
               "FieldType": "textbox",
@@ -411,7 +411,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": 15,
               "FieldType": "textbox",
@@ -423,7 +423,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": 9.5,
               "FieldType": "textbox",
@@ -509,7 +509,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Looping_tInterval_Time",
+              "FieldName": "loopingtIntervalTime",
               "FieldDisplayString": "Send packet every",
               "DefaultValue": "",
               "FieldType": "textbox",
@@ -521,7 +521,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Start_Of_PTphase_Loop_Packet",
+              "FieldName": "StartOfPTphaseLoopPacket",
               "FieldDisplayString": "after 1st ",
               "DefaultValue": null,
               "FieldType": "dropdown",
@@ -639,7 +639,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": "15",
               "FieldType": "textbox",
@@ -651,7 +651,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Wake",
+              "FieldName": "T_Wake",
               "FieldDisplayString": "t Wake",
               "DefaultValue": "40",
               "FieldType": "textbox",
@@ -663,7 +663,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": "9.5",
               "FieldType": "textbox",
@@ -773,7 +773,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": "15",
               "FieldType": "textbox",
@@ -785,7 +785,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Silent",
+              "FieldName": "T_Silent",
               "FieldDisplayString": "t Silent",
               "DefaultValue": "9.5",
               "FieldType": "textbox",
@@ -859,7 +859,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "t_Start",
+              "FieldName": "T_Start",
               "FieldDisplayString": "t Start",
               "DefaultValue": "15",
               "FieldType": "textbox",
@@ -919,7 +919,7 @@
               "DisplayField": true
             },
             {
-              "FieldName": "Start_Of_PTphase_Loop_Packet",
+              "FieldName": "StartOfPTphaseLoopPacket",
               "FieldDisplayString": "after 1st ",
               "DefaultValue": "",
               "FieldType": "textbox",
