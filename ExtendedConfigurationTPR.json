@@ -157,18 +157,6 @@
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
-            },
-            {
-              "FieldName": "insertPacketAfterRP_CE",
-              "FieldDisplayString": "Insert Packet After RP/CE",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
             }
           ],
           "PowerTxPhase": [
@@ -222,7 +210,7 @@
             },
             {
               "FieldName": "Looping_tInterval_Time",
-              "FieldDisplayString": "Looping tInterval Time",
+              "FieldDisplayString": "Send packet every",
               "DefaultValue": "0",
               "FieldType": "textbox",
               "Units": "ms",
@@ -234,7 +222,7 @@
             },
             {
               "FieldName": "Start_Of_PTphase_Loop_Packet",
-              "FieldDisplayString": "Start Of PT Phase Loop Packet",
+              "FieldDisplayString": "after 1st ",
               "DefaultValue": null,
               "FieldType": "dropdown",
               "Units": "",
@@ -242,8 +230,8 @@
               "MaxValue": null,
               "ComboBoxEntries": {
                 "None": "",
-                "Zero": "CE",
-                "One": "RP"
+                "Zero": "XCE",
+                "One": "PLA"
               },
               "Editable": true,
               "DisplayField": true
@@ -469,18 +457,6 @@
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
-            },
-            {
-              "FieldName": "insertPacketAfterRP_CE",
-              "FieldDisplayString": "Insert Packet After RP/CE",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
             }
           ],
           "PowerTxPhase": [
@@ -534,7 +510,7 @@
             },
             {
               "FieldName": "Looping_tInterval_Time",
-              "FieldDisplayString": "Looping tInterval Time",
+              "FieldDisplayString": "Send packet every",
               "DefaultValue": "0",
               "FieldType": "textbox",
               "Units": "ms",
@@ -546,7 +522,7 @@
             },
             {
               "FieldName": "Start_Of_PTphase_Loop_Packet",
-              "FieldDisplayString": "Start Of PT Phase Loop Packet",
+              "FieldDisplayString": "after 1st ",
               "DefaultValue": null,
               "FieldType": "dropdown",
               "Units": "",
@@ -554,8 +530,8 @@
               "MaxValue": null,
               "ComboBoxEntries": {
                 "None": "",
-                "Zero": "CE",
-                "One": "RP"
+                "Zero": "XCE",
+                "One": "PLA"
               },
               "Editable": true,
               "DisplayField": true
@@ -759,61 +735,13 @@
               "DisplayField": true
             },
             {
-              "FieldName": "loopingtIntervalTime",
-              "FieldDisplayString": "Looping Interval Time",
-              "DefaultValue": "",
-              "FieldType": "textbox",
-              "Units": "ms",
-              "MinValue": 0,
-              "MaxValue": 500,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "insertPacketAfterRP_CE",
-              "FieldDisplayString": "Insert Packet After RP CE",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "startOfPTphaseLoopPacket",
-              "FieldDisplayString": "Start of PT Phase Loop Packet",
-              "DefaultValue": "",
-              "FieldType": "textbox",
-              "Units": "",
-              "MinValue": 0,
-              "MaxValue": 500,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "Disable_Retry",
-              "FieldDisplayString": "Disable Retry",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
               "FieldName": "PacketCount",
               "FieldDisplayString": "Packet Count",
               "DefaultValue": "",
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -876,30 +804,6 @@
               "Units": "",
               "MinValue": null,
               "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "insertPacketAfterRP_CE",
-              "FieldDisplayString": "Insert Packet After RP CE",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
-              "Units": "",
-              "MinValue": null,
-              "MaxValue": null,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "startOfPTphaseLoopPacket",
-              "FieldDisplayString": "Start of PT Phase Loop Packet",
-              "DefaultValue": "",
-              "FieldType": "textbox",
-              "Units": "",
-              "MinValue": 0,
-              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -992,7 +896,7 @@
             },
             {
               "FieldName": "loopingtIntervalTime",
-              "FieldDisplayString": "Looping Interval Time",
+              "FieldDisplayString":  "Send packet every",
               "DefaultValue": "",
               "FieldType": "textbox",
               "Units": "ms",
@@ -1016,21 +920,9 @@
             },
             {
               "FieldName": "startOfPTphaseLoopPacket",
-              "FieldDisplayString": "Start of PT Phase Loop Packet",
+              "FieldDisplayString": "after 1st ",
               "DefaultValue": "",
               "FieldType": "textbox",
-              "Units": "",
-              "MinValue": 0,
-              "MaxValue": 100,
-              "ComboBoxEntries": {},
-              "Editable": true,
-              "DisplayField": true
-            },
-            {
-              "FieldName": "Disable_Retry",
-              "FieldDisplayString": "Disable Retry",
-              "DefaultValue": false,
-              "FieldType": "checkbox",
               "Units": "",
               "MinValue": null,
               "MaxValue": null,
