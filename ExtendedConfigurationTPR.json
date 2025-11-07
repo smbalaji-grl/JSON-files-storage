@@ -10,7 +10,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true,
@@ -31,7 +31,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -43,7 +43,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -55,7 +55,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -67,7 +67,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -93,7 +93,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -105,7 +105,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -117,7 +117,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -129,7 +129,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -179,7 +179,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -191,7 +191,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -227,7 +227,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -255,7 +255,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -267,7 +267,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -279,7 +279,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 50000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -291,7 +291,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -303,7 +303,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -331,7 +331,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -343,7 +343,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -355,7 +355,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -367,7 +367,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -379,7 +379,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -405,7 +405,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -417,7 +417,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -429,7 +429,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -441,7 +441,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -491,7 +491,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -503,7 +503,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -539,7 +539,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -567,7 +567,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -579,7 +579,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -591,7 +591,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 50000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -603,7 +603,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 2147483647,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -615,7 +615,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -645,7 +645,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -657,7 +657,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -669,7 +669,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -681,7 +681,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -693,7 +693,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -705,7 +705,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -717,7 +717,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -729,7 +729,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 50000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -741,7 +741,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -765,7 +765,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 10000,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -789,7 +789,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 100,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -827,7 +827,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -839,7 +839,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -851,7 +851,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -863,7 +863,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -899,7 +899,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 100,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -923,7 +923,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -937,7 +937,7 @@
               "FieldType": "textbox",
               "Units": "",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -949,7 +949,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 100,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -961,7 +961,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -973,7 +973,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 255,
+              "MaxValue": 5000,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
@@ -997,7 +997,7 @@
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
-              "MaxValue": 10000,
+              "MaxValue": 500,
               "ComboBoxEntries": {},
               "Editable": true,
               "DisplayField": true
