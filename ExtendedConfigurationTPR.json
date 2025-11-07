@@ -211,7 +211,7 @@
             {
               "FieldName": "Looping_tInterval_Time",
               "FieldDisplayString": "Send packet every",
-              "DefaultValue": "0",
+              "DefaultValue": "",
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
@@ -511,7 +511,7 @@
             {
               "FieldName": "Looping_tInterval_Time",
               "FieldDisplayString": "Send packet every",
-              "DefaultValue": "0",
+              "DefaultValue": "",
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
@@ -908,7 +908,7 @@
             },
             {
               "FieldName": "insertPacketAfterRP_CE",
-              "FieldDisplayString": "Insert Packet After RP CE",
+              "FieldDisplayString": "Insert Packet After RP/CE",
               "DefaultValue": false,
               "FieldType": "checkbox",
               "Units": "",
@@ -919,14 +919,17 @@
               "DisplayField": true
             },
             {
-              "FieldName": "startOfPTphaseLoopPacket",
+              "FieldName": "Start_Of_PTphase_Loop_Packet",
               "FieldDisplayString": "after 1st ",
               "DefaultValue": "",
               "FieldType": "textbox",
               "Units": "",
               "MinValue": null,
               "MaxValue": null,
-              "ComboBoxEntries": {},
+              "ComboBoxEntries": {
+                "None": "",
+                "Zero": "CE",
+                "One": "RP"},
               "Editable": true,
               "DisplayField": true
             },
