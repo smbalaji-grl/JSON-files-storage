@@ -30314,7 +30314,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -30339,7 +30339,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved (B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -41461,16 +41461,13 @@
   "MPP_TPR": {
     "PowerProfileSupportedCoilTypes": {
       "APP": [
-        "TPR_MPP1",
-        "TPR_MPP4"
+        "TPR_MPP1"
       ],
       "MPP": [
-        "TPR_MPP1",
-        "TPR_MPP4"
+        "TPR_MPP1"
       ],
       "MPP15": [
-        "TPR_MPP1",
-        "TPR_MPP4"
+        "TPR_MPP1"
       ],
       "MPP25": [
         "TPR_MPP1",
@@ -41479,37 +41476,9 @@
     }
   },
   "MPP_TPT": {
-    "PowerProfileSupportedCoilTypes": {
-      "APP": [
-        "TPT_MPP1",
-        "TPT_MPP4"
-      ],
-      "MPP": [
-        "TPT_MPP1",
-        "TPT_MPP4"
-      ],
-      "MPP15": [
-        "TPT_MPP1",
-        "TPT_MPP4"
-      ],
-      "MPP25": [
-        "TPT_MPP1",
-        "TPT_MPP4"
-      ]
-    }
+    "PowerProfileSupportedCoilTypes": {}
   },
   "C3_TPT": {
-    "PowerProfileSupportedCoilTypes": {
-      "BPP": [
-        "TPT_1",
-        "TPT_2",
-        "TPT_MP1"
-      ],
-      "EPP": [
-        "TPT_1",
-        "TPT_2",
-        "TPT_MP1"
-      ]
-    }
+    "PowerProfileSupportedCoilTypes": {}
   }
 }
