@@ -7048,7 +7048,7 @@
         ]
       },
       {
-        "QIPacketName": "Qi MPP Extended Identification Packet",
+        "QIPacketName": "MPP Extended Identification",
         "PacketDisplayString": "MPP-XID (0x81)",
         "Mnemonic": "MPP-XID",
         "Header": "0x81",
@@ -26946,7 +26946,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -29043,7 +29043,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
