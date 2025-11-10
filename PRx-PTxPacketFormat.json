@@ -391,7 +391,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -617,7 +617,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -675,7 +675,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -835,7 +835,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -970,7 +970,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved(B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -1022,7 +1022,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -1074,7 +1074,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -1100,7 +1100,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -1126,7 +1126,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -1657,7 +1657,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_2",
             "FieldDisplayString": "Reserved(B0-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -1946,7 +1946,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -1971,7 +1971,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2029,7 +2029,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2054,7 +2054,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2112,7 +2112,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -2367,7 +2367,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2392,7 +2392,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2417,7 +2417,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2615,7 +2615,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2640,7 +2640,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2665,7 +2665,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2690,7 +2690,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2798,7 +2798,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -2873,7 +2873,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b5",
             "FieldDisplayString": "Reserved (B2-b5)",
             "DefaultValue": "0",
             "Units": "",
@@ -3530,7 +3530,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3555,7 +3555,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3580,7 +3580,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3605,7 +3605,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3630,7 +3630,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3859,7 +3859,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3884,7 +3884,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3909,7 +3909,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3934,7 +3934,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3959,7 +3959,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -3984,7 +3984,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4218,7 +4218,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4243,7 +4243,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4268,7 +4268,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4293,7 +4293,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4318,7 +4318,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4343,7 +4343,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4368,7 +4368,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4520,7 +4520,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4545,7 +4545,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4570,7 +4570,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4595,7 +4595,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4620,7 +4620,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4645,7 +4645,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4670,7 +4670,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4695,7 +4695,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved(B7-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4753,7 +4753,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4778,7 +4778,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4803,7 +4803,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4828,7 +4828,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4853,7 +4853,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4878,7 +4878,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4903,7 +4903,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4928,7 +4928,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved(B7-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4953,7 +4953,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B8_b7_0",
             "FieldDisplayString": "Reserved(B8-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -4978,7 +4978,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B9_b7_0",
             "FieldDisplayString": "Reserved(B9-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5003,7 +5003,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B10_b7_0",
             "FieldDisplayString": "Reserved(B10-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5028,7 +5028,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B11_b7_0",
             "FieldDisplayString": "Reserved(B11-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5086,7 +5086,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5111,7 +5111,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5136,7 +5136,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5161,7 +5161,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5186,7 +5186,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5211,7 +5211,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5236,7 +5236,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5261,7 +5261,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved(B7-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5286,7 +5286,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B8_b7_0",
             "FieldDisplayString": "Reserved(B8-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5311,7 +5311,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B9_b7_0",
             "FieldDisplayString": "Reserved(B9-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5336,7 +5336,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B10_b7_0",
             "FieldDisplayString": "Reserved(B10-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5361,7 +5361,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B11_b7_0",
             "FieldDisplayString": "Reserved(B11-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5386,7 +5386,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B12_b7_0",
             "FieldDisplayString": "Reserved(B12-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5411,7 +5411,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B13_b7_0",
             "FieldDisplayString": "Reserved(B13-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5436,7 +5436,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B14_b7_0",
             "FieldDisplayString": "Reserved(B14-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5461,7 +5461,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B15_b7_0",
             "FieldDisplayString": "Reserved(B15-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5519,7 +5519,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5544,7 +5544,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5569,7 +5569,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5594,7 +5594,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5619,7 +5619,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5644,7 +5644,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5669,7 +5669,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5694,7 +5694,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved(B7-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5719,7 +5719,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B8_b7_0",
             "FieldDisplayString": "Reserved(B8-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5744,7 +5744,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B9_b7_0",
             "FieldDisplayString": "Reserved(B9-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5769,7 +5769,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B10_b7_0",
             "FieldDisplayString": "Reserved(B10-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5794,7 +5794,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B11_b7_0",
             "FieldDisplayString": "Reserved(B11-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5819,7 +5819,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B12_b7_0",
             "FieldDisplayString": "Reserved(B12-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5844,7 +5844,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B13_b7_0",
             "FieldDisplayString": "Reserved(B13-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5869,7 +5869,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B14_b7_0",
             "FieldDisplayString": "Reserved(B14-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5894,7 +5894,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B15_b7_0",
             "FieldDisplayString": "Reserved(B15-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5919,7 +5919,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B16_b7_0",
             "FieldDisplayString": "Reserved(B16-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5944,7 +5944,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B17_b7_0",
             "FieldDisplayString": "Reserved(B17-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5969,7 +5969,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B18_b7_0",
             "FieldDisplayString": "Reserved(B18-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -5994,7 +5994,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B19_b7_0",
             "FieldDisplayString": "Reserved(B19-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -6052,7 +6052,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -6197,7 +6197,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -6259,7 +6259,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -6376,7 +6376,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -6401,7 +6401,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -6468,7 +6468,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_2",
             "FieldDisplayString": "Reserved (B2-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -6560,7 +6560,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -6619,7 +6619,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -6779,7 +6779,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b4_0",
             "FieldDisplayString": "Reserved (B0-b4:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -6903,7 +6903,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0",
             "FieldDisplayString": "Reserved (B0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7313,7 +7313,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7338,7 +7338,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_B2",
             "FieldDisplayString": "Reserved (B1-B2)",
             "DefaultValue": "0",
             "Units": "",
@@ -7369,7 +7369,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_4",
             "FieldDisplayString": "Reserved (B3-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -7419,7 +7419,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7494,7 +7494,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b1_0",
             "FieldDisplayString": "Reserved (B5-b1:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7519,7 +7519,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved (B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7606,7 +7606,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7631,7 +7631,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7693,7 +7693,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7718,7 +7718,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7780,7 +7780,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7805,7 +7805,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7830,7 +7830,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7892,7 +7892,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7917,7 +7917,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7942,7 +7942,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -7967,7 +7967,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8029,7 +8029,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8054,7 +8054,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8079,7 +8079,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8104,7 +8104,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8129,7 +8129,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8191,7 +8191,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8216,7 +8216,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8241,7 +8241,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8266,7 +8266,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8291,7 +8291,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8316,7 +8316,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8341,7 +8341,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8403,7 +8403,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8428,7 +8428,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8453,7 +8453,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved(B2-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8478,7 +8478,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved(B3-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8503,7 +8503,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved(B4-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8528,7 +8528,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved(B5-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8553,7 +8553,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved(B6-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8578,7 +8578,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved(B7-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -8640,7 +8640,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -8769,7 +8769,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -8898,7 +8898,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9052,7 +9052,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9206,7 +9206,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9385,7 +9385,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9564,7 +9564,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9768,7 +9768,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -9972,7 +9972,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -10201,7 +10201,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -10430,7 +10430,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -10684,7 +10684,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -10963,7 +10963,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b4_2",
             "FieldDisplayString": "Reserved (B0-b4:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -11106,7 +11106,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7",
             "FieldDisplayString": "Reserved (B1-b7)",
             "DefaultValue": "0",
             "Units": "",
@@ -11523,7 +11523,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_2",
             "FieldDisplayString": "Reserved (B0-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -11817,7 +11817,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -11871,7 +11871,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved (B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -12007,7 +12007,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved (B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -12153,7 +12153,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -12201,7 +12201,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_2",
             "FieldDisplayString": "Reserved (B2-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -12278,7 +12278,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -12361,7 +12361,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -12418,7 +12418,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_b4",
             "FieldDisplayString": "Reserved (B1-b7:b4)",
             "DefaultValue": 0,
             "Units": "",
@@ -12546,7 +12546,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -12664,7 +12664,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -12770,7 +12770,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -12900,7 +12900,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13030,7 +13030,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13184,7 +13184,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13338,7 +13338,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13516,7 +13516,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13694,7 +13694,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -13896,7 +13896,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -14098,7 +14098,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -14324,7 +14324,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -14550,7 +14550,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14603,7 +14603,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14656,7 +14656,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14680,7 +14680,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14733,7 +14733,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14757,7 +14757,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14810,7 +14810,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14834,7 +14834,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14858,7 +14858,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14911,7 +14911,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14935,7 +14935,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14959,7 +14959,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -14983,7 +14983,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15036,7 +15036,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15060,7 +15060,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15084,7 +15084,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15108,7 +15108,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15132,7 +15132,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15185,7 +15185,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15209,7 +15209,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15233,7 +15233,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15257,7 +15257,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15281,7 +15281,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15305,7 +15305,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15329,7 +15329,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved (B6-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15353,7 +15353,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved (B7-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15490,7 +15490,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_6",
             "FieldDisplayString": "Reserved (B0-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -15538,7 +15538,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved (B1-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -15760,7 +15760,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -15784,7 +15784,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -15880,7 +15880,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22608,7 +22608,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22657,7 +22657,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22706,7 +22706,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22730,7 +22730,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22779,7 +22779,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22803,7 +22803,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22852,7 +22852,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22876,7 +22876,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22900,7 +22900,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22949,7 +22949,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22973,7 +22973,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -22997,7 +22997,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23021,7 +23021,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23070,7 +23070,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23094,7 +23094,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23118,7 +23118,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23142,7 +23142,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23166,7 +23166,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23215,7 +23215,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23239,7 +23239,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23263,7 +23263,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23287,7 +23287,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23311,7 +23311,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23335,7 +23335,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23384,7 +23384,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23408,7 +23408,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23432,7 +23432,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23456,7 +23456,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23480,7 +23480,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23504,7 +23504,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23528,7 +23528,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved (B6-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23577,7 +23577,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23601,7 +23601,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23625,7 +23625,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_0",
             "FieldDisplayString": "Reserved (B2-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23649,7 +23649,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23673,7 +23673,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_0",
             "FieldDisplayString": "Reserved (B4-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23697,7 +23697,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23721,7 +23721,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_0",
             "FieldDisplayString": "Reserved (B6-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23745,7 +23745,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_0",
             "FieldDisplayString": "Reserved (B7-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -23769,7 +23769,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B8_b7_0",
             "FieldDisplayString": "Reserved (B8-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -24114,7 +24114,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -24218,7 +24218,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_3",
             "FieldDisplayString": "Reserved(B1-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -24270,7 +24270,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -24322,7 +24322,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -24348,7 +24348,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -24374,7 +24374,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -25155,7 +25155,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25209,7 +25209,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_B4",
             "FieldDisplayString": "Reserved (B3-B4)",
             "DefaultValue": 0,
             "Units": "",
@@ -25287,7 +25287,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_0",
             "FieldDisplayString": "Reserved (B0-b3:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25311,7 +25311,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_B3",
             "FieldDisplayString": "Reserved (B1-B3)",
             "DefaultValue": 0,
             "Units": "",
@@ -25347,7 +25347,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_7",
             "FieldDisplayString": "Reserved (B4-b7:7)",
             "DefaultValue": 0,
             "Units": "",
@@ -25491,7 +25491,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_0",
             "FieldDisplayString": "Reserved (B0-b3:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25515,7 +25515,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25563,7 +25563,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25611,7 +25611,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -25676,7 +25676,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_6",
             "FieldDisplayString": "Reserved (B6-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -25748,7 +25748,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_B8",
             "FieldDisplayString": "Reserved (B7-B8)",
             "DefaultValue": 0,
             "Units": "",
@@ -26008,7 +26008,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -26143,7 +26143,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved(B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -26195,7 +26195,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -26247,7 +26247,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -26273,7 +26273,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -26325,7 +26325,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -26817,7 +26817,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -26842,7 +26842,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved (B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -27055,7 +27055,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -27107,7 +27107,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -27294,7 +27294,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_1",
             "FieldDisplayString": "Reserved(B1-b7:1)",
             "DefaultValue": "0",
             "Units": "",
@@ -27349,7 +27349,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -27401,7 +27401,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved(B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -28198,7 +28198,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_2",
             "FieldDisplayString": "Reserved (B0-b3:2)",
             "DefaultValue": 0,
             "Units": "",
@@ -28270,7 +28270,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_B3",
             "FieldDisplayString": "Reserved (B1-B3)",
             "DefaultValue": 0,
             "Units": "",
@@ -28306,7 +28306,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_7",
             "FieldDisplayString": "Reserved (B4-b7:7)",
             "DefaultValue": 0,
             "Units": "",
@@ -28429,7 +28429,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -28483,7 +28483,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_B4",
             "FieldDisplayString": "Reserved (B3-B4)",
             "DefaultValue": 0,
             "Units": "",
@@ -28564,7 +28564,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_0",
             "FieldDisplayString": "Reserved (B0-b3:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -28588,7 +28588,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -28636,7 +28636,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -28684,7 +28684,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_0",
             "FieldDisplayString": "Reserved (B5-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -28749,7 +28749,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b7_6",
             "FieldDisplayString": "Reserved (B6-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -28821,7 +28821,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_B8",
             "FieldDisplayString": "Reserved (B7-B8)",
             "DefaultValue": 0,
             "Units": "",
@@ -29145,7 +29145,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -29280,7 +29280,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_5",
             "FieldDisplayString": "Reserved(B1-b7:5)",
             "DefaultValue": "0",
             "Units": "",
@@ -29332,7 +29332,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -29384,7 +29384,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -29410,7 +29410,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved(B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -29462,7 +29462,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved(B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -29983,7 +29983,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b5",
             "FieldDisplayString": "Reserved (B0-b5)",
             "DefaultValue": "0",
             "Units": "",
@@ -30033,7 +30033,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b2_b1",
             "FieldDisplayString": "Reserved (B0-b2:b1)",
             "DefaultValue": "0",
             "Units": "",
@@ -30107,7 +30107,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -30190,7 +30190,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7",
             "FieldDisplayString": "Reserved (B0-b7)",
             "DefaultValue": "0",
             "Units": "",
@@ -30240,7 +30240,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b4_0",
             "FieldDisplayString": "Reserved (B0-b4:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -30265,7 +30265,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -30446,7 +30446,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_b1",
             "FieldDisplayString": "Reserved (B0-b7:b1)",
             "DefaultValue": "0",
             "Units": "",
@@ -30496,7 +30496,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_b1",
             "FieldDisplayString": "Reserved (B1-b7:b1)",
             "DefaultValue": "0",
             "Units": "",
@@ -30570,7 +30570,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_b1",
             "FieldDisplayString": "Reserved (B0-b7:b1)",
             "DefaultValue": "0",
             "Units": "",
@@ -30620,7 +30620,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_b0",
             "FieldDisplayString": "Reserved (B1-b7:b0)",
             "DefaultValue": "0",
             "Units": "",
@@ -30669,7 +30669,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_b1",
             "FieldDisplayString": "Reserved (B0-b7:b1)",
             "DefaultValue": "0",
             "Units": "",
@@ -30843,7 +30843,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0",
             "FieldDisplayString": "Reserved (B0)",
             "DefaultValue": "0",
             "Units": "",
@@ -30961,7 +30961,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_4",
             "FieldDisplayString": "Reserved (B7-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -31041,7 +31041,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0",
             "FieldDisplayString": "Reserved (B0)",
             "DefaultValue": "0",
             "Units": "",
@@ -31159,7 +31159,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_b7_3",
             "FieldDisplayString": "Reserved (B7-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -31245,7 +31245,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7",
             "FieldDisplayString": "Reserved (B0-b7)",
             "DefaultValue": "0",
             "Units": "",
@@ -31295,7 +31295,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_b2",
             "FieldDisplayString": "Reserved (B1-b7:b2)",
             "DefaultValue": "0",
             "Units": "",
@@ -31438,7 +31438,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B8_b7_4",
             "FieldDisplayString": "Reserved (B8-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -31518,7 +31518,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0",
             "FieldDisplayString": "Reserved (B0)",
             "DefaultValue": "0",
             "Units": "",
@@ -31636,7 +31636,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_B12",
             "FieldDisplayString": "Reserved (B7-B12)",
             "DefaultValue": "0",
             "Units": "",
@@ -31829,7 +31829,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved(B1-b7:6)",
             "DefaultValue": "0",
             "Units": "",
@@ -31881,7 +31881,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -32068,7 +32068,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_1",
             "FieldDisplayString": "Reserved(B1-b7:1)",
             "DefaultValue": "0",
             "Units": "",
@@ -32123,7 +32123,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -32175,7 +32175,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved(B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -32747,7 +32747,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -32799,7 +32799,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved(B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -33155,7 +33155,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -33271,7 +33271,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -33387,7 +33387,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -33528,7 +33528,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -33669,7 +33669,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -33835,7 +33835,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -34001,7 +34001,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -34192,7 +34192,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -34383,7 +34383,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -34599,7 +34599,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -34815,7 +34815,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -35055,7 +35055,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -35296,7 +35296,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": "0",
             "Units": "",
@@ -35321,7 +35321,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -35388,7 +35388,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_2",
             "FieldDisplayString": "Reserved (B2-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -35467,7 +35467,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -35526,7 +35526,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -35679,7 +35679,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b4_2",
             "FieldDisplayString": "Reserved (B0-b4:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -35795,7 +35795,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_1",
             "FieldDisplayString": "Reserved (B0-b7:1)",
             "DefaultValue": "0",
             "Units": "",
@@ -35875,7 +35875,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -35997,7 +35997,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": "0",
             "Units": "",
@@ -36175,7 +36175,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_2",
             "FieldDisplayString": "Reserved (B0-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -36227,7 +36227,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_2",
             "FieldDisplayString": "Reserved (B1-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -36309,7 +36309,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b4_1",
             "FieldDisplayString": "Reserved (B0-b4:1)",
             "DefaultValue": "0",
             "Units": "",
@@ -36390,7 +36390,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_7",
             "FieldDisplayString": "Reserved (B1-b7:7)",
             "DefaultValue": "0",
             "Units": "",
@@ -36532,7 +36532,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_4",
             "FieldDisplayString": "Reserved (B1-b7:4)",
             "DefaultValue": "0",
             "Units": "",
@@ -36580,7 +36580,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_2",
             "FieldDisplayString": "Reserved (B2-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -36635,7 +36635,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_2",
             "FieldDisplayString": "Reserved (B0-b7:2)",
             "DefaultValue": "0",
             "Units": "",
@@ -36688,7 +36688,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_B3",
             "FieldDisplayString": "Reserved (B1-B3)",
             "DefaultValue": "0",
             "Units": "",
@@ -36755,7 +36755,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -36812,7 +36812,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_1",
             "FieldDisplayString": "Reserved (B1-b7:1)",
             "DefaultValue": 0,
             "Units": "",
@@ -36863,7 +36863,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_B3",
             "FieldDisplayString": "Reserved (B2-B3)",
             "DefaultValue": 0,
             "Units": "",
@@ -36924,7 +36924,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -36981,7 +36981,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_b4",
             "FieldDisplayString": "Reserved (B1-b7:b4)",
             "DefaultValue": 0,
             "Units": "",
@@ -37111,7 +37111,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_1",
             "FieldDisplayString": "Reserved (B0-b7:1)",
             "DefaultValue": 0,
             "Units": "",
@@ -37250,7 +37250,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_5",
             "FieldDisplayString": "Reserved (B0-b7:5)",
             "DefaultValue": 0,
             "Units": "",
@@ -37303,7 +37303,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b2_1",
             "FieldDisplayString": "Reserved (B0-b2:1)",
             "DefaultValue": 0,
             "Units": "",
@@ -37354,7 +37354,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_6",
             "FieldDisplayString": "Reserved (B1-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -37432,7 +37432,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b3_2",
             "FieldDisplayString": "Reserved (B1-b3:2)",
             "DefaultValue": 0,
             "Units": "",
@@ -37510,7 +37510,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_6",
             "FieldDisplayString": "Reserved (B2-b7:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -37588,7 +37588,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b3_b1",
             "FieldDisplayString": "Reserved (B2-b3:b1)",
             "DefaultValue": 0,
             "Units": "",
@@ -37639,7 +37639,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_B4",
             "FieldDisplayString": "Reserved (B3-B4)",
             "DefaultValue": 0,
             "Units": "",
@@ -37700,7 +37700,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_3",
             "FieldDisplayString": "Reserved (B0-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -37754,7 +37754,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B2_b7_3",
             "FieldDisplayString": "Reserved (B2-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -37808,7 +37808,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_3",
             "FieldDisplayString": "Reserved (B4-b7:3)",
             "DefaultValue": 0,
             "Units": "",
@@ -37893,7 +37893,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -37947,7 +37947,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_B8",
             "FieldDisplayString": "Reserved (B3-B8)",
             "DefaultValue": 0,
             "Units": "",
@@ -38056,7 +38056,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_2",
             "FieldDisplayString": "Reserved (B0-b3:2)",
             "DefaultValue": 0,
             "Units": "",
@@ -38128,7 +38128,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_B3",
             "FieldDisplayString": "Reserved (B1-B3)",
             "DefaultValue": 0,
             "Units": "",
@@ -38164,7 +38164,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B4_b7_7",
             "FieldDisplayString": "Reserved (B4-b7:7)",
             "DefaultValue": 0,
             "Units": "",
@@ -38315,7 +38315,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b3_0",
             "FieldDisplayString": "Reserved (B0-b3:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -38339,7 +38339,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B1_b7_0",
             "FieldDisplayString": "Reserved (B1-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -38387,7 +38387,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_b7_0",
             "FieldDisplayString": "Reserved (B3-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -38435,7 +38435,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b7_7",
             "FieldDisplayString": "Reserved (B5-b7:7)",
             "DefaultValue": 0,
             "Units": "",
@@ -38483,7 +38483,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B5_b5_4",
             "FieldDisplayString": "Reserved (B5-b5:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -38572,7 +38572,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B6_b6_6",
             "FieldDisplayString": "Reserved (B6-b6:6)",
             "DefaultValue": 0,
             "Units": "",
@@ -38644,7 +38644,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B7_B8",
             "FieldDisplayString": "Reserved (B7-B8)",
             "DefaultValue": 0,
             "Units": "",
@@ -39024,7 +39024,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39144,7 +39144,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39264,7 +39264,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39408,7 +39408,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39552,7 +39552,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39720,7 +39720,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -39888,7 +39888,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -40080,7 +40080,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -40272,7 +40272,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -40488,7 +40488,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -40704,7 +40704,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -40944,7 +40944,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_4",
             "FieldDisplayString": "Reserved (B0-b7:4)",
             "DefaultValue": 0,
             "Units": "",
@@ -41294,7 +41294,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B0_b7_0",
             "FieldDisplayString": "Reserved (B0-b7:0)",
             "DefaultValue": 0,
             "Units": "",
@@ -41348,7 +41348,7 @@
             ]
           },
           {
-            "FieldName": "Reserved",
+            "FieldName": "Reserved_B3_B4",
             "FieldDisplayString": "Reserved (B3-B4)",
             "DefaultValue": 0,
             "Units": "",
