@@ -33087,7 +33087,7 @@
           {
             "FieldName": "Basic_Device_Identifier",
             "FieldDisplayString": "Basic Device Identifier(B3-B6)",
-            "DefaultValue": "30313235",
+            "DefaultValue": "99227",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
