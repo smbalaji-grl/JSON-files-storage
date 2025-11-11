@@ -25124,13 +25124,174 @@
           }
         ],
         "BooksReferred": [
-          "Qi",
-          "MPP"
+          "Qi"
         ],
         "PowerProfileSupported": [
           "BPP",
           "EPP",
           "EPP5",
+          "MPP"
+        ],
+        "PacketPhase": "ConfigPhase",
+        "ExtendedConfiguration": []
+      } ,
+      {
+        "QIPacketName": "Identification",
+        "PacketDisplayString": "ID (0x71)",
+        "Mnemonic": "ID",
+        "Header": "0x71",
+        "Selector": "",
+        "ByteCount": 7,
+        "PacketEditable": true,
+        "Fields": [
+          {
+            "FieldName": "Major_Version",
+            "FieldDisplayString": "Major Version(B0-b7:4)",
+            "DefaultValue": "2",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "7-4",
+                      "Description": "Major_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Minor_Version",
+            "FieldDisplayString": "Minor Version(B0-b3:0)",
+            "DefaultValue": "0",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "3-0",
+                      "Description": "Minor_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "PRMC",
+            "FieldDisplayString": "PRMC (B1-B2)",
+            "DefaultValue": "010E",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 65535,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B1": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  },
+                  {
+                    "B2": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Ext",
+            "FieldDisplayString": "Ext(B3-b7:7)",
+            "DefaultValue": "0",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 1,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "7",
+                      "Description": "Ext"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Random_Identifier",
+            "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
+            "DefaultValue": "1839B",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 1048575,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "6-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B4": {
+                      "BitRange": "7-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B5": {
+                      "BitRange": "7-3",
+                      "Description": "Random_Identifier"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "BooksReferred": [
+        "MPP"
+        ],
+        "PowerProfileSupported": [
           "MPP"
         ],
         "PacketPhase": "ConfigPhase",
@@ -28142,8 +28303,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi",
-          "MPP"
+          "Qi"
         ],
         "PowerProfileSupported": [
           "BPP",
@@ -28151,6 +28311,168 @@
           "EPP5",
           "MPP",
           "APP"
+        ],
+        "PacketPhase": "ConfigPhase",
+        "ExtendedConfiguration": []
+      } ,
+      {
+        "QIPacketName": "Identification",
+        "PacketDisplayString": "ID (0x71)",
+        "Mnemonic": "ID",
+        "Header": "0x71",
+        "Selector": "",
+        "ByteCount": 7,
+        "PacketEditable": true,
+        "Fields": [
+          {
+            "FieldName": "Major_Version",
+            "FieldDisplayString": "Major Version(B0-b7:4)",
+            "DefaultValue": "2",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "7-4",
+                      "Description": "Major_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Minor_Version",
+            "FieldDisplayString": "Minor Version(B0-b3:0)",
+            "DefaultValue": "1",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "3-0",
+                      "Description": "Minor_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "PRMC",
+            "FieldDisplayString": "PRMC (B1-B2)",
+            "DefaultValue": "010E",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 65535,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B1": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  },
+                  {
+                    "B2": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Ext",
+            "FieldDisplayString": "Ext(B3-b7:7)",
+            "DefaultValue": "1",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 1,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "7",
+                      "Description": "Ext"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Random_Identifier",
+            "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
+            "DefaultValue": "1839B",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 1048575,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "6-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B4": {
+                      "BitRange": "7-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B5": {
+                      "BitRange": "7-3",
+                      "Description": "Random_Identifier"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "BooksReferred": [
+        "MPP"
+        ],
+        "PowerProfileSupported": [
+          "MPP"
         ],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
@@ -33139,6 +33461,168 @@
           "APP15",
           "MPP25",
           "APP25"
+        ],
+        "PacketPhase": "ConfigPhase",
+        "ExtendedConfiguration": []
+      },
+      {
+        "QIPacketName": "Identification",
+        "PacketDisplayString": "ID (0x71)",
+        "Mnemonic": "ID",
+        "Header": "0x71",
+        "Selector": "",
+        "ByteCount": 7,
+        "PacketEditable": true,
+        "Fields": [
+          {
+            "FieldName": "Major_Version",
+            "FieldDisplayString": "Major Version(B0-b7:4)",
+            "DefaultValue": "2",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "7-4",
+                      "Description": "Major_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Minor_Version",
+            "FieldDisplayString": "Minor Version(B0-b3:0)",
+            "DefaultValue": "2",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 15,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "3-0",
+                      "Description": "Minor_Version"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "PRMC",
+            "FieldDisplayString": "PRMC (B1-B2)",
+            "DefaultValue": "010E",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 65535,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B1": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  },
+                  {
+                    "B2": {
+                      "BitRange": "7-0",
+                      "Description": "Manufacturer_Code"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Ext",
+            "FieldDisplayString": "Ext(B3-b7:7)",
+            "DefaultValue": "1",
+            "Units": "",
+            "NumberStyle": "int",
+            "MinValue": 0,
+            "MaxValue": 1,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "7",
+                      "Description": "Ext"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Random_Identifier",
+            "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
+            "DefaultValue": "1839B",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 1048575,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B3": {
+                      "BitRange": "6-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B4": {
+                      "BitRange": "7-0",
+                      "Description": "Random_Identifier"
+                    }
+                  },
+                  {
+                    "B5": {
+                      "BitRange": "7-3",
+                      "Description": "Random_Identifier"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "BooksReferred": [
+        "MPP"
+        ],
+        "PowerProfileSupported": [
+          "MPP"
         ],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
