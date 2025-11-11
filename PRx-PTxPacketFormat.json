@@ -29930,8 +29930,7 @@
           }
         ],
         "BooksReferred": [
-          "Qi",
-          "MPP"
+          "Qi"
         ],
         "PowerProfileSupported": [
           "BPP",
@@ -32774,7 +32773,7 @@
           {
             "FieldName": "PLA_ID",
             "FieldDisplayString": "PLA_ID (B1-b1:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "2",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
