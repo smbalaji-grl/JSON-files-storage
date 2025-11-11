@@ -7190,7 +7190,7 @@
           {
             "FieldName": "Alpha0_Rx",
             "FieldDisplayString": "Alpha0 Rx (B4-b7:0)",
-            "DefaultValue": "0x06",
+            "DefaultValue": "0x64",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -25286,6 +25286,37 @@
                 ]
               }
             ]
+          },
+          {
+            "FieldName": "Mfg_Rsvd",
+            "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
+            "DefaultValue": "0",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 2047,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B5": {
+                      "BitRange": "2-0",
+                      "Description": "Mfg_Rsvd"
+                    }
+                  },
+                  {
+                    "B6": {
+                      "BitRange": "7-0",
+                      "Description": "Mfg_Rsvd"
+                    }
+                  }
+                ]
+              }
+            ]
           }
         ],
         "BooksReferred": [
@@ -28461,6 +28492,37 @@
                     "B5": {
                       "BitRange": "7-3",
                       "Description": "Random_Identifier"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Mfg_Rsvd",
+            "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
+            "DefaultValue": "0",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 2047,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B5": {
+                      "BitRange": "2-0",
+                      "Description": "Mfg_Rsvd"
+                    }
+                  },
+                  {
+                    "B6": {
+                      "BitRange": "7-0",
+                      "Description": "Mfg_Rsvd"
                     }
                   }
                 ]
@@ -33611,6 +33673,37 @@
                     "B5": {
                       "BitRange": "7-3",
                       "Description": "Random_Identifier"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "FieldName": "Mfg_Rsvd",
+            "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
+            "DefaultValue": "0",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 2047,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B5": {
+                      "BitRange": "2-0",
+                      "Description": "Mfg_Rsvd"
+                    }
+                  },
+                  {
+                    "B6": {
+                      "BitRange": "7-0",
+                      "Description": "Mfg_Rsvd"
                     }
                   }
                 ]
