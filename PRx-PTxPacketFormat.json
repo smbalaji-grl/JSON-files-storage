@@ -872,7 +872,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0X02",
+            "RequestType": "0x02",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -2975,7 +2975,7 @@
           {
             "FieldName": "Window_Size",
             "FieldDisplayString": "Window Size (B3-b7:3)",
-            "DefaultValue": "64",
+            "DefaultValue": "32",
             "Units": "ms",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -3050,7 +3050,7 @@
           {
             "FieldName": "Pol",
             "FieldDisplayString": "Pol (B4-b6)",
-            "DefaultValue": "0",
+            "DefaultValue": "1",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -3075,7 +3075,7 @@
           {
             "FieldName": "Depth",
             "FieldDisplayString": "Depth (B4-b5:4)",
-            "DefaultValue": "0",
+            "DefaultValue": "2",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -6139,7 +6139,7 @@
       },
       {
         "QIPacketName": "Extended Control Error",
-        "PacketDisplayString": "XCE (0X19)",
+        "PacketDisplayString": "XCE (0x19)",
         "Mnemonic": "XCE",
         "Header": "0x19",
         "Selector": "",
@@ -6929,7 +6929,7 @@
           {
             "FieldName": "Alpha_FM",
             "FieldDisplayString": "Alpha_FM (B1-B2)",
-            "DefaultValue": "0",
+            "DefaultValue": "98",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -6960,7 +6960,7 @@
           {
             "FieldName": "Alpha_FM_DC",
             "FieldDisplayString": "Alpha_FM_DC (B3-B4)",
-            "DefaultValue": "0",
+            "DefaultValue": "191",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -6991,7 +6991,7 @@
           {
             "FieldName": "g_coil_TX",
             "FieldDisplayString": "g_coil_TX (B5-B6)",
-            "DefaultValue": "0",
+            "DefaultValue": "10000",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7059,7 +7059,7 @@
           {
             "FieldName": "Selector",
             "FieldDisplayString": "Selector (B0-b7:0)",
-            "DefaultValue": "FE",
+            "DefaultValue": "0xFE",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7190,7 +7190,7 @@
           {
             "FieldName": "Alpha0_Rx",
             "FieldDisplayString": "Alpha0 Rx (B4-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "0x06",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7215,7 +7215,7 @@
           {
             "FieldName": "Alpha1_Rx",
             "FieldDisplayString": "Alpha1 Rx (B5-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "0x64",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7240,7 +7240,7 @@
           {
             "FieldName": "Alpha-Kth_Rx",
             "FieldDisplayString": "Alpha-Kth Rx (B6-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "0x64",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7265,7 +7265,7 @@
           {
             "FieldName": "Mfg_Rsvd_B7_b7_0",
             "FieldDisplayString": "Mfg Rsvd (B7-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "17",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7445,7 +7445,7 @@
           {
             "FieldName": "Concurrent_Data_Streams",
             "FieldDisplayString": "Concurrent Data Streams (B5-b7:5)",
-            "DefaultValue": "0",
+            "DefaultValue": "2",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7470,7 +7470,7 @@
           {
             "FieldName": "Data_Stream_Buffer_Size",
             "FieldDisplayString": "Data Stream Buffer Size (B5-b4:2)",
-            "DefaultValue": "0",
+            "DefaultValue": "3",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -7545,7 +7545,7 @@
           {
             "FieldName": "Mfg_Rsvd",
             "FieldDisplayString": "Mfg Rsvd (B7-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "17",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -24150,7 +24150,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0X02",
+            "RequestType": "0x02",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -26044,7 +26044,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0X02",
+            "RequestType": "0x02",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -27117,7 +27117,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XF0",
+            "RequestType": "0xF0",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -29181,7 +29181,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0X02",
+            "RequestType": "0x02",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -31097,7 +31097,7 @@
           {
             "FieldName": "Alpha_FM_ITX",
             "FieldDisplayString": "Alpha_FM_ITX (B3-B4)",
-            "DefaultValue": "1300",
+            "DefaultValue": "1301",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": -32766,
@@ -31128,7 +31128,7 @@
           {
             "FieldName": "Alpha_FM_IRECT",
             "FieldDisplayString": "Alpha_FM_IRECT (B5-B6)",
-            "DefaultValue": "-2747",
+            "DefaultValue": "-2692",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": -32766,
@@ -31184,7 +31184,7 @@
           {
             "FieldName": "Alpha_FM_vRECT",
             "FieldDisplayString": "Alpha_FM_vRECT (B7-b2:0 - B9)",
-            "DefaultValue": "895",
+            "DefaultValue": "662",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": -32766,
@@ -31574,7 +31574,7 @@
           {
             "FieldName": "g1",
             "FieldDisplayString": "g1(B3-B4)",
-            "DefaultValue": "0",
+            "DefaultValue": "1000",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": -32766,
@@ -31754,10 +31754,10 @@
               "0xED": "SRQ/MppProp",
               "0xEE": "SRQ/MppProp",
               "0xEF": "SRQ/MppProp",
-              "0XA0": "SRQ/PLA",
-              "0XA1": "SRQ/xceMethod",
-              "0XA7": "SRQ/verSel",
-              "0XA9": "SRQ/xceGain"
+              "0xA0": "SRQ/PLA",
+              "0xA1": "SRQ/xceMethod",
+              "0xA7": "SRQ/verSel",
+              "0xA9": "SRQ/xceGain"
             },
             "Editable": true,
             "EditableForPTx": null,
@@ -31803,7 +31803,7 @@
           {
             "FieldName": "Re_ping_Delay_Value",
             "FieldDisplayString": "Re-ping Delay Value(B1-b5:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "12",
             "Units": "mS",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -31890,7 +31890,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XF0",
+            "RequestType": "0xF0",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32756,7 +32756,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA0",
+            "RequestType": "0xA0",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32782,7 +32782,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA0",
+            "RequestType": "0xA0",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32808,7 +32808,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA1",
+            "RequestType": "0xA1",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32834,7 +32834,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA1",
+            "RequestType": "0xA1",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32860,7 +32860,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA7",
+            "RequestType": "0xA7",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32886,7 +32886,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA7",
+            "RequestType": "0xA7",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32912,7 +32912,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA9",
+            "RequestType": "0xA9",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -32938,7 +32938,7 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "RequestType": "0XA9",
+            "RequestType": "0xA9",
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -33060,7 +33060,7 @@
           {
             "FieldName": "Ext",
             "FieldDisplayString": "Ext(B3-b7:7)",
-            "DefaultValue": "0",
+            "DefaultValue": "1",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -33085,7 +33085,7 @@
           {
             "FieldName": "Basic_Device_Identifier",
             "FieldDisplayString": "Basic Device Identifier(B3-B6)",
-            "DefaultValue": "99227",
+            "DefaultValue": "0x1839B",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
