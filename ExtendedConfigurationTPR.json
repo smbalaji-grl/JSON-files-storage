@@ -101,7 +101,7 @@
             {
               "FieldName": "PreambleCount",
               "FieldDisplayString": "Preamble Count",
-              "DefaultValue": "23",
+              "DefaultValue": "11",
               "FieldType": "textbox",
               "Units": "ms",
               "MinValue": 0,
