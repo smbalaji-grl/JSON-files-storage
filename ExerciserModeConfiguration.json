@@ -168,7 +168,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL_5W"
           }
         ]
       },
@@ -213,7 +213,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           },
           {
             "name": "TPR_1F",
@@ -245,7 +245,7 @@
           },
           {
             "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL#15W"
+            "description": "TPR#THERMAL-15W"
           }
         ]
       }
@@ -293,7 +293,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           }
         ]
       },
@@ -338,7 +338,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           },
           {
             "name": "TPR_1F",
@@ -370,7 +370,7 @@
           },
           {
             "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL#15W"
+            "description": "TPR#THERMAL-15W"
           }
         ]
       }
@@ -418,7 +418,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           }
         ]
       },
@@ -463,7 +463,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           },
           {
             "name": "TPR_1F",
@@ -495,7 +495,7 @@
           },
           {
             "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL#15W"
+            "description": "TPR#THERMAL-15W"
           }
         ]
       }
@@ -543,7 +543,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           }
         ]
       },
@@ -588,7 +588,7 @@
           },
           {
             "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "description": "TPR#THERMAL-5W"
           },
           {
             "name": "TPR_1F",
@@ -620,7 +620,7 @@
           },
           {
             "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL#15W"
+            "description": "TPR#THERMAL-15W"
           }
         ]
       }
