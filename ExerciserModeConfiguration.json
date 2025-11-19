@@ -1,0 +1,872 @@
+{
+  "C3-TPR": {
+    "V_1_2_4": {
+      "description": "1.2.4",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          }
+        ]
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          },
+          {
+            "name": "TPR_1F",
+            "description": "TPR#1F"
+          },
+          {
+            "name": "TPR_7",
+            "description": "TPR#7"
+          },
+          {
+            "name": "TPR_MP1A",
+            "description": "TPR#MP1A"
+          },
+          {
+            "name": "TPR_MP1B",
+            "description": "TPR#MP1B"
+          },
+          {
+            "name": "TPR_MP1C",
+            "description": "TPR#MP1C"
+          },
+          {
+            "name": "TPR_MP3",
+            "description": "TPR#MP3"
+          },
+          {
+            "name": "TPR_MP4",
+            "description": "TPR#MP4"
+          },
+          {
+            "name": "TPR_THERMAL_15W",
+            "description": "TPR#THERMAL#15W"
+          }
+        ]
+      }
+    },
+    "V_1_3": {
+      "description": "1.3",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          }
+        ]
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          },
+          {
+            "name": "TPR_1F",
+            "description": "TPR#1F"
+          },
+          {
+            "name": "TPR_7",
+            "description": "TPR#7"
+          },
+          {
+            "name": "TPR_MP1A",
+            "description": "TPR#MP1A"
+          },
+          {
+            "name": "TPR_MP1B",
+            "description": "TPR#MP1B"
+          },
+          {
+            "name": "TPR_MP1C",
+            "description": "TPR#MP1C"
+          },
+          {
+            "name": "TPR_MP3",
+            "description": "TPR#MP3"
+          },
+          {
+            "name": "TPR_MP4",
+            "description": "TPR#MP4"
+          },
+          {
+            "name": "TPR_THERMAL_15W",
+            "description": "TPR#THERMAL#15W"
+          }
+        ]
+      }
+    },
+    "V_1_3_3": {
+      "description": "1.3.3",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          }
+        ]
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          },
+          {
+            "name": "TPR_1F",
+            "description": "TPR#1F"
+          },
+          {
+            "name": "TPR_7",
+            "description": "TPR#7"
+          },
+          {
+            "name": "TPR_MP1A",
+            "description": "TPR#MP1A"
+          },
+          {
+            "name": "TPR_MP1B",
+            "description": "TPR#MP1B"
+          },
+          {
+            "name": "TPR_MP1C",
+            "description": "TPR#MP1C"
+          },
+          {
+            "name": "TPR_MP3",
+            "description": "TPR#MP3"
+          },
+          {
+            "name": "TPR_MP4",
+            "description": "TPR#MP4"
+          },
+          {
+            "name": "TPR_THERMAL_15W",
+            "description": "TPR#THERMAL#15W"
+          }
+        ]
+      }
+    },
+    "V_2_0_1": {
+      "description": "2.0.1",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          }
+        ]
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          },
+          {
+            "name": "TPR_1F",
+            "description": "TPR#1F"
+          },
+          {
+            "name": "TPR_7",
+            "description": "TPR#7"
+          },
+          {
+            "name": "TPR_MP1A",
+            "description": "TPR#MP1A"
+          },
+          {
+            "name": "TPR_MP1B",
+            "description": "TPR#MP1B"
+          },
+          {
+            "name": "TPR_MP1C",
+            "description": "TPR#MP1C"
+          },
+          {
+            "name": "TPR_MP3",
+            "description": "TPR#MP3"
+          },
+          {
+            "name": "TPR_MP4",
+            "description": "TPR#MP4"
+          },
+          {
+            "name": "TPR_THERMAL_15W",
+            "description": "TPR#THERMAL#15W"
+          }
+        ]
+      }
+    },
+    "V_2_1": {
+      "description": "2.1",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          }
+        ]
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": [
+          {
+            "name": "TPR_1A",
+            "description": "TPR#1A"
+          },
+          {
+            "name": "TPR_1B",
+            "description": "TPR#1B"
+          },
+          {
+            "name": "TPR_1C",
+            "description": "TPR#1C"
+          },
+          {
+            "name": "TPR_1D",
+            "description": "TPR#1D"
+          },
+          {
+            "name": "TPR_1E",
+            "description": "TPR#1E"
+          },
+          {
+            "name": "TPR_3",
+            "description": "TPR#3"
+          },
+          {
+            "name": "TPR_4",
+            "description": "TPR#4"
+          },
+          {
+            "name": "TPR_5",
+            "description": "TPR#5"
+          },
+          {
+            "name": "TPR_6",
+            "description": "TPR#6"
+          },
+          {
+            "name": "TPR_THERMAL_5W",
+            "description": "TPR#THERMAL#5W"
+          },
+          {
+            "name": "TPR_1F",
+            "description": "TPR#1F"
+          },
+          {
+            "name": "TPR_7",
+            "description": "TPR#7"
+          },
+          {
+            "name": "TPR_MP1A",
+            "description": "TPR#MP1A"
+          },
+          {
+            "name": "TPR_MP1B",
+            "description": "TPR#MP1B"
+          },
+          {
+            "name": "TPR_MP1C",
+            "description": "TPR#MP1C"
+          },
+          {
+            "name": "TPR_MP3",
+            "description": "TPR#MP3"
+          },
+          {
+            "name": "TPR_MP4",
+            "description": "TPR#MP4"
+          },
+          {
+            "name": "TPR_THERMAL_15W",
+            "description": "TPR#THERMAL#15W"
+          }
+        ]
+      }
+    }
+  },
+  "MPP-TPR": {
+    "MPPV_2_1": {
+      "description": "2.1",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      }
+    },
+    "MPPV_2_2": {
+      "description": "2.2",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      },
+      "MPP15": {
+        "description": "MPP15",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      },
+      "MPP25": {
+        "description": "MPP25",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          },
+          {
+            "name": "TPR_MPP4",
+            "description": "TPR#MPP4"
+          }
+        ]
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      }
+    },
+    "MPP_V2_3_0": {
+      "description": "2.3.0",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      },
+      "MPP15": {
+        "description": "MPP15",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      },
+      "MPP25": {
+        "description": "MPP25",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          },
+          {
+            "name": "TPR_MPP4",
+            "description": "TPR#MPP4"
+          }
+        ]
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": [
+          {
+            "name": "TPR_MPP1",
+            "description": "TPR#MPP1"
+          }
+        ]
+      }
+    }
+  },
+  "C3-TPT": {
+    "V_1_2_4": {
+      "description": "1.2.4",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": []
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": []
+      }
+    },
+    "V_1_3": {
+      "description": "1.3",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": []
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": []
+      }
+    },
+    "V_1_3_3": {
+      "description": "1.3.3",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": []
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": []
+      }
+    },
+    "V_2_0_1": {
+      "description": "2.0.1",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": []
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": []
+      }
+    },
+    "V_2_1": {
+      "description": "2.1",
+      "BPP": {
+        "description": "BPP",
+        "coiltype": []
+      },
+      "EPP": {
+        "description": "EPP",
+        "coiltype": []
+      }
+    }
+  },
+  "MPP-TPT": {
+    "MPPV_2_1": {
+      "description": "2.1",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": []
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": []
+      }
+    },
+    "MPPV_2_2": {
+      "description": "2.2",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": []
+      },
+      "MPP15": {
+        "description": "MPP15",
+        "coiltype": []
+      },
+      "MPP25": {
+        "description": "MPP25",
+        "coiltype": []
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": []
+      }
+    },
+    "MPP_V2_3_0": {
+      "description": "2.3.0",
+      "MPP": {
+        "description": "MPP",
+        "coiltype": []
+      },
+      "MPP15": {
+        "description": "MPP15",
+        "coiltype": []
+      },
+      "MPP25": {
+        "description": "MPP25",
+        "coiltype": []
+      },
+      "APP": {
+        "description": "APP",
+        "coiltype": []
+      }
+    }
+  },
+  "SnifferAPP": {
+    "V_1_0": {
+      "description": "1.0",
+      "ALL": {
+        "description": "ALL",
+        "coiltype": [
+          {
+            "name": "ALL",
+            "description": "ALL"
+          }
+        ]
+      }
+    },
+    "V_2_0": {
+      "description": "2.0",
+      "ALL": {
+        "description": "ALL",
+        "coiltype": [
+          {
+            "name": "ALL",
+            "description": "ALL"
+          }
+        ]
+      }
+    }
+  }
+}
