@@ -1,1604 +1,1604 @@
 {
   "C3-TPR": {
     "V_1_2_4": {
-      "description": "1.2.4",
-      "physicalparameter": [],
+      "Description": "1.2.4",
+      "Physicalparameter": [],
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL#5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL#5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL#5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL#15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL#15W"
           }
         ]
       }
     },
     "V_1_3": {
-      "description": "1.3",
+      "Description": "1.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL_5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL_5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_1_3_3": {
-      "description": "1.3.3",
+      "Description": "1.3.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_0_1": {
-      "description": "2.0.1",
+      "Description": "2.0.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_1": {
-      "description": "2.1",
+      "Description": "2.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     }
   },
   "MPP-TPR": {
     "MPPV_2_1": {
-      "description": "2.1",
-      "physicalparameter": [],
+      "Description": "2.1",
+      "Physicalparameter": [],
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       }
     },
     "MPPV_2_2": {
-      "description": "2.2",
+      "Description": "2.2",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           },
           {
-            "name": "TPR_MPP4",
-            "description": "TPR#MPP4"
+            "Name": "TPR_MPP4",
+            "Description": "TPR#MPP4"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "MPP_V2_3_0": {
-      "description": "2.3.0",
+      "Description": "2.3.0",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           },
           {
-            "name": "TPR_MPP4",
-            "description": "TPR#MPP4"
+            "Name": "TPR_MPP4",
+            "Description": "TPR#MPP4"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     }
   },
   "C3-TPT": {
     "V_1_2_4": {
-      "description": "1.2.4",
-      "physicalparameter": [],
+      "Description": "1.2.4",
+      "Physicalparameter": [],
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": []
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": []
       }
     },
     "V_1_3": {
-      "description": "1.3",
+      "Description": "1.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": []
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_1_3_3": {
-      "description": "1.3.3",
+      "Description": "1.3.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": []
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_0_1": {
-      "description": "2.0.1",
+      "Description": "2.0.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": []
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_1": {
-      "description": "2.1",
+      "Description": "2.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": []
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     }
   },
   "MPP-TPT": {
     "MPPV_2_1": {
-      "description": "2.1",
-      "physicalparameter": [],
+      "Description": "2.1",
+      "Physicalparameter": [],
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": []
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": []
       }
     },
     "MPPV_2_2": {
-      "description": "2.2",
+      "Description": "2.2",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": []
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": []
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": []
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "MPP_V2_3_0": {
-      "description": "2.3.0",
+      "Description": "2.3.0",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": []
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": []
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": []
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": []
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     }
   },
   "SnifferAPP": {
     "V_1_2_4": {
-      "description": "1.2.4",
-      "physicalparameter": [],
+      "Description": "1.2.4",
+      "Physicalparameter": [],
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       }
     },
     "V_1_3": {
-      "description": "1.3",
+      "Description": "1.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL_5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL_5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_1_3_3": {
-      "description": "1.3.3",
+      "Description": "1.3.3",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_0_1": {
-      "description": "2.0.1",
+      "Description": "2.0.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "V_2_1": {
-      "description": "2.1",
+      "Description": "2.1",
       "BPP": {
-        "description": "BPP",
+        "Description": "BPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           }
         ]
       },
       "EPP": {
-        "description": "EPP",
+        "Description": "EPP",
         "CoilType": [
           {
-            "name": "TPR_1A",
-            "description": "TPR#1A"
+            "Name": "TPR_1A",
+            "Description": "TPR#1A"
           },
           {
-            "name": "TPR_1B",
-            "description": "TPR#1B"
+            "Name": "TPR_1B",
+            "Description": "TPR#1B"
           },
           {
-            "name": "TPR_1C",
-            "description": "TPR#1C"
+            "Name": "TPR_1C",
+            "Description": "TPR#1C"
           },
           {
-            "name": "TPR_1D",
-            "description": "TPR#1D"
+            "Name": "TPR_1D",
+            "Description": "TPR#1D"
           },
           {
-            "name": "TPR_1E",
-            "description": "TPR#1E"
+            "Name": "TPR_1E",
+            "Description": "TPR#1E"
           },
           {
-            "name": "TPR_3",
-            "description": "TPR#3"
+            "Name": "TPR_3",
+            "Description": "TPR#3"
           },
           {
-            "name": "TPR_4",
-            "description": "TPR#4"
+            "Name": "TPR_4",
+            "Description": "TPR#4"
           },
           {
-            "name": "TPR_5",
-            "description": "TPR#5"
+            "Name": "TPR_5",
+            "Description": "TPR#5"
           },
           {
-            "name": "TPR_6",
-            "description": "TPR#6"
+            "Name": "TPR_6",
+            "Description": "TPR#6"
           },
           {
-            "name": "TPR_THERMAL_5W",
-            "description": "TPR#THERMAL-5W"
+            "Name": "TPR_THERMAL_5W",
+            "Description": "TPR#THERMAL-5W"
           },
           {
-            "name": "TPR_1F",
-            "description": "TPR#1F"
+            "Name": "TPR_1F",
+            "Description": "TPR#1F"
           },
           {
-            "name": "TPR_7",
-            "description": "TPR#7"
+            "Name": "TPR_7",
+            "Description": "TPR#7"
           },
           {
-            "name": "TPR_MP1A",
-            "description": "TPR#MP1A"
+            "Name": "TPR_MP1A",
+            "Description": "TPR#MP1A"
           },
           {
-            "name": "TPR_MP1B",
-            "description": "TPR#MP1B"
+            "Name": "TPR_MP1B",
+            "Description": "TPR#MP1B"
           },
           {
-            "name": "TPR_MP1C",
-            "description": "TPR#MP1C"
+            "Name": "TPR_MP1C",
+            "Description": "TPR#MP1C"
           },
           {
-            "name": "TPR_MP3",
-            "description": "TPR#MP3"
+            "Name": "TPR_MP3",
+            "Description": "TPR#MP3"
           },
           {
-            "name": "TPR_MP4",
-            "description": "TPR#MP4"
+            "Name": "TPR_MP4",
+            "Description": "TPR#MP4"
           },
           {
-            "name": "TPR_THERMAL_15W",
-            "description": "TPR#THERMAL-15W"
+            "Name": "TPR_THERMAL_15W",
+            "Description": "TPR#THERMAL-15W"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "MPPV_2_1": {
-      "description": "2.1",
+      "Description": "2.1",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "MPPV_2_2": {
-      "description": "2.2",
+      "Description": "2.2",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           },
           {
-            "name": "TPR_MPP4",
-            "description": "TPR#MPP4"
+            "Name": "TPR_MPP4",
+            "Description": "TPR#MPP4"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     },
     "MPP_V2_3_0": {
-      "description": "2.3.0",
+      "Description": "2.3.0",
       "MPP": {
-        "description": "MPP",
+        "Description": "MPP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP15": {
-        "description": "MPP15",
+        "Description": "MPP15",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
       "MPP25": {
-        "description": "MPP25",
+        "Description": "MPP25",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           },
           {
-            "name": "TPR_MPP4",
-            "description": "TPR#MPP4"
+            "Name": "TPR_MPP4",
+            "Description": "TPR#MPP4"
           }
         ]
       },
       "APP": {
-        "description": "APP",
+        "Description": "APP",
         "CoilType": [
           {
-            "name": "TPR_MPP1",
-            "description": "TPR#MPP1"
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
           }
         ]
       },
-      "physicalparameter": []
+      "Physicalparameter": []
     }
   }
 }
