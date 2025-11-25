@@ -345,7 +345,7 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Requested_power_Transmitter_Data_Packet",
+            "FieldName": "Requested_Power_Transmitter_Data_Packet",
             "FieldDisplayString": "Request (B0-b7:0)",
             "DefaultValue": "30",
             "Units": "",
@@ -3064,7 +3064,7 @@
           {
             "FieldName": "Window_Size",
             "FieldDisplayString": "Window Size (B3-b7:3)",
-            "DefaultValue": "32",
+            "DefaultValue": "64",
             "Units": "ms",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -3120,7 +3120,7 @@
             ]
           },
           {
-            "FieldName": "NegotiationPhase",
+            "FieldName": "Neg",
             "FieldDisplayString": "Neg (B4-b7)",
             "DefaultValue": "0",
             "Units": "",
@@ -24748,7 +24748,7 @@
           {
             "FieldName": "Basic_Device_Identifier",
             "FieldDisplayString": "Basic Device Identifier(B3-B6)",
-            "DefaultValue": "30313235",
+            "DefaultValue": "0x30313235",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -24945,7 +24945,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0_1",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "0",
+            "DefaultValue": "31",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -27018,7 +27018,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "",
+            "DefaultValue": "0",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -28100,7 +28100,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "",
+            "DefaultValue": "0",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -28319,7 +28319,7 @@
             "ValueTransform": []
           },
           {
-            "FieldName": "Load_Power(Low_Byte)",
+            "FieldName": "Load_Power",
             "FieldDisplayString": "Load Power Low Byte (B1-b7:0)",
             "DefaultValue": "",
             "Units": "mW",
@@ -33463,7 +33463,7 @@
                   {
                     "B1": {
                       "BitRange": "7-0",
-                      "Description": "Load_Power(Low_Byte)"
+                      "Description": "Load_Power"
                     }
                   }
                 ]
@@ -46462,7 +46462,7 @@
             "ValueTransform": []
           },
           {
-            "FieldName": "Load Power",
+            "FieldName": "Load_Power",
             "FieldDisplayString": "Load Power (B1-b7:0)",
             "DefaultValue": "",
             "Units": "mW",
@@ -46480,7 +46480,7 @@
                   {
                     "B1": {
                       "BitRange": "7-0",
-                      "Description": "Load_Power(Low_Byte)"
+                      "Description": "Load_Power"
                     }
                   }
                 ]
