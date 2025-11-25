@@ -2279,7 +2279,7 @@
           "MPP25",
           "APP25"
         ],
-        "PacketPhase": "PowerTxPhase",
+        "PacketPhase": "CalibrationPhase",
         "ExtendedConfiguration": [
           {
             "FieldName": "Enable_Reserved_Bits",
