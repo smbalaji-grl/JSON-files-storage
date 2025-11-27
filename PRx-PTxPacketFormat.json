@@ -44,8 +44,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -113,8 +111,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -166,8 +162,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -219,8 +213,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -272,8 +264,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -325,8 +315,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -378,8 +366,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -431,8 +417,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -467,7 +451,7 @@
           {
             "FieldName": "Type",
             "FieldDisplayString": "Type (B0-b7:b0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -503,8 +487,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -556,8 +538,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -609,8 +589,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -751,7 +729,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -1678,7 +1656,7 @@
           {
             "FieldName": "Type",
             "FieldDisplayString": "Type(B0-b1:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -1766,8 +1744,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -1865,8 +1841,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -1924,8 +1898,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -1983,8 +1955,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -2203,7 +2173,7 @@
           {
             "FieldName": "Mode",
             "FieldDisplayString": "Mode(B0-b2:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -2272,8 +2242,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -2351,8 +2319,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -2416,8 +2382,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -2599,8 +2563,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -2670,8 +2632,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3085,10 +3045,12 @@
                 ]
               }
             ],
-            "ValueTransform": [{
-              "operation": "divide",
-              "factor": 4
-            }]
+            "ValueTransform": [
+              {
+                "operation": "divide",
+                "factor": 4
+              }
+            ]
           },
           {
             "FieldName": "Window_Offset",
@@ -3102,10 +3064,12 @@
             "ComboBoxEntries": {},
             "Editable": true,
             "EditableForPTx": null,
-            "ValueTransform": [{
-              "operation": "divide",
-              "factor": 4
-            }],
+            "ValueTransform": [
+              {
+                "operation": "divide",
+                "factor": 4
+              }
+            ],
             "PacketSupportData": [
               {
                 "ByteConfiguration": [
@@ -3257,8 +3221,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3368,8 +3330,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3465,8 +3425,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3542,8 +3500,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3619,8 +3575,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3776,8 +3730,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3873,8 +3825,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -3956,8 +3906,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -4235,8 +4183,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -4324,8 +4270,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -4634,8 +4578,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6311,8 +6253,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6375,8 +6315,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6425,8 +6363,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6489,8 +6425,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6559,8 +6493,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6633,7 +6565,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -6702,7 +6634,7 @@
           {
             "FieldName": "Type",
             "FieldDisplayString": "Type (B2-b1:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -6735,8 +6667,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -6797,7 +6727,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request (B0-b2:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -6858,7 +6788,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -6935,8 +6865,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7089,8 +7017,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7249,8 +7175,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7527,8 +7451,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7817,8 +7739,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7907,8 +7827,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -7997,8 +7915,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8113,8 +8029,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8255,8 +8169,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8423,8 +8335,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8643,8 +8553,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8889,8 +8797,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -8951,7 +8857,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9022,8 +8928,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9084,7 +8988,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9155,8 +9059,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9217,7 +9119,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9314,8 +9216,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9376,7 +9276,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9473,8 +9373,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9535,7 +9433,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9658,8 +9556,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9720,7 +9616,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -9843,8 +9739,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -9905,7 +9799,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -10054,8 +9948,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -10116,7 +10008,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -10265,8 +10157,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -10327,7 +10217,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -10502,8 +10392,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -10564,7 +10452,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -10739,8 +10627,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -10801,7 +10687,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -11002,8 +10888,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11064,7 +10948,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -11265,8 +11149,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11353,7 +11235,7 @@
           {
             "FieldName": "Report_ID",
             "FieldDisplayString": "Report ID (B0-b1:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -11620,8 +11502,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11666,8 +11546,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11695,8 +11573,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11724,8 +11600,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11753,8 +11627,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11782,8 +11654,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11811,8 +11681,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11840,8 +11708,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -11924,8 +11790,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12020,8 +11884,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12116,8 +11978,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12170,8 +12030,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12280,8 +12138,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12340,8 +12196,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12450,8 +12304,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12619,8 +12471,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12729,8 +12579,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -12919,8 +12767,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13040,8 +12886,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13149,8 +12993,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13283,8 +13125,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13417,8 +13257,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13576,8 +13414,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13735,8 +13571,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -13919,8 +13753,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -14103,8 +13935,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -14312,8 +14142,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -14521,8 +14349,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -14755,8 +14581,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -14989,8 +14813,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15043,8 +14865,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15097,8 +14917,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15176,8 +14994,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15255,8 +15071,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15359,8 +15173,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15488,8 +15300,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15642,8 +15452,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15871,8 +15679,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -15959,8 +15765,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16239,8 +16043,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16419,8 +16221,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16476,8 +16276,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16533,8 +16331,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16615,8 +16411,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16697,8 +16491,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16804,8 +16596,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -16911,8 +16701,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17043,8 +16831,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17175,8 +16961,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17332,8 +17116,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17489,8 +17271,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17671,8 +17451,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -17853,8 +17631,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -18060,8 +17836,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -18267,8 +18041,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -18574,8 +18346,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -18881,8 +18651,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -19288,8 +19056,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -19695,8 +19461,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -20202,8 +19966,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -20709,8 +20471,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -21316,8 +21076,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -21923,8 +21681,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -22630,8 +22386,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -23337,8 +23091,6 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -24613,8 +24365,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -24813,7 +24563,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -26167,7 +25917,10 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP"
+          "APP15",
+          "MPP15",
+          "APP15",
+          "MPP25"
         ],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
@@ -26281,7 +26034,8 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP"
+          "APP15",
+          "MPP15"
         ],
         "ExtendedConfiguration": []
       },
@@ -26966,7 +26720,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -27891,9 +27645,7 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "EPP5",
-          "MPP",
-          "APP"
+          "EPP5"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
@@ -27962,7 +27714,7 @@
           {
             "FieldName": "Parameter",
             "FieldDisplayString": "Parameter (B1-b4:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -28023,8 +27775,8 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
@@ -29109,8 +28861,8 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
@@ -29484,8 +29236,8 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "PacketPhase": "ConfigPhase",
         "ExtendedConfiguration": []
@@ -29750,8 +29502,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "ExtendedConfiguration": []
       },
@@ -29864,8 +29616,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "ExtendedConfiguration": []
       },
@@ -30214,8 +29966,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "ExtendedConfiguration": []
       },
@@ -30317,8 +30069,8 @@
           "EPP",
           "MCPE",
           "MCPM",
-          "MPP",
-          "APP"
+          "MPP15",
+          "APP15"
         ],
         "ExtendedConfiguration": []
       }
@@ -30383,8 +30135,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -31330,13 +31080,7 @@
         "PowerProfileSupported": [
           "BPP",
           "EPP",
-          "EPP5",
-          "MPP",
-          "APP",
-          "MPP15",
-          "APP15",
-          "MPP25",
-          "APP25"
+          "EPP5"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
@@ -31485,8 +31229,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -31570,8 +31312,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -31698,8 +31438,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -31833,8 +31571,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -31961,8 +31697,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -32063,8 +31797,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -32243,8 +31975,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -32447,8 +32177,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -32657,8 +32385,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -32939,8 +32665,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -33141,8 +32865,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -33163,7 +32885,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -34451,8 +34173,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -34830,7 +34550,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -34877,7 +34596,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -34948,8 +34667,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -34996,7 +34713,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35067,8 +34784,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35115,7 +34830,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35212,8 +34927,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35260,7 +34973,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35357,8 +35070,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35405,7 +35116,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35528,8 +35239,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35576,7 +35285,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35699,8 +35408,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35747,7 +35454,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -35896,8 +35603,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -35944,7 +35649,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -36093,8 +35798,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -36141,7 +35844,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -36316,8 +36019,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -36364,7 +36065,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -36539,8 +36240,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -36587,7 +36286,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -36787,8 +36486,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -36835,7 +36532,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -37036,8 +36733,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -37110,7 +36805,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -37179,7 +36874,7 @@
           {
             "FieldName": "Type",
             "FieldDisplayString": "Type (B2-b1:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -37212,8 +36907,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -37260,7 +36953,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request (B0-b2:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -37321,7 +37014,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -37392,8 +37085,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -37544,10 +37235,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -37628,10 +37317,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -37716,10 +37403,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -37807,10 +37492,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -37905,10 +37588,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38045,10 +37726,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38236,10 +37915,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38407,10 +38084,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38530,10 +38205,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38704,10 +38377,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -38896,10 +38567,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -39039,10 +38708,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -39505,10 +39172,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -39704,10 +39369,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -39846,10 +39509,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -40113,10 +39774,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -40542,10 +40201,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -40873,10 +40530,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -40996,10 +40651,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41119,10 +40772,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41267,10 +40918,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41415,10 +41064,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41588,10 +41235,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41761,10 +41406,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -41959,10 +41602,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -42157,10 +41798,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -42380,10 +42019,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -42603,10 +42240,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -42851,10 +42486,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -43099,10 +42732,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -43215,7 +42846,6 @@
           "MCPM",
           "MPP. MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -43330,10 +42960,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -43400,8 +43028,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44348,8 +43974,6 @@
           "BPP",
           "EPP",
           "EPP5",
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44502,8 +44126,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44587,8 +44209,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44715,8 +44335,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44850,8 +44468,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -44978,8 +44594,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -45080,8 +44694,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -45260,8 +44872,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -45464,8 +45074,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -45674,8 +45282,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -45956,8 +45562,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -46158,8 +45762,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -46180,7 +45782,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request(B0-b7:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -47468,8 +47070,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -47847,7 +47447,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -47894,7 +47493,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -47965,8 +47564,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48013,7 +47610,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48084,8 +47681,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48132,7 +47727,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48229,8 +47824,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48277,7 +47870,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48374,8 +47967,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48422,7 +48013,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48545,8 +48136,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48593,7 +48182,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48716,8 +48305,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48764,7 +48351,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -48913,8 +48500,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -48961,7 +48546,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -49110,8 +48695,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -49158,7 +48741,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -49333,8 +48916,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -49381,7 +48962,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -49556,8 +49137,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -49604,7 +49183,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -49804,8 +49383,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -49852,7 +49429,7 @@
           {
             "FieldName": "Stream_Number",
             "FieldDisplayString": "Stream Number (B0-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -50053,8 +49630,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -50127,7 +49702,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -50196,7 +49771,7 @@
           {
             "FieldName": "Type",
             "FieldDisplayString": "Type (B2-b1:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -50229,8 +49804,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -50277,7 +49850,7 @@
           {
             "FieldName": "Request",
             "FieldDisplayString": "Request (B0-b2:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -50338,7 +49911,7 @@
           {
             "FieldName": "Stream Number",
             "FieldDisplayString": "Stream Number (B1-b3:0)",
-            "DefaultValue": null,
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "",
             "MinValue": null,
@@ -50409,8 +49982,6 @@
           "MPP"
         ],
         "PowerProfileSupported": [
-          "MPP",
-          "APP",
           "MPP15",
           "APP15",
           "MPP25",
@@ -50561,10 +50132,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -50645,10 +50214,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -50733,10 +50300,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -50824,10 +50389,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -50922,10 +50485,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51062,10 +50623,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51253,10 +50812,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51424,10 +50981,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51547,10 +51102,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51721,10 +51274,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -51913,10 +51464,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -52056,10 +51605,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -52522,10 +52069,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -52721,10 +52266,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -52863,10 +52406,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -53130,10 +52671,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -53559,10 +53098,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -53890,10 +53427,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54013,10 +53548,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54136,10 +53669,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54284,10 +53815,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54432,10 +53961,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54605,10 +54132,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54778,10 +54303,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -54976,10 +54499,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -55174,10 +54695,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -55397,10 +54916,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -55620,10 +55137,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -55868,10 +55383,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -56116,10 +55629,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -56232,7 +55743,6 @@
           "MCPM",
           "MPP. MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
@@ -56347,10 +55857,8 @@
         "PowerProfileSupported": [
           "MCPE",
           "MCPM",
-          "MPP",
           "MPP15",
           "MPP25",
-          "APP",
           "APP15",
           "APP25"
         ],
