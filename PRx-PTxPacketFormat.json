@@ -779,7 +779,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -26221,9 +26221,9 @@
           {
             "FieldName": "Manufacturer_Code",
             "FieldDisplayString": "Manufacturer Code(B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -26507,9 +26507,9 @@
           {
             "FieldName": "Manufacturer_Code",
             "FieldDisplayString": "Manufacturer Code(B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -26682,9 +26682,9 @@
           {
             "FieldName": "PRMC",
             "FieldDisplayString": "PRMC (B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -26740,9 +26740,9 @@
           {
             "FieldName": "Random_Identifier",
             "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
-            "DefaultValue": "1839B",
+            "DefaultValue": "0x1839B",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 1048575,
             "FieldType": "textbox",
@@ -26780,7 +26780,7 @@
             "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
             "DefaultValue": "0x00",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 2047,
             "FieldType": "textbox",
@@ -27769,7 +27769,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -28725,9 +28725,9 @@
           {
             "FieldName": "Manufacturer_Code",
             "FieldDisplayString": "Manufacturer Code(B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -28900,9 +28900,9 @@
           {
             "FieldName": "PRMC",
             "FieldDisplayString": "PRMC (B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -28958,9 +28958,9 @@
           {
             "FieldName": "Random_Identifier",
             "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
-            "DefaultValue": "1839B",
+            "DefaultValue": "0x1839B",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 1048575,
             "FieldType": "textbox",
@@ -28998,7 +28998,7 @@
             "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
             "DefaultValue": "0x00",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 2047,
             "FieldType": "textbox",
@@ -29985,19 +29985,7 @@
               }
             ],
             "ValueTransform": [
-              {
-                "FieldName": "Enable_Reserved_Bits",
-                "FieldDisplayString": "Enable Reserved Bits",
-                "DefaultValue": false,
-                "FieldType": "checkbox",
-                "Units": "",
-                "MinValue": null,
-                "MaxValue": null,
-                "ComboBoxEntries": {},
-                "Editable": true,
-                "DisplayField": true,
-                "ValueTransform": []
-              }
+              
             ]
           },
           {
@@ -33322,9 +33310,9 @@
           {
             "FieldName": "Manufacturer_Code",
             "FieldDisplayString": "Manufacturer Code(B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -33497,9 +33485,9 @@
           {
             "FieldName": "PRMC",
             "FieldDisplayString": "PRMC (B1-B2)",
-            "DefaultValue": "010E",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -33555,9 +33543,9 @@
           {
             "FieldName": "Random_Identifier",
             "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
-            "DefaultValue": "1839B",
+            "DefaultValue": "0x1839B",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 1048575,
             "FieldType": "textbox",
@@ -33595,7 +33583,7 @@
             "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
             "DefaultValue": "0x00",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 2047,
             "FieldType": "textbox",
@@ -39981,7 +39969,7 @@
           "MPP25",
           "APP25"
         ],
-        "PacketPhase": "PowerTxPhase",
+        "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": []
       },
       {
@@ -40048,7 +40036,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -42793,7 +42781,7 @@
           {
             "FieldName": "Parameter_B1_b7_0_B1_b7_0",
             "FieldDisplayString": "Parameter(B1-b7:0)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "",
             "Units": "",
             "NumberStyle": "int",
             "MinValue": 0,
@@ -44090,9 +44078,9 @@
           {
             "FieldName": "Manufacturer_Code",
             "FieldDisplayString": "Manufacturer Code(B1-B2)",
-            "DefaultValue": "0x0A",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -44265,9 +44253,9 @@
           {
             "FieldName": "PRMC",
             "FieldDisplayString": "PRMC (B1-B2)",
-            "DefaultValue": "0x0A",
+            "DefaultValue": "0x010E",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 65535,
             "FieldType": "textbox",
@@ -44323,9 +44311,9 @@
           {
             "FieldName": "Random_Identifier",
             "FieldDisplayString": "Random Identifier (B3-B5-b7:3)",
-            "DefaultValue": "0x72F",
+            "DefaultValue": "0x1839B",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 1048575,
             "FieldType": "textbox",
@@ -44363,7 +44351,7 @@
             "FieldDisplayString": "Mfg Rsvd (B5-B6-b2:0)",
             "DefaultValue": "0x00",
             "Units": "",
-            "NumberStyle": "Hex",
+            "NumberStyle": "int",
             "MinValue": 0,
             "MaxValue": 2047,
             "FieldType": "textbox",
