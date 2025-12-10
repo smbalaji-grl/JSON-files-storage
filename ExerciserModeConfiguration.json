@@ -886,33 +886,7 @@
   "MPP-TPR": {
     "MPPV_2_0_1": {
       "Description": "2.1",
-      "Physicalparameter": [],
-      "MPP15": {
-        "Description": "MPP15",
-        "CoilType": [
-          {
-            "Name": "TPR_MPP1",
-            "Description": "TPR#MPP1"
-          }
-        ]
-      }
-    },
-    "MPPV_2_1": {
-      "Description": "2.1",
-      "Physicalparameter": [],
-      "MPP15": {
-        "Description": "MPP15",
-        "CoilType": [
-          {
-            "Name": "TPR_MPP1",
-            "Description": "TPR#MPP1"
-          }
-        ]
-      }
-    },
-    "MPPV_2_2_0": {
-      "Description": "2.2.0",
-      "MPP15": {
+      "MPP15||APP15": {
         "Description": "MPP15",
         "CoilType": [
           {
@@ -921,7 +895,33 @@
           }
         ]
       },
-      "MPP25": {
+      "Physicalparameter": []
+    },
+    "MPPV_2_1": {
+      "Description": "2.1",
+      "MPP15||APP15": {
+        "Description": "MPP15",
+        "CoilType": [
+          {
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
+          }
+        ]
+      },
+      "Physicalparameter": []
+      },
+    "MPPV_2_2_0": {
+      "Description": "2.2.0",
+      "MPP15||APP15": {
+        "Description": "MPP15",
+        "CoilType": [
+          {
+            "Name": "TPR_MPP1",
+            "Description": "TPR#MPP1"
+          }
+        ]
+      },
+      "MPP25||APP25": {
         "Description": "MPP25",
         "CoilType": [
           {
@@ -938,7 +938,7 @@
     },
     "MPPV_2_2_1": {
       "Description": "2.2.1",
-      "MPP15": {
+      "MPP15||APP15": {
         "Description": "MPP15",
         "CoilType": [
           {
@@ -947,7 +947,7 @@
           }
         ]
       },
-      "MPP25": {
+      "MPP25||APP25": {
         "Description": "MPP25",
         "CoilType": [
           {
@@ -964,7 +964,7 @@
     },
     "MPP_V2_3_0": {
       "Description": "2.3.0",
-      "MPP15": {
+      "MPP15||APP15": {
         "Description": "MPP15",
         "CoilType": [
           {
@@ -973,7 +973,7 @@
           }
         ]
       },
-      "MPP25": {
+      "MPP25||APP25": {
         "Description": "MPP25",
         "CoilType": [
           {
@@ -1109,7 +1109,7 @@
         "$ref": "C3-TPR.V_2_3_0"
       }
     },
-    "MPP15 || MPP25": {
+    "MPP15 || APP15 || MPP25 || APP25": {
       "2_0_1": {
         "$ref": "MPP-TPR.MPPV_2_0_1"
       },
