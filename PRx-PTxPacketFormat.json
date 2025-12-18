@@ -128,9 +128,9 @@
         "PacketEditable": true,
         "Fields": [
           {
-            "FieldName": "Control_Error_value",
+            "FieldName": "Control Error value",
             "FieldDisplayString": "Control Error value (B0-b7:0)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "",
             "Units": "",
             "NumberStyle": "Hex",
             "MinValue": -127,
@@ -41542,39 +41542,13 @@
             "ValueTransform": []
           },
           {
-            "FieldName": "Reserved_B1_b7_b1",
-            "FieldDisplayString": "Reserved (B1-b7:b1)",
-            "DefaultValue": "0x00",
-            "Units": "",
-            "NumberStyle": "Hex",
-            "MinValue": 0,
-            "MaxValue": 127,
-            "FieldType": "textbox",
-            "ComboBoxEntries": {},
-            "Editable": true,
-            "EditableForPTx": null,
-            "PacketSupportData": [
-              {
-                "ByteConfiguration": [
-                  {
-                    "B1": {
-                      "BitRange": "7-1",
-                      "Description": "Reserved"
-                    }
-                  }
-                ]
-              }
-            ],
-            "ValueTransform": []
-          },
-          {
             "FieldName": "Mode",
-            "FieldDisplayString": "Mode (B1-b0)",
+            "FieldDisplayString": "Mode (B1-b7:b0)",
             "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "Hex",
             "MinValue": 0,
-            "MaxValue": 1,
+            "MaxValue": 255,
             "FieldType": "textbox",
             "ComboBoxEntries": {},
             "Editable": true,
@@ -41584,7 +41558,7 @@
                 "ByteConfiguration": [
                   {
                     "B1": {
-                      "BitRange": "0",
+                      "BitRange": "7-0",
                       "Description": "Mode"
                     }
                   }
@@ -41604,6 +41578,200 @@
           "APP25"
         ],
         "PacketPhase": "PowerTxPhase",
+        "ExtendedConfiguration": [
+          {
+            "FieldName": "Enable_Reserved_Bits",
+            "FieldDisplayString": "Enable Reserved Bits",
+            "DefaultValue": false,
+            "FieldType": "checkbox",
+            "Units": "",
+            "MinValue": null,
+            "MaxValue": null,
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true,
+            "ValueTransform": []
+          }
+        ]
+      },
+      {
+        "QIPacketName": "Report",
+        "PacketDisplayString": "REPORT (0x58)",
+        "Mnemonic": "REPORT",
+        "Header": "0x58",
+        "Selector": "",
+        "ByteCount": 5,
+        "PacketEditable": true,
+        "Fields": [
+          {
+            "FieldName": "Selector",
+            "FieldDisplayString": "Selector (B0-b7:5)",
+            "DefaultValue": "0x00",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 7,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "RequestType": "0x02",
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "7-5",
+                      "Description": "Selector"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ValueTransform": []
+          },
+          {
+            "FieldName": "Reserved_B0_b4_2",
+            "FieldDisplayString": "Reserved (B0-b4:2)",
+            "DefaultValue": "0x00",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 7,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "RequestType": "0x02",
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "4-2",
+                      "Description": "Reserved"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ValueTransform": []
+          },
+          {
+            "FieldName": "Report_ID",
+            "FieldDisplayString": "Report ID (B0-b1:0)",
+            "DefaultValue": "0x02",
+            "Units": "",
+            "NumberStyle": "",
+            "MinValue": null,
+            "MaxValue": null,
+            "FieldType": "dropdown",
+            "ComboBoxEntries": {
+              "0x00": "Reserved",
+              "0x01": "Reserved",
+              "0x02": "Receiver Identification",
+              "0x03": "Reserved"
+            },
+            "Editable": true,
+            "EditableForPTx": null,
+            "RequestType": "0x02",
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B0": {
+                      "BitRange": "1-0",
+                      "Description": "Report_ID"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ValueTransform": []
+          },
+          {
+            "FieldName": "Reserved_B1_b7",
+            "FieldDisplayString": "Reserved (B1-b7)",
+            "DefaultValue": "0x00",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 1,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "RequestType": "0x02",
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B1": {
+                      "BitRange": "7",
+                      "Description": "Reserved"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ValueTransform": []
+          },
+          {
+            "FieldName": "Basic_Device_identifier",
+            "FieldDisplayString": "Basic Device Random-Identifier (B1-b6:b0 B2-b7:b0 B3-b7:b0 B4-b7:b0)",
+            "DefaultValue": "0x00",
+            "Units": "",
+            "NumberStyle": "Hex",
+            "MinValue": 0,
+            "MaxValue": 2147483647,
+            "FieldType": "textbox",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "EditableForPTx": null,
+            "RequestType": "0x02",
+            "PacketSupportData": [
+              {
+                "ByteConfiguration": [
+                  {
+                    "B1": {
+                      "BitRange": "6-0",
+                      "Description": "Basic Device identifier"
+                    }
+                  },
+                  {
+                    "B2": {
+                      "BitRange": "7-0",
+                      "Description": "Basic Device identifier"
+                    }
+                  },
+                  {
+                    "B3": {
+                      "BitRange": "7-0",
+                      "Description": "Basic Device identifier"
+                    }
+                  },
+                  {
+                    "B4": {
+                      "BitRange": "7-0",
+                      "Description": "Basic Device identifier"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ValueTransform": []
+          }
+        ],
+        "BooksReferred": [
+          "MPP"
+        ],
+        "PowerProfileSupported": [
+          "MPP15",
+          "APP15",
+          "MPP25",
+          "APP25"
+        ],
+        "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": [
           {
             "FieldName": "Enable_Reserved_Bits",
