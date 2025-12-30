@@ -43,7 +43,7 @@
     {
         "blockTitle": "Modulator Configuration",
         "showBlock": true,
-        "appPowerProfile": "MPP15 || MPP25",
+        "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
@@ -365,79 +365,9 @@
         ]
     },
     {
-        "blockTitle": "Modulator Configuration",
-        "showBlock": true,
-        "appPowerProfile": "APP15 || APP25",
-        "swMode": "Sniffer",
-        "containerRow": 7,
-        "containerColumn": 5,
-        "containerFieldList": [
-            {
-                "fieldlabel": "128kHz Modulation",
-                "fieldKey": "modulation128kHz",
-                "fieldInputType": "dropdown",
-                "fieldDefaultValue": 1,
-                "fieldOptions": [
-                    "4.7nF",
-                    "33nF",
-                    "2.2nF",
-                    "3.3nF",
-                    "18nF",
-                    "8.2nF",
-                    "220ohms",
-                    "470ohms",
-                    "991ohms",
-                    "270ohms",
-                    "ASK_DC_Mod",
-                    "Mod_24_9nF",
-                    "Mod_150_Ohm"
-                ],
-                "fieldUnit": "",
-                "fieldType": "selection",
-                "labelGridRow": 1,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
-                "fieldGridRow": 1,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
-            },
-            {
-                "fieldlabel": "360kHz Modulation",
-                "fieldKey": "modulation360kHz",
-                "fieldInputType": "dropdown",
-                "fieldDefaultValue": 10,
-                "fieldOptions": [
-                    "4.7nF",
-                    "33nF",
-                    "2.2nF",
-                    "3.3nF",
-                    "18nF",
-                    "8.2nF",
-                    "220ohms",
-                    "470ohms",
-                    "991ohms",
-                    "270ohms",
-                    "ASK_DC_Mod",
-                    "Mod_24_9nF",
-                    "Mod_150_Ohm"
-                ],
-                "fieldUnit": "",
-                "fieldType": "selection",
-                "labelGridRow": 2,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
-                "fieldGridRow": 2,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
-            }
-        ]
-    },
-    {
         "blockTitle": "Load Configuration",
         "showBlock": true,
-        "appPowerProfile": "MPP15 || MPP25",
+        "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
@@ -762,7 +692,7 @@
     {
         "blockTitle": "TPR Coil Configuration",
         "showBlock": true,
-        "appPowerProfile": "MPP15 || MPP25",
+        "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
@@ -1102,7 +1032,7 @@
     {
         "blockTitle": "Power Profile",
         "showBlock": true,
-        "appPowerProfile": "MPP15 || MPP25",
+        "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
@@ -1232,7 +1162,7 @@
     {
         "blockTitle": "Controller Settings",
         "showBlock": true,
-        "appPowerProfile": "MPP15 || MPP25",
+        "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
