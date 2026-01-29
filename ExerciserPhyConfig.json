@@ -3,7 +3,7 @@
         "blockTitle": "Modulator Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -44,7 +44,7 @@
         "blockTitle": "Modulator Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -114,7 +114,7 @@
         "blockTitle": "Load Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -368,7 +368,7 @@
         "blockTitle": "Load Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -588,7 +588,7 @@
         "blockTitle": "TPR Coil Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -693,7 +693,7 @@
         "blockTitle": "TPR Coil Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -739,7 +739,8 @@
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
                 "fieldOptions": [
-                    "TPR_MPP1"
+                    "TPR_MPP1",
+                    "TPR_MPP4"
                 ],
                 "fieldUnit": "",
                 "fieldType": "selection",
@@ -984,7 +985,7 @@
         "blockTitle": "Power Profile",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1033,7 +1034,7 @@
         "blockTitle": "Power Profile",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1081,7 +1082,7 @@
         "blockTitle": "Controller Settings",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1163,7 +1164,7 @@
         "blockTitle": "Controller Settings",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "Sniffer",
+        "swMode": "Dev-studio- exerciser mode",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
