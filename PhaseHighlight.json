@@ -1,0 +1,33 @@
+{
+  "DevStudio": {
+    "Sniffer": {
+      "PING": "PING PHASE",
+      "CNFG": "CONFIGURATION PHASE",
+      "EPP_NEG": "NEGOTIATION PHASE",
+      "MPP_NEG": "NEGOTIATION PHASE",
+      "EPP_PT": "POWER TRANSFER PHASE",
+      "BPP_PT": "POWER TRANSFER PHASE",
+      "R_PT": "POWER TRANSFER PHASE",
+      "MPP_PT": "POWER TRANSFER PHASE",
+      "CLOCK": "CLOCK PHASE"
+    },
+    "Exerciser": [],
+    "Compliance": []
+  },
+  "MPP_TPR": {
+    "Exerciser": [],
+    "Compliance": []
+  },
+  "MPP_TPT": {
+    "Exerciser": [],
+    "Compliance": []
+  },
+  "C3_TPR": {
+    "Exerciser": [],
+    "Compliance": []
+  },
+  "C3_TPT": {
+    "Exerciser": [],
+    "Compliance": []
+  }
+}
