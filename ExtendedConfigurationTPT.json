@@ -11,6 +11,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -23,6 +24,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -35,6 +37,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -51,6 +54,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -63,6 +67,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -81,6 +86,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -98,6 +104,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -114,6 +121,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -132,6 +140,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -147,6 +156,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -159,6 +169,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -171,6 +182,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -191,6 +203,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -203,6 +216,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -215,6 +229,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -231,6 +246,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -243,6 +259,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -261,6 +278,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -278,6 +296,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -294,6 +313,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -312,6 +332,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -327,6 +348,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -339,6 +361,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -351,6 +374,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -371,6 +395,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -383,6 +408,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -395,6 +421,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -411,6 +438,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -423,6 +451,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -441,6 +470,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -458,6 +488,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -474,6 +505,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -492,6 +524,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -507,6 +540,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -519,6 +553,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -531,6 +566,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -553,6 +589,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -565,6 +602,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -577,6 +615,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -593,6 +632,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -605,6 +645,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -623,6 +664,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -640,6 +682,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -656,6 +699,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -674,6 +718,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -689,6 +734,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -701,6 +747,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -713,6 +760,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -733,6 +781,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -745,6 +794,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -757,6 +807,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -773,6 +824,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -785,6 +837,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -803,6 +856,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -820,6 +874,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -836,6 +891,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -854,6 +910,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -869,6 +926,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -881,6 +939,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -893,6 +952,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -913,6 +973,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -925,6 +986,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -937,6 +999,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -953,6 +1016,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -965,6 +1029,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -983,6 +1048,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -1000,6 +1066,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -1016,6 +1083,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -1034,6 +1102,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -1049,6 +1118,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1061,6 +1131,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1073,6 +1144,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -1097,6 +1169,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1109,6 +1182,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1121,6 +1195,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -1137,6 +1212,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1149,6 +1225,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -1167,6 +1244,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -1184,6 +1262,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -1200,6 +1279,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -1218,6 +1298,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -1233,6 +1314,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1245,6 +1327,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1257,6 +1340,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -1277,6 +1361,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1289,6 +1374,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1301,6 +1387,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -1317,6 +1404,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1329,6 +1417,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -1347,6 +1436,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -1364,6 +1454,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -1380,6 +1471,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -1398,6 +1490,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -1413,6 +1506,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1425,6 +1519,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1437,6 +1532,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -1457,6 +1553,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1469,6 +1566,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1481,6 +1579,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -1497,6 +1596,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1509,6 +1609,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -1527,6 +1628,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -1544,6 +1646,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -1560,6 +1663,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -1578,6 +1682,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -1593,6 +1698,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1605,6 +1711,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1617,6 +1724,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",
@@ -1637,6 +1745,7 @@
             "Units": "ms",
             "MinValue": 3,
             "MaxValue": 10,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1649,6 +1758,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1661,6 +1771,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Until PRx Response": "0",
@@ -1677,6 +1788,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1689,6 +1801,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "0",
@@ -1707,6 +1820,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "End of ASK": "0",
@@ -1724,6 +1838,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Positive": "0",
@@ -1740,6 +1855,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Cycle_512": "0x00",
@@ -1758,6 +1874,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "Disable": "0",
               "Enable": "1"
@@ -1773,6 +1890,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1785,6 +1903,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Once": "0",
@@ -1801,6 +1920,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1813,6 +1933,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1825,6 +1946,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 255,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1837,6 +1959,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "int",
             "ComboBoxEntries": {
               "None": "",
               "Particular count": "0x00",

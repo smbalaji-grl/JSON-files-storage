@@ -11,6 +11,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true,
@@ -32,6 +33,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -44,6 +46,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -56,6 +59,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -68,6 +72,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -80,6 +85,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -94,6 +100,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -106,6 +113,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -118,6 +126,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -130,6 +139,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -142,6 +152,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -154,6 +165,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -168,6 +180,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -180,6 +193,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -192,6 +206,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -204,6 +219,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -216,6 +232,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -228,6 +245,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "XCE",
@@ -244,6 +262,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -256,6 +275,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -268,6 +288,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 50000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -280,6 +301,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -292,6 +314,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -299,66 +322,71 @@
         ],
         "RuntimeInfo": [
           {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "11",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 100,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "Corrupt_Checksum",
-          "FieldDisplayString": "Corrupt Checksum",
-          "DefaultValue": false,
-          "FieldType": "checkbox",
-          "Units": "",
-          "MinValue": null,
-          "MaxValue": null,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Silent",
-          "FieldDisplayString": "t Silent",
-          "DefaultValue": 9.5,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Interval",
-          "FieldDisplayString": "T Interval",
-          "DefaultValue": 250,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 5000,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        }
-      ]
+            "FieldName": "RepeatCount",
+            "FieldDisplayString": "Repeat Count",
+            "DefaultValue": "0",
+            "FieldType": "textbox",
+            "Units": "",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "PreambleCount",
+            "FieldDisplayString": "Preamble Count",
+            "DefaultValue": "11",
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 100,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "Corrupt_Checksum",
+            "FieldDisplayString": "Corrupt Checksum",
+            "DefaultValue": false,
+            "FieldType": "checkbox",
+            "Units": "",
+            "MinValue": null,
+            "MaxValue": null,
+            "valueType": "bool",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Silent",
+            "FieldDisplayString": "t Silent",
+            "DefaultValue": 9.5,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "float",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Interval",
+            "FieldDisplayString": "T Interval",
+            "DefaultValue": 250,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 5000,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          }
+        ]
       },
       "360": {
         "ConfigPhase": [
@@ -370,6 +398,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -382,6 +411,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -394,6 +424,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -406,6 +437,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -418,6 +450,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -430,6 +463,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -444,6 +478,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -456,6 +491,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -468,6 +504,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -480,6 +517,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -492,6 +530,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -504,6 +543,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -518,6 +558,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -530,6 +571,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -542,6 +584,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -554,6 +597,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -566,6 +610,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -578,6 +623,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "XCE",
@@ -594,6 +640,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -606,6 +653,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -618,6 +666,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 50000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -630,6 +679,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -642,6 +692,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -649,66 +700,71 @@
         ],
         "RuntimeInfo": [
           {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "11",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 100,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "Corrupt_Checksum",
-          "FieldDisplayString": "Corrupt Checksum",
-          "DefaultValue": false,
-          "FieldType": "checkbox",
-          "Units": "",
-          "MinValue": null,
-          "MaxValue": null,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Silent",
-          "FieldDisplayString": "t Silent",
-          "DefaultValue": 9.5,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Interval",
-          "FieldDisplayString": "T Interval",
-          "DefaultValue": 250,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 5000,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        }
-      ]
+            "FieldName": "RepeatCount",
+            "FieldDisplayString": "Repeat Count",
+            "DefaultValue": "0",
+            "FieldType": "textbox",
+            "Units": "",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "PreambleCount",
+            "FieldDisplayString": "Preamble Count",
+            "DefaultValue": "11",
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 100,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "Corrupt_Checksum",
+            "FieldDisplayString": "Corrupt Checksum",
+            "DefaultValue": false,
+            "FieldType": "checkbox",
+            "Units": "",
+            "MinValue": null,
+            "MaxValue": null,
+            "valueType": "bool",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Silent",
+            "FieldDisplayString": "t Silent",
+            "DefaultValue": 9.5,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "float",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Interval",
+            "FieldDisplayString": "T Interval",
+            "DefaultValue": 250,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 5000,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          }
+        ]
       }
     },
     "C3": {
@@ -722,6 +778,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -734,6 +791,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -746,6 +804,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -758,6 +817,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -770,6 +830,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -782,6 +843,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -796,6 +858,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -808,6 +871,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -820,6 +884,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -832,6 +897,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -844,6 +910,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -856,6 +923,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -870,6 +938,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 50000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -882,6 +951,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -894,6 +964,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "float",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -906,6 +977,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -918,6 +990,7 @@
             "Units": "",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -930,6 +1003,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 100,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -942,6 +1016,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -954,6 +1029,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 5000,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -966,6 +1042,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -978,6 +1055,7 @@
             "Units": "ms",
             "MinValue": 0,
             "MaxValue": 500,
+            "valueType": "int",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -990,6 +1068,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "bool",
             "ComboBoxEntries": {},
             "Editable": true,
             "DisplayField": true
@@ -1002,6 +1081,7 @@
             "Units": "",
             "MinValue": null,
             "MaxValue": null,
+            "valueType": "string",
             "ComboBoxEntries": {
               "None": "",
               "Zero": "CE",
@@ -1013,66 +1093,71 @@
         ],
         "RuntimeInfo": [
           {
-          "FieldName": "RepeatCount",
-          "FieldDisplayString": "Repeat Count",
-          "DefaultValue": "0",
-          "FieldType": "textbox",
-          "Units": "",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "PreambleCount",
-          "FieldDisplayString": "Preamble Count",
-          "DefaultValue": "11",
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 100,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "Corrupt_Checksum",
-          "FieldDisplayString": "Corrupt Checksum",
-          "DefaultValue": false,
-          "FieldType": "checkbox",
-          "Units": "",
-          "MinValue": null,
-          "MaxValue": null,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Silent",
-          "FieldDisplayString": "t Silent",
-          "DefaultValue": 9.5,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 500,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        },
-        {
-          "FieldName": "T_Interval",
-          "FieldDisplayString": "T Interval",
-          "DefaultValue": 250,
-          "FieldType": "textbox",
-          "Units": "ms",
-          "MinValue": 0,
-          "MaxValue": 5000,
-          "ComboBoxEntries": {},
-          "Editable": true,
-          "DisplayField": true
-        }
-      ]
+            "FieldName": "RepeatCount",
+            "FieldDisplayString": "Repeat Count",
+            "DefaultValue": "0",
+            "FieldType": "textbox",
+            "Units": "",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "PreambleCount",
+            "FieldDisplayString": "Preamble Count",
+            "DefaultValue": "11",
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 100,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "Corrupt_Checksum",
+            "FieldDisplayString": "Corrupt Checksum",
+            "DefaultValue": false,
+            "FieldType": "checkbox",
+            "Units": "",
+            "MinValue": null,
+            "MaxValue": null,
+            "valueType": "bool",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Silent",
+            "FieldDisplayString": "t Silent",
+            "DefaultValue": 9.5,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 500,
+            "valueType": "float",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          },
+          {
+            "FieldName": "T_Interval",
+            "FieldDisplayString": "T Interval",
+            "DefaultValue": 250,
+            "FieldType": "textbox",
+            "Units": "ms",
+            "MinValue": 0,
+            "MaxValue": 5000,
+            "valueType": "int",
+            "ComboBoxEntries": {},
+            "Editable": true,
+            "DisplayField": true
+          }
+        ]
       }
     }
   }
