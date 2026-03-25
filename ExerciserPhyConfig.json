@@ -50,7 +50,7 @@
         "containerFieldList": [
             {
                 "fieldlabel": "128kHz Modulation",
-                "fieldKey": "modulation128kHz",
+                "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 1,
                 "fieldOptions": [
@@ -80,7 +80,7 @@
             },
             {
                 "fieldlabel": "360kHz Modulation",
-                "fieldKey": "modulation360kHz",
+                "fieldKey": "CoilModulation_360",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 10,
                 "fieldOptions": [
@@ -105,6 +105,38 @@
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
+                "fieldGridColumnSpan": 1,
+                "alignLabel": "center"
+            },
+            {
+                "fieldlabel": "Base",
+                "fieldKey": "base",
+                "fieldInputType": "text",
+                "fieldDefaultValue": "",
+                "fieldOptions": [],
+                "fieldUnit": "",
+                "fieldType": "number",
+                "labelGridRow": 1,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 1,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 1,
+                "alignLabel": "center"
+            },
+            {
+                "fieldlabel": "Depth",
+                "fieldKey": "depth",
+                "fieldInputType": "text",
+                "fieldDefaultValue": "",
+                "fieldOptions": [],
+                "fieldUnit": "",
+                "fieldType": "number",
+                "labelGridRow": 1,
+                "labelGridColumn": 5,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 1,
+                "fieldGridColumn": 6,
                 "fieldGridColumnSpan": 1,
                 "alignLabel": "center"
             }
