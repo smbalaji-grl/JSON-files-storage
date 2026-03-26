@@ -769,7 +769,7 @@
                 "fieldlabel": "Coil Type",
                 "fieldKey": "coilType",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "TPR_MPP1",
+                "fieldDefaultValue":0,
                 "fieldOptions": [
                     "TPR_MPP1",
                     "TPR_MPP4"
