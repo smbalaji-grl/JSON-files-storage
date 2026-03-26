@@ -1,21 +1,32 @@
 {
   "DevStudio": {
     "Sniffer": {
-		"IDLE":"IDLE_PHASE",
+      "IDLE": "IDLE_PHASE",
       "PING": "PING PHASE",
       "CNFG": "CONFIGURATION PHASE",
       "EPP_NEG": "NEGOTIATION PHASE",
       "MPP_NEG": "NEGOTIATION PHASE",
-	  "MPP_RE_NEG": "NEGOTIATION PHASE",
-	  "EPP_RE_NEG": "NEGOTIATION PHASE",
+      "MPP_RE_NEG": "NEGOTIATION PHASE",
+      "EPP_RE_NEG": "NEGOTIATION PHASE",
       "EPP_PT": "POWER TRANSFER PHASE",
       "BPP_PT": "POWER TRANSFER PHASE",
       "R_PT": "POWER TRANSFER PHASE",
       "MPP_PT": "POWER TRANSFER PHASE",
       "CLOCK": "CLOCK PHASE",
-	  "CALIB": "CALIBRATION PHASE"
+      "CALIB": "CALIBRATION PHASE"
     },
-    "Exerciser": [],
+    "Exerciser": {
+      "RESET": "RESET PHASE",
+      "Ping": "PING PHASE",
+      "ID&CFG": "CONFIGURATION PHASE",
+      "Nego": "NEGOTIATION PHASE",
+      "ReNeg": "RE-NEGOTIATION PHASE",
+      "PT": "POWER TRANSFER PHASE",
+      "MPP_PT": "POWER TRANSFER PHASE",
+      "Cloak": "CLOCK PHASE",
+      "Calib": "CALIBRATION PHASE",
+      "Shutdown": "DETACH PHASE"
+    },
     "Compliance": []
   },
   "MPP_TPR": {
