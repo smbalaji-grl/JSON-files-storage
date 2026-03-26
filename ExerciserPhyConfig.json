@@ -3,7 +3,7 @@
         "blockTitle": "Modulator Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -44,7 +44,7 @@
         "blockTitle": "Modulator Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -146,7 +146,7 @@
         "blockTitle": "Load Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -400,7 +400,7 @@
         "blockTitle": "Load Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -620,7 +620,7 @@
         "blockTitle": "TPR Coil Configuration",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -725,7 +725,7 @@
         "blockTitle": "TPR Coil Configuration",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1017,7 +1017,7 @@
         "blockTitle": "Power Profile",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1066,7 +1066,7 @@
         "blockTitle": "Power Profile",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1114,7 +1114,7 @@
         "blockTitle": "Controller Settings",
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -1196,7 +1196,7 @@
         "blockTitle": "Controller Settings",
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
-        "swMode": "TPR Exerciser",
+        "swMode": "Sniffer",
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
