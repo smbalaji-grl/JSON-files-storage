@@ -11,7 +11,7 @@
                 "fieldlabel": "Coil Modulation",
                 "fieldKey": "",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "22nF",
+                "fieldDefaultValue": 5,
                 "fieldOptions": [
                     "0.4nF",
                     "1nF",
@@ -52,7 +52,7 @@
                 "fieldlabel": "128kHz Modulation",
                 "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "33nF",
+                "fieldDefaultValue": 1,
                 "fieldOptions": [
                     "4.7nF",
                     "33nF",
@@ -82,7 +82,7 @@
                 "fieldlabel": "360kHz Modulation",
                 "fieldKey": "CoilModulation_360",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "ASK_DC_Mod",
+                "fieldDefaultValue": 10,
                 "fieldOptions": [
                     "4.7nF",
                     "33nF",
@@ -628,7 +628,7 @@
                 "fieldlabel": "Coil Type",
                 "fieldKey": "coilType",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "TPR_1A",
+                "fieldDefaultValue": 2,
                 "fieldOptions": [
                     "TPR_MP3",
                     "TPR5",
