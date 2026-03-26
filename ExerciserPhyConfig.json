@@ -11,7 +11,7 @@
                 "fieldlabel": "Coil Modulation",
                 "fieldKey": "",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 5,
+                "fieldDefaultValue": "22nF",
                 "fieldOptions": [
                     "0.4nF",
                     "1nF",
@@ -52,7 +52,7 @@
                 "fieldlabel": "128kHz Modulation",
                 "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 1,
+                "fieldDefaultValue": "33nF",
                 "fieldOptions": [
                     "4.7nF",
                     "33nF",
@@ -628,7 +628,7 @@
                 "fieldlabel": "Coil Type",
                 "fieldKey": "coilType",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 2,
+                "fieldDefaultValue": "TPR_1A",
                 "fieldOptions": [
                     "TPR_MP3",
                     "TPR5",
@@ -769,7 +769,7 @@
                 "fieldlabel": "Coil Type",
                 "fieldKey": "coilType",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue":0,
+                "fieldDefaultValue":"TPR_MPP1",
                 "fieldOptions": [
                     "TPR_MPP1",
                     "TPR_MPP4"
