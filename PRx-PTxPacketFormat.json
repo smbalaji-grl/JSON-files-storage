@@ -26870,7 +26870,7 @@
           {
             "FieldName": "Ext",
             "FieldDisplayString": "Ext(B3-b7:7)",
-            "DefaultValue": "0x00",
+            "DefaultValue": "0x01",
             "Units": "",
             "NumberStyle": "Hex",
             "MinValue": 0,
