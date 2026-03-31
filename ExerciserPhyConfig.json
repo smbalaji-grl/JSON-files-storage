@@ -190,7 +190,7 @@
             {
                 "fieldlabel": "Set Load",
                 "fieldKey": "SetLoad",
-                "apiEndpoint": "api/Exerciser/SetLoad",
+                "apiEndpoint": "api/Exerciser/PutSetLoadValues",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -325,7 +325,7 @@
             {
                 "fieldlabel": "Get Temperature",
                 "fieldKey": "GetTemperature",
-                "apiEndpoint": "api/Exerciser/GetTemperature",
+                "apiEndpoint": "api/Exerciser/PutTemperatureSelectionMode",
                 "apiMethod": "GET",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -508,7 +508,7 @@
             {
                 "fieldlabel": "Set Load",
                 "fieldKey": "SetLoad",
-                "apiEndpoint": "api/Exerciser/SetLoad",
+                "apiEndpoint": "api/Exerciser/PutSetLoadValues",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -530,6 +530,7 @@
             {
                 "fieldlabel": "Get Temperature",
                 "fieldKey": "getTemperature",
+                "apiEndpoint": "api/Exerciser/PutTemperatureSelectionMode",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": false,
                 "fieldOptions": [],
@@ -601,6 +602,7 @@
             {
                 "fieldlabel": "Enable Auto Negotiation Load Power",
                 "fieldKey": "enableAutoNegotiationLoadPower",
+                "apiEndpoint": "api/Exerciser/PutAutoNegotiableLoadPower",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": false,
                 "fieldOptions": [],
@@ -689,7 +691,7 @@
             {
                 "fieldlabel": "Set Volt",
                 "fieldKey": "SetVolt",
-                "apiEndpoint": "api/Exerciser/SetVolt",
+                "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -751,7 +753,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetVoltageLoop",
-                "apiEndpoint": "api/Exerciser/SetVoltageLoop",
+                "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -803,7 +805,7 @@
             {
                 "fieldlabel": "Set Volt",
                 "fieldKey": "SetVolt",
-                "apiEndpoint": "api/Exerciser/SetVolt",
+                "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -836,6 +838,7 @@
             {
                 "fieldlabel": "Crx cap",
                 "fieldKey": "crxCap",
+                "apiEndpoint": "api/Exerciser/PutTuningCap",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
                 "fieldOptions": [
@@ -891,7 +894,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetGainLinearization",
-                "apiEndpoint": "api/Exerciser/SetGainLinearization",
+                "apiEndpoint": "api/Exerciser/PutGainLinearization",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1003,6 +1006,7 @@
                 "fieldlabel": "Enable Authentication",
                 "fieldKey": "enableAuthentication",
                 "fieldInputType": "checkbox",
+                "apiEndpoint": "api/Exerciser/EnableUserDefinedAuthentication",
                 "fieldDefaultValue": true,
                 "fieldOptions": [],
                 "fieldUnit": "",
@@ -1082,7 +1086,7 @@
                 "fieldInputType": "text",
                 "fieldDefaultValue": "Magnetic Power Profile",
                 "fieldOptions": [
-				"Magnetic Power Profile",
+				"Magnetic Power Profile"
 				],
                 "fieldUnit": "",
                 "fieldType": "text",
@@ -1343,7 +1347,7 @@
             {
                 "fieldlabel": "Send",
                 "fieldKey": "SendMPPControllerSettings",
-                "apiEndpoint": "api/Exerciser/SendMPPControllerSettings",
+                "apiEndpoint": "SendMPPControllerSettings",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
