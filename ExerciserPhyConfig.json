@@ -190,7 +190,7 @@
             {
                 "fieldlabel": "Set Load",
                 "fieldKey": "SetLoad",
-                "apiEndpoint": "SetLoad",
+                "apiEndpoint": "api/Exerciser/SetLoad",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -288,7 +288,7 @@
             {
                 "fieldlabel": "Start Load",
                 "fieldKey": "StartLoad",
-                "apiEndpoint": "StartLoad",
+                "apiEndpoint": "api/Exerciser/StartLoad",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -325,7 +325,7 @@
             {
                 "fieldlabel": "Get Temperature",
                 "fieldKey": "GetTemperature",
-                "apiEndpoint": "GetTemperature",
+                "apiEndpoint": "api/Exerciser/GetTemperature",
                 "apiMethod": "GET",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -508,7 +508,7 @@
             {
                 "fieldlabel": "Set Load",
                 "fieldKey": "SetLoad",
-                "apiEndpoint": "SetLoad",
+                "apiEndpoint": "api/Exerciser/SetLoad",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -689,7 +689,7 @@
             {
                 "fieldlabel": "Set Volt",
                 "fieldKey": "SetVolt",
-                "apiEndpoint": "SetVolt",
+                "apiEndpoint": "api/Exerciser/SetVolt",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -751,7 +751,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetVoltageLoop",
-                "apiEndpoint": "SetVoltageLoop",
+                "apiEndpoint": "api/Exerciser/SetVoltageLoop",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -803,7 +803,7 @@
             {
                 "fieldlabel": "Set Volt",
                 "fieldKey": "SetVolt",
-                "apiEndpoint": "SetVolt",
+                "apiEndpoint": "api/Exerciser/SetVolt",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -855,7 +855,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetCrxCap",
-                "apiEndpoint": "SetCrxCap",
+                "apiEndpoint": "api/Exerciser/SetCrxCap",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -891,7 +891,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetGainLinearization",
-                "apiEndpoint": "SetGainLinearization",
+                "apiEndpoint": "api/Exerciser/SetGainLinearization",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -927,7 +927,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetCrxSwitching",
-                "apiEndpoint": "SetCrxSwitching",
+                "apiEndpoint": "api/Exerciser/SetCrxSwitching",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -984,7 +984,7 @@
             {
                 "fieldlabel": "Set",
                 "fieldKey": "SetDeltaPLoss",
-                "apiEndpoint": "SetDeltaPLoss",
+                "apiEndpoint": "api/Exerciser/SetDeltaPLoss",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1200,7 +1200,7 @@
             {
                 "fieldlabel": "Send",
                 "fieldKey": "SendTriggerSettings",
-                "apiEndpoint": "SendTriggerSettings",
+                "apiEndpoint": "api/Exerciser/SendTriggerSettings",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1236,7 +1236,7 @@
             {
                 "fieldlabel": "Send",
                 "fieldKey": "SendControllerSettings",
-                "apiEndpoint": "SendControllerSettings",
+                "apiEndpoint": "api/Exerciser/SendControllerSettings",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1307,7 +1307,7 @@
             {
                 "fieldlabel": "Send",
                 "fieldKey": "SendMPPPacketTriggerSettings",
-                "apiEndpoint": "SendMPPPacketTriggerSettings",
+                "apiEndpoint": "api/Exerciser/SendMPPPacketTriggerSettings",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1343,7 +1343,7 @@
             {
                 "fieldlabel": "Send",
                 "fieldKey": "SendMPPControllerSettings",
-                "apiEndpoint": "SendMPPControllerSettings",
+                "apiEndpoint": "api/Exerciser/SendMPPControllerSettings",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
