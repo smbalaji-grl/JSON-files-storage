@@ -8,8 +8,8 @@
         "containerColumn": 5,
         "containerFieldList": [
             {
-                "fieldlabel": "CoilModulation",
-                "fieldKey": "",
+                "fieldlabel": "Coil Modulation",
+                "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "22nF",
                 "fieldOptions": [
