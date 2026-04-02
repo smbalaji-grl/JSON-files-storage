@@ -31004,7 +31004,7 @@
           {
             "FieldName": "Ext",
             "FieldDisplayString": "Ext(B3-b7:7)",
-            "DefaultValue": "0x01",
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "Hex",
             "MinValue": 0,
@@ -34739,7 +34739,7 @@
           {
             "FieldName": "Ext",
             "FieldDisplayString": "Ext(B3-b7:7)",
-            "DefaultValue": "0x01",
+            "DefaultValue": "0x00",
             "Units": "",
             "NumberStyle": "Hex",
             "MinValue": 0,
