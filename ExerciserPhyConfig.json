@@ -4,6 +4,51 @@
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
         "swMode": "Sniffer",
+        "coilTypeFieldKey": "coilType",
+        "modulatorValuesByCoilType": {
+            "TPR_MP3": {
+                "CoilModulation": "60ohms"
+            },
+            "TPR_7": {
+                "CoilModulation": "33ohms"
+            },
+            "TPR_6": {
+                "CoilModulation": "33ohms"
+            },
+            "TPR_5": {
+                "CoilModulation": "33ohms"
+            },
+            "TPR_MP1A": {
+                "CoilModulation": "22nF"
+            },
+            "TPR_MP1B": {
+                "CoilModulation": "60ohms"
+            },
+            "TPR_MP1C": {
+                "CoilModulation": "22nF"
+            },
+            "TPR_MP4": {
+                "CoilModulation": "22nF"
+            },
+            "TPR_1A": {
+                "CoilModulation": "22nF"
+            },
+            "TPR_1B": {
+                "CoilModulation": "33ohms"
+            },
+            "TPR_1C": {
+                "CoilModulation": "10nF"
+            },
+            "TPR_1D": {
+                "CoilModulation": "10nF"
+            },
+            "TPR_1E": {
+                "CoilModulation": "22nF"
+            },
+            "TPR_1F": {
+                "CoilModulation": "33ohms"
+            }
+        },
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
@@ -12,6 +57,9 @@
                 "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "22nF",
+                "coilTypeFieldKey": "coilType",
+                "coilTypeDefaultsSource": "modulatorValuesByCoilType",
+                "coilTypeDefaultValueKey": "CoilModulation",
                 "fieldOptions": [
                     "0.4nF",
                     "1nF",
@@ -165,7 +213,7 @@
                     "9.6"
                 ]
             },
-            "TPR5": {
+            "TPR_5": {
                 "initialLoad": 100,
                 "load": 100,
                 "loadValues": [
@@ -185,6 +233,7 @@
                     ]
                 }
             },
+ 
             "TPR_1A": {
                 "initialLoad": 32,
                 "load": 32,
@@ -195,7 +244,7 @@
                     "3.5"
                 ]
             },
-            "TPR1B": {
+            "TPR_1B": {
                 "initialLoad": 32,
                 "load": 32,
                 "loadValues": [
@@ -204,7 +253,7 @@
                     "8.7"
                 ]
             },
-            "TPR1C": {
+            "TPR_1C": {
                 "initialLoad": 127,
                 "load": 127,
                 "loadValues": [
@@ -215,7 +264,7 @@
                     "10"
                 ]
             },
-            "TPR1D": {
+            "TPR_1D": {
                 "initialLoad": 255,
                 "load": 255,
                 "loadValues": [
@@ -224,7 +273,7 @@
                     "75"
                 ]
             },
-            "TPR1E": {
+            "TPR_1E": {
                 "initialLoad": 32,
                 "load": 32,
                 "loadValues": [
@@ -234,7 +283,7 @@
                     "5"
                 ]
             },
-            "TPR1F": {
+            "TPR_1F": {
                 "initialLoad": 32,
                 "load": 32,
                 "loadValues": [
@@ -243,7 +292,8 @@
                     "8.7"
                 ]
             },
-            "TPR6": {
+ 
+            "TPR_6": {
                 "initialLoad": 100,
                 "load": 100,
                 "loadValues": [
@@ -263,7 +313,7 @@
                     ]
                 }
             },
-            "TPRMP1A": {
+            "TPR_MP1A": {
                 "initialLoad": 42,
                 "load": 42,
                 "loadValues": [
@@ -276,7 +326,7 @@
                     "4.2"
                 ]
             },
-            "TPRMP1B": {
+            "TPR_MP1B": {
                 "initialLoad": 96,
                 "load": 96,
                 "loadValues": [
@@ -292,7 +342,7 @@
                     "9.6"
                 ]
             },
-            "TPRMP1C": {
+            "TPR_MP1C": {
                 "initialLoad": 120,
                 "load": 120,
                 "loadValues": [
@@ -307,7 +357,7 @@
                     "12"
                 ]
             },
-            "TPRMP4": {
+            "TPR_MP4": {
                 "initialLoad": 100,
                 "load": 100,
                 "loadValues": [
@@ -813,18 +863,19 @@
                 "fieldDefaultValue": "TPR_1A",
                 "fieldOptions": [
                     "TPR_MP3",
-                    "TPR5",
+                    "TPR_5",
                     "TPR_1A",
-                    "TPR1B",
-                    "TPR1C",
-                    "TPR1D",
-                    "TPR1E",
-                    "TPR1F",
-                    "TPR6",
-                    "TPRMP1A",
-                    "TPRMP1B",
-                    "TPRMP1C",
-                    "TPRMP4"
+                    "TPR_1B",
+                    "TPR_1C",
+                    "TPR_1D",
+                    "TPR_1E",
+                    "TPR_1F",
+                    "TPR_6",
+                    "TPR_7",
+                    "TPR_MP1A",
+                    "TPR_MP1B",
+                    "TPR_MP1C",
+                    "TPR_MP4"
                 ],
                 "fieldUnit": "",
                 "fieldType": "selection",
