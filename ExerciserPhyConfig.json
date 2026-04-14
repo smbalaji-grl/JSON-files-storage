@@ -165,9 +165,9 @@
             {
                 "fieldlabel": "Base",
                 "showFieldByDefault": true,
-                "fieldKey": "base",
+                "fieldKey": "modulation128_360_base",
                 "fieldInputType": "text",
-                "fieldDefaultValue": "",
+                "fieldDefaultValue": 70,
                 "fieldOptions": [],
                 "fieldUnit": "",
                 "fieldType": "number",
@@ -183,9 +183,9 @@
             {
                 "fieldlabel": "Depth",
                 "showFieldByDefault": true,
-                "fieldKey": "depth",
+                "fieldKey": "modulation128_360_depth",
                 "fieldInputType": "text",
-                "fieldDefaultValue": "",
+                "fieldDefaultValue": 50,
                 "fieldOptions": [],
                 "fieldUnit": "",
                 "fieldType": "number",
@@ -654,7 +654,7 @@
             {
                 "fieldlabel": "Initial Load",
                 "showFieldByDefault": true,
-                "fieldKey": "initialLoad",
+                "fieldKey": "InitialLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 50,
                 "fieldOptions": [],
@@ -672,7 +672,7 @@
             {
                 "fieldlabel": "Load",
                 "showFieldByDefault": true,
-                "fieldKey": "load",
+                "fieldKey": "Load",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 50,
                 "fieldOptions": [
@@ -692,7 +692,7 @@
             {
                 "fieldlabel": "ILim",
                 "showFieldByDefault": true,
-                "fieldKey": "iLim",
+                "fieldKey": "ilim",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
                 "fieldOptions": [
@@ -713,7 +713,7 @@
             {
                 "fieldlabel": "Slew",
                 "showFieldByDefault": true,
-                "fieldKey": "slew",
+                "fieldKey": "isSlew",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": true,
                 "fieldOptions": [],
@@ -731,7 +731,7 @@
             {
                 "fieldlabel": "Slew rate configuration",
                 "showFieldByDefault": true,
-                "fieldKey": "slewRateValue",
+                "fieldKey": "srConfigAmp",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 40,
                 "fieldOptions": [],
@@ -749,7 +749,7 @@
             {
                 "fieldlabel": "/",
                 "showFieldByDefault": true,
-                "fieldKey": "slewRateTime",
+                "fieldKey": "srConfigSec",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 100,
                 "fieldOptions": [],
@@ -780,12 +780,12 @@
                 "fieldGridColumn": 1,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
-                    "initialLoad",
-                    "load",
-                    "iLim",
-                    "slew",
-                    "slewRateValue",
-                    "slewRateTime"
+                    "InitialLoad",
+                    "Load",
+                    "ilim",
+                    "isSlew",
+                    "srConfigAmp",
+                    "srConfigSec"
                 ]
             },
             {
@@ -901,7 +901,7 @@
             {
                 "fieldlabel": "Coil Type",
                 "showFieldByDefault": true,
-                "fieldKey": "coilType",
+                "fieldKey": "CoilType",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "TPR_1A",
                 "fieldOptions": [
@@ -952,7 +952,7 @@
             {
                 "fieldlabel": "Rectified Volt",
                 "showFieldByDefault": true,
-                "fieldKey": "rectifiedVolt",
+                "fieldKey": "CoilVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 4200,
                 "fieldOptions": [],
@@ -983,23 +983,23 @@
                 "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
-                    "rectifiedVolt",
-                    "coilType",
-                    "thresholdVolatge",
+                    "CoilVolatge",
+                    "CoilType",
+                    "ThresholdVolatge",
                     "enableCoilDetection",
-                    "qThreshold",
-                    "overvoltageDcLimit",
-                    "overvoltageAcLimit",
-                    "undervoltageLimit",
-                    "overcurrentLimit",
-                    "controlErrorLimit",
+                    "QThershold",
+                    "OverVoltageDcLimit",
+                    "OverVoltageAcLimit",
+                    "UnderVoltageLimit",
+                    "OverCurrentLimit",
+                    "ControlErrorLimit",
                     "enableCoilDetection"
                 ]
             },
             {
                 "fieldlabel": "Coil Threshold Volt",
                 "showFieldByDefault": true,
-                "fieldKey": "thresholdVolatge",
+                "fieldKey": "ThresholdVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1200,
                 "fieldOptions": [],
@@ -1017,7 +1017,7 @@
             {
                 "fieldlabel": "Q Threshold",
                 "showFieldByDefault": true,
-                "fieldKey": "qThreshold",
+                "fieldKey": "QThershold",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 2000,
                 "fieldOptions": [],
@@ -1035,7 +1035,7 @@
             {
                 "fieldlabel": "Overvoltage DC Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overvoltageDcLimit",
+                "fieldKey": "OverVoltageDcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
                 "fieldOptions": [],
@@ -1053,7 +1053,7 @@
             {
                 "fieldlabel": "Overvoltage AC Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overvoltageAcLimit",
+                "fieldKey": "OverVoltageAcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
                 "fieldOptions": [],
@@ -1071,7 +1071,7 @@
             {
                 "fieldlabel": "Undervoltage Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "undervoltageLimit",
+                "fieldKey": "UnderVoltageLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
                 "fieldOptions": [],
@@ -1089,7 +1089,7 @@
             {
                 "fieldlabel": "Overcurrent Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overcurrentLimit",
+                "fieldKey": "OverCurrentLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 3600,
                 "fieldOptions": [],
@@ -1107,7 +1107,7 @@
             {
                 "fieldlabel": "Control Error Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "controlErrorLimit",
+                "fieldKey": "ControlErrorLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 128,
                 "fieldOptions": [],
@@ -1158,7 +1158,7 @@
                 "fieldlabel": "Set",
                 "showFieldByDefault": true,
                 "fieldKey": "SetVoltageLoop",
-                "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
+                "apiEndpoint": "api/Exerciser/;pp[",
                 "apiMethod": "PUT",
                 "fieldInputType": "button",
                 "fieldDefaultValue": "",
@@ -1170,13 +1170,13 @@
                 "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
-                    "voltageLoop"
+                    
                 ]
             },
             {
                 "fieldlabel": "Coil Type",
                 "showFieldByDefault": true,
-                "fieldKey": "coilType",
+                "fieldKey": "CoilType",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "TPR_MPP1",
                 "fieldOptions": [
@@ -1197,7 +1197,7 @@
             {
                 "fieldlabel": "Rectified Volt",
                 "showFieldByDefault": true,
-                "fieldKey": "rectifiedVolt",
+                "fieldKey": "CoilVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 12000,
                 "fieldOptions": [],
@@ -1228,13 +1228,23 @@
                 "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
-                    "rectifiedVolt"
+                   "CoilVolatge",
+                    "CoilType",
+                    "ThresholdVolatge",
+                    "enableCoilDetection",
+                    "QThershold",
+                    "OverVoltageDcLimit",
+                    "OverVoltageAcLimit",
+                    "UnderVoltageLimit",
+                    "OverCurrentLimit",
+                    "ControlErrorLimit",
+                    "enableCoilDetection"
                 ]
             },
             {
                 "fieldlabel": "Threshold Volt",
                 "showFieldByDefault": true,
-                "fieldKey": "thresholdVolt",
+                "fieldKey": "ThresholdVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1200,
                 "fieldOptions": [],
@@ -1252,7 +1262,7 @@
             {
                 "fieldlabel": "Q Threshold",
                 "showFieldByDefault": true,
-                "fieldKey": "qThreshold",
+                "fieldKey": "QThershold",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 2000,
                 "fieldOptions": [],
@@ -1270,7 +1280,7 @@
             {
                 "fieldlabel": "Overvoltage DC Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overvoltageDcLimit",
+                "fieldKey": "OverVoltageDcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
                 "fieldOptions": [],
@@ -1288,7 +1298,7 @@
             {
                 "fieldlabel": "Overvoltage AC Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overvoltageAcLimit",
+                "fieldKey": "OverVoltageAcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
                 "fieldOptions": [],
@@ -1306,7 +1316,7 @@
             {
                 "fieldlabel": "Undervoltage Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "undervoltageLimit",
+                "fieldKey": "UnderVoltageLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
                 "fieldOptions": [],
@@ -1324,7 +1334,7 @@
             {
                 "fieldlabel": "Overcurrent Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "overcurrentLimit",
+                "fieldKey": "OverCurrentLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 3600,
                 "fieldOptions": [],
@@ -1342,7 +1352,7 @@
             {
                 "fieldlabel": "Control Error Limit",
                 "showFieldByDefault": true,
-                "fieldKey": "controlErrorLimit",
+                "fieldKey": "ControlErrorLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 128,
                 "fieldOptions": [],
