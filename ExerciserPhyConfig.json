@@ -1,6 +1,7 @@
 [
     {
         "blockTitle": "Modulator Configuration",
+        "runtimeconfiguration": true,
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
         "swMode": "Sniffer",
@@ -54,7 +55,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Coil Modulation",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "22nF",
@@ -92,15 +92,21 @@
     },
     {
         "blockTitle": "Modulator Configuration",
+        "runtimeconfiguration": true,
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
+        "settingsFieldKeys": [
+            "modulation128_360_base",
+            "modulation128_360_depth"
+        ],
+        "settingsIconGridRow": 1,
+        "settingsIconGridColumn": 3,
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
             {
                 "fieldlabel": "128kHz Modulation",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilModulation",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "33nF",
@@ -132,7 +138,6 @@
             },
             {
                 "fieldlabel": "360kHz Modulation",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilModulation_360",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "ASK_DC_Mod",
@@ -164,7 +169,6 @@
             },
             {
                 "fieldlabel": "Base",
-                "showFieldByDefault": true,
                 "fieldKey": "modulation128_360_base",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 70,
@@ -182,7 +186,6 @@
             },
             {
                 "fieldlabel": "Depth",
-                "showFieldByDefault": true,
                 "fieldKey": "modulation128_360_depth",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 50,
@@ -363,7 +366,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Initial Load",
-                "showFieldByDefault": true,
                 "fieldKey": "initialLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 32,
@@ -384,7 +386,6 @@
             },
             {
                 "fieldlabel": "Load",
-                "showFieldByDefault": true,
                 "fieldKey": "load",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 32,
@@ -410,7 +411,6 @@
             },
             {
                 "fieldlabel": "Set Load",
-                "showFieldByDefault": true,
                 "fieldKey": "SetLoad",
                 "apiEndpoint": "api/Exerciser/PutSetLoadValues",
                 "apiMethod": "PUT",
@@ -421,7 +421,7 @@
                 "fieldType": "action",
                 "valueType": "string",
                 "fieldGridRow": 2,
-                "fieldGridColumn": 1,
+                "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
                     "coilType",
@@ -430,8 +430,25 @@
                 ]
             },
             {
+                "fieldlabel": "Current Load",
+                "fieldKey": "liveCurrentLoadHeader",
+                "fieldInputType": "label",
+                "valueFromField": "load",
+                "fieldDefaultValue": 32,
+                "fieldUnit": " Ω",
+                "fieldType": "label",
+                "valueType": "decimal",
+                "valuePrefix": ": ",
+                "labelGridRow": 2,
+                "labelGridColumn": 4,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 2,
+                "fieldGridColumn": 5,
+                "fieldGridColumnSpan": 1,
+                "alignLabel": "left"
+            },
+            {
                 "fieldlabel": "Min Load",
-                "showFieldByDefault": true,
                 "fieldKey": "MinimumLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 50,
@@ -449,7 +466,6 @@
             },
             {
                 "fieldlabel": "Max Load",
-                "showFieldByDefault": true,
                 "fieldKey": "MaximumLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
@@ -467,7 +483,6 @@
             },
             {
                 "fieldlabel": "Step Load",
-                "showFieldByDefault": true,
                 "fieldKey": "StepLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 10,
@@ -485,7 +500,6 @@
             },
             {
                 "fieldlabel": "Step Time",
-                "showFieldByDefault": true,
                 "fieldKey": "StepTime",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
@@ -503,7 +517,6 @@
             },
             {
                 "fieldlabel": "Test Duration",
-                "showFieldByDefault": true,
                 "fieldKey": "TestDuration",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 600,
@@ -521,7 +534,6 @@
             },
             {
                 "fieldlabel": "Start Load",
-                "showFieldByDefault": true,
                 "fieldKey": "StartLoad",
                 "apiEndpoint": "api/Exerciser/PutLoadRamp",
                 "apiMethod": "PUT",
@@ -532,7 +544,7 @@
                 "fieldType": "action",
                 "valueType": "string",
                 "fieldGridRow": 6,
-                "fieldGridColumn": 1,
+                "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
                     "MinimumLoad",
@@ -544,7 +556,6 @@
             },
             {
                 "fieldlabel": "Add Thermal Channels",
-                "showFieldByDefault": true,
                 "fieldKey": "addThermalChannels",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": false,
@@ -552,17 +563,12 @@
                 "fieldUnit": "",
                 "fieldType": "boolean",
                 "valueType": "bool",
-                "labelGridRow": 7,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
                 "fieldGridRow": 7,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 1,
+                "fieldGridColumnSpan": 2
             },
             {
                 "fieldlabel": "Get Temperature",
-                "showFieldByDefault": true,
                 "fieldKey": "GetTemperature",
                 "apiEndpoint": "api/Exerciser/GetAmbientandCoilTemperatures",
                 "apiMethod": "GET",
@@ -581,7 +587,6 @@
             },
             {
                 "fieldlabel": "Amb Temp",
-                "showFieldByDefault": true,
                 "fieldKey": "ambTemp",
                 "fieldInputType": "range",
                 "fieldDefaultValue": 0,
@@ -592,6 +597,7 @@
                 "fieldType": "number",
                 "valueType": "int",
                 "fieldReadonly": true,
+                "liveDataKey": true,
                 "labelGridRow": 8,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
@@ -602,7 +608,6 @@
             },
             {
                 "fieldlabel": "FO Temp",
-                "showFieldByDefault": true,
                 "fieldKey": "foTemp",
                 "fieldInputType": "range",
                 "fieldDefaultValue": 0,
@@ -613,6 +618,7 @@
                 "fieldType": "number",
                 "valueType": "int",
                 "fieldReadonly": true,
+                "liveDataKey": true,
                 "labelGridRow": 9,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
@@ -623,22 +629,74 @@
             },
             {
                 "fieldlabel": "Temp Diff",
-                "showFieldByDefault": true,
                 "fieldKey": "tempDiff",
-                "fieldInputType": "text",
+                "fieldInputType": "label",
                 "fieldDefaultValue": 0,
                 "fieldOptions": [],
                 "fieldUnit": "℃",
                 "fieldType": "decimal",
                 "valueType": "decimal",
-                "fieldReadonly": true,
+                "liveDataKey": true,
                 "labelGridRow": 10,
                 "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
+                "labelGridColumnSpan": 2,
                 "fieldGridRow": 10,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Current Load",
+                "fieldKey": "liveCurrentLoad",
+                "fieldInputType": "label",
+                "fieldDefaultValue": 0,
+                "fieldUnit": "",
+                "fieldType": "label",
+                "valueType": "int",
+                "valuePrefix": ": ",
+                "labelGridRow": 8,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 8,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Max Temp",
+                "fieldKey": "liveMaxTemp",
+                "fieldInputType": "label",
+                "fieldDefaultValue": 0,
+                "fieldUnit": "℃",
+                "fieldType": "label",
+                "valueType": "int",
+                "valuePrefix": ": ",
+                "liveDataKey": true,
+                "labelGridRow": 9,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 9,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Time Elapsed",
+                "fieldKey": "liveTimeElapsed",
+                "fieldInputType": "label",
+                "fieldDefaultValue": "00:00:00",
+                "fieldUnit": "",
+                "fieldType": "label",
+                "valueType": "string",
+                "valuePrefix": ": ",
+                "liveDataKey": true,
+                "labelGridRow": 10,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 10,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
             }
         ]
     },
@@ -653,7 +711,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Initial Load",
-                "showFieldByDefault": true,
                 "fieldKey": "InitialLoad",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 50,
@@ -671,7 +728,6 @@
             },
             {
                 "fieldlabel": "Load",
-                "showFieldByDefault": true,
                 "fieldKey": "Load",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 50,
@@ -691,7 +747,6 @@
             },
             {
                 "fieldlabel": "ILim",
-                "showFieldByDefault": true,
                 "fieldKey": "ilim",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
@@ -712,7 +767,6 @@
             },
             {
                 "fieldlabel": "Slew",
-                "showFieldByDefault": true,
                 "fieldKey": "isSlew",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": true,
@@ -730,7 +784,6 @@
             },
             {
                 "fieldlabel": "Slew rate configuration",
-                "showFieldByDefault": true,
                 "fieldKey": "srConfigAmp",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 40,
@@ -748,7 +801,6 @@
             },
             {
                 "fieldlabel": "/",
-                "showFieldByDefault": true,
                 "fieldKey": "srConfigSec",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 100,
@@ -766,7 +818,6 @@
             },
             {
                 "fieldlabel": "Set Load",
-                "showFieldByDefault": true,
                 "fieldKey": "SetLoad",
                 "apiEndpoint": "api/Exerciser/PutSetLoadValues",
                 "apiMethod": "PUT",
@@ -777,7 +828,7 @@
                 "fieldType": "action",
                 "valueType": "string",
                 "fieldGridRow": 4,
-                "fieldGridColumn": 1,
+                "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
                     "InitialLoad",
@@ -790,7 +841,6 @@
             },
             {
                 "fieldlabel": "Get Temperature",
-                "showFieldByDefault": true,
                 "fieldKey": "getTemperature",
                 "apiEndpoint": "api/Exerciser/PutTemperatureSelectionMode",
                 "fieldInputType": "checkbox",
@@ -799,17 +849,12 @@
                 "fieldUnit": "",
                 "fieldType": "boolean",
                 "valueType": "bool",
-                "labelGridRow": 5,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
                 "fieldGridRow": 5,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 1,
+                "fieldGridColumnSpan": 2
             },
             {
                 "fieldlabel": "Amb Temp",
-                "showFieldByDefault": true,
                 "fieldKey": "ambTemp",
                 "fieldInputType": "range",
                 "fieldDefaultValue": 0,
@@ -820,17 +865,21 @@
                 "fieldType": "number",
                 "valueType": "int",
                 "fieldReadonly": true,
+                "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "getTemperature",
+                    "equals": true
+                },
                 "labelGridRow": 6,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 6,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "FO Temp",
-                "showFieldByDefault": true,
                 "fieldKey": "foTemp",
                 "fieldInputType": "range",
                 "fieldDefaultValue": 0,
@@ -841,36 +890,114 @@
                 "fieldType": "number",
                 "valueType": "int",
                 "fieldReadonly": true,
+                "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "getTemperature",
+                    "equals": true
+                },
                 "labelGridRow": 7,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 7,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Temp Diff",
-                "showFieldByDefault": true,
                 "fieldKey": "tempDiff",
-                "fieldInputType": "text",
+                "fieldInputType": "label",
                 "fieldDefaultValue": 0,
                 "fieldOptions": [],
                 "fieldUnit": "℃",
                 "fieldType": "decimal",
                 "valueType": "decimal",
-                "fieldReadonly": true,
+                "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "getTemperature",
+                    "equals": true
+                },
                 "labelGridRow": 8,
                 "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
+                "labelGridColumnSpan": 2,
                 "fieldGridRow": 8,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Current Load",
+                "fieldKey": "liveCurrentLoadHeader",
+                "fieldInputType": "label",
+                "valueFromField": "Load",
+                "fieldDefaultValue": 50,
+                "fieldUnit": " mA",
+                "fieldType": "label",
+                "valueType": "int",
+                "valuePrefix": ": ",
+                "labelGridRow": 4,
+                "labelGridColumn": 4,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 4,
+                "fieldGridColumn": 5,
+                "fieldGridColumnSpan": 1,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Current Load",
+                "fieldKey": "liveCurrentLoad",
+                "fieldInputType": "label",
+                "fieldDefaultValue": 0,
+                "fieldUnit": "",
+                "fieldType": "label",
+                "valueType": "int",
+                "valuePrefix": ": ",
+                "labelGridRow": 6,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 6,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Max Temp",
+                "fieldKey": "liveMaxTemp",
+                "fieldInputType": "label",
+                "fieldDefaultValue": 0,
+                "fieldUnit": "℃",
+                "fieldType": "label",
+                "valueType": "int",
+                "valuePrefix": ": ",
+                "liveDataKey": true,
+                "labelGridRow": 7,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 7,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "Time Elapsed",
+                "fieldKey": "liveTimeElapsed",
+                "fieldInputType": "label",
+                "fieldDefaultValue": "00:00:00",
+                "fieldUnit": "",
+                "fieldType": "label",
+                "valueType": "string",
+                "valuePrefix": ": ",
+                "liveDataKey": true,
+                "labelGridRow": 8,
+                "labelGridColumn": 3,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 8,
+                "fieldGridColumn": 4,
+                "fieldGridColumnSpan": 2,
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Enable Auto Negotiation Load Power",
-                "showFieldByDefault": true,
                 "fieldKey": "enableAutoNegotiationLoadPower",
                 "apiEndpoint": "api/Exerciser/PutAutoNegotiableLoadPower",
                 "fieldInputType": "checkbox",
@@ -879,13 +1006,9 @@
                 "fieldUnit": "",
                 "fieldType": "boolean",
                 "valueType": "bool",
-                "labelGridRow": 9,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
                 "fieldGridRow": 9,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 1,
+                "fieldGridColumnSpan": 5
             }
         ]
     },
@@ -900,7 +1023,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Coil Type",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilType",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "TPR_1A",
@@ -933,7 +1055,6 @@
             },
             {
                 "fieldlabel": "Enable Coil Detection",
-                "showFieldByDefault": true,
                 "fieldKey": "enableCoilDetection",
                 "fieldInputType": "checkbox",
                 "fieldDefaultValue": false,
@@ -951,7 +1072,6 @@
             },
             {
                 "fieldlabel": "Rectified Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 4200,
@@ -969,7 +1089,6 @@
             },
             {
                 "fieldlabel": "Set Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "SetVolt",
                 "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
                 "apiMethod": "PUT",
@@ -998,7 +1117,6 @@
             },
             {
                 "fieldlabel": "Coil Threshold Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "ThresholdVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1200,
@@ -1016,7 +1134,6 @@
             },
             {
                 "fieldlabel": "Q Threshold",
-                "showFieldByDefault": true,
                 "fieldKey": "QThershold",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 2000,
@@ -1034,7 +1151,6 @@
             },
             {
                 "fieldlabel": "Overvoltage DC Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverVoltageDcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
@@ -1052,7 +1168,6 @@
             },
             {
                 "fieldlabel": "Overvoltage AC Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverVoltageAcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
@@ -1070,7 +1185,6 @@
             },
             {
                 "fieldlabel": "Undervoltage Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "UnderVoltageLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
@@ -1088,7 +1202,6 @@
             },
             {
                 "fieldlabel": "Overcurrent Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverCurrentLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 3600,
@@ -1106,7 +1219,6 @@
             },
             {
                 "fieldlabel": "Control Error Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "ControlErrorLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 128,
@@ -1130,12 +1242,22 @@
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
+        "settingsFieldKeys": [
+            "ThresholdVolatge",
+            "QThershold",
+            "OverVoltageDcLimit",
+            "OverVoltageAcLimit",
+            "UnderVoltageLimit",
+            "OverCurrentLimit",
+            "ControlErrorLimit"
+        ],
+        "settingsIconGridRow": 3,
+        "settingsIconGridColumn": 4,
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
             {
                 "fieldlabel": "Voltage Loop",
-                "showFieldByDefault": true,
                 "fieldKey": "voltageLoop",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "Disable",
@@ -1156,7 +1278,6 @@
             },
             {
                 "fieldlabel": "Set",
-                "showFieldByDefault": true,
                 "fieldKey": "SetVoltageLoop",
                 "apiEndpoint": "api/Exerciser/PutVoltageLoop",
                 "apiMethod": "PUT",
@@ -1175,7 +1296,6 @@
             },
             {
                 "fieldlabel": "Coil Type",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilType",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "TPR_MPP1",
@@ -1196,7 +1316,6 @@
             },
             {
                 "fieldlabel": "Rectified Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "CoilVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 12000,
@@ -1214,7 +1333,6 @@
             },
             {
                 "fieldlabel": "Set Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "SetVolt",
                 "apiEndpoint": "api/Exerciser/PutSetVoltageValues",
                 "apiMethod": "PUT",
@@ -1228,7 +1346,7 @@
                 "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
-                   "CoilVolatge",
+                    "CoilVolatge",
                     "CoilType",
                     "ThresholdVolatge",
                     "enableCoilDetection",
@@ -1243,7 +1361,6 @@
             },
             {
                 "fieldlabel": "Threshold Volt",
-                "showFieldByDefault": true,
                 "fieldKey": "ThresholdVolatge",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1200,
@@ -1261,7 +1378,6 @@
             },
             {
                 "fieldlabel": "Q Threshold",
-                "showFieldByDefault": true,
                 "fieldKey": "QThershold",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 2000,
@@ -1279,7 +1395,6 @@
             },
             {
                 "fieldlabel": "Overvoltage DC Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverVoltageDcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
@@ -1297,7 +1412,6 @@
             },
             {
                 "fieldlabel": "Overvoltage AC Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverVoltageAcLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 18000,
@@ -1315,7 +1429,6 @@
             },
             {
                 "fieldlabel": "Undervoltage Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "UnderVoltageLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 1000,
@@ -1333,7 +1446,6 @@
             },
             {
                 "fieldlabel": "Overcurrent Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "OverCurrentLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 3600,
@@ -1351,7 +1463,6 @@
             },
             {
                 "fieldlabel": "Control Error Limit",
-                "showFieldByDefault": true,
                 "fieldKey": "ControlErrorLimit",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 128,
@@ -1369,7 +1480,6 @@
             },
             {
                 "fieldlabel": "Crx cap",
-                "showFieldByDefault": true,
                 "fieldKey": "crxCap",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
@@ -1390,7 +1500,6 @@
             },
             {
                 "fieldlabel": "Set",
-                "showFieldByDefault": true,
                 "fieldKey": "SetCrxCap",
                 "apiEndpoint": "api/Exerciser/PutTuningCap",
                 "apiMethod": "PUT",
@@ -1409,7 +1518,6 @@
             },
             {
                 "fieldlabel": "Gain Linearization",
-                "showFieldByDefault": true,
                 "fieldKey": "gainLinearization",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
@@ -1430,7 +1538,6 @@
             },
             {
                 "fieldlabel": "Set",
-                "showFieldByDefault": true,
                 "fieldKey": "SetGainLinearization",
                 "apiEndpoint": "api/Exerciser/PutGainLinearization",
                 "apiMethod": "PUT",
@@ -1449,7 +1556,6 @@
             },
             {
                 "fieldlabel": "CRx Switching",
-                "showFieldByDefault": true,
                 "fieldKey": "crxSwitching",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "Disable",
@@ -1470,7 +1576,6 @@
             },
             {
                 "fieldlabel": "Set",
-                "showFieldByDefault": true,
                 "fieldKey": "SetCrxSwitching",
                 "apiEndpoint": "api/Exerciser/PutCRXSwitching",
                 "apiMethod": "PUT",
@@ -1489,7 +1594,6 @@
             },
             {
                 "fieldlabel": "Delta PLoss",
-                "showFieldByDefault": true,
                 "fieldKey": "deltaPLoss",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "Disable",
@@ -1510,7 +1614,6 @@
             },
             {
                 "fieldlabel": "DPLC",
-                "showFieldByDefault": true,
                 "fieldKey": "dplc",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "DPLC - 1",
@@ -1533,7 +1636,6 @@
             },
             {
                 "fieldlabel": "Set",
-                "showFieldByDefault": true,
                 "fieldKey": "SetDeltaPLoss",
                 "apiEndpoint": "api/Exerciser/PutDeltaPLoss",
                 "apiMethod": "PUT",
@@ -1553,7 +1655,6 @@
             },
             {
                 "fieldlabel": "Enable Authentication",
-                "showFieldByDefault": true,
                 "fieldKey": "enableAuthentication",
                 "fieldInputType": "checkbox",
                 "apiEndpoint": "api/Exerciser/EnableUserDefinedAuthentication",
@@ -1574,6 +1675,7 @@
     },
     {
         "blockTitle": "Power Profile",
+        "runtimeconfiguration": true,
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
         "swMode": "Sniffer",
@@ -1582,7 +1684,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Potential Load Power",
-                "showFieldByDefault": true,
                 "fieldKey": "potentialLoadPower",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "5",
@@ -1607,6 +1708,7 @@
     },
     {
         "blockTitle": "Power Profile",
+        "runtimeconfiguration": true,
         "showBlock": true,
         "appPowerProfile": "MPP15 || MPP25 || APP15 || APP25",
         "swMode": "Sniffer",
@@ -1614,8 +1716,7 @@
         "containerColumn": 5,
         "containerFieldList": [
             {
-                "fieldlabel":  "Potential Load Power",
-                "showFieldByDefault": true,
+                "fieldlabel": "Potential Load Power",
                 "fieldKey": "potentialLoadPower",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "15",
@@ -1650,7 +1751,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "PacketTrigger Settings",
-                "showFieldByDefault": true,
                 "fieldKey": "TriggerSettings",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "Instant Trigger",
@@ -1723,7 +1823,6 @@
             },
             {
                 "fieldlabel": "Send",
-                "showFieldByDefault": true,
                 "fieldKey": "SendTriggerSettings",
                 "apiEndpoint": "api/Exerciser/PutTriggerForMsg",
                 "apiMethod": "PUT",
@@ -1742,7 +1841,6 @@
             },
             {
                 "fieldlabel": "Controller Settings",
-                "showFieldByDefault": true,
                 "fieldKey": "ControllerSettings",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "Power Cycle Controller",
@@ -1763,7 +1861,6 @@
             },
             {
                 "fieldlabel": "Send",
-                "showFieldByDefault": true,
                 "fieldKey": "SendControllerSettings",
                 "apiEndpoint": "api/Exerciser/PutControllerSettings",
                 "apiMethod": "PUT",
@@ -1793,7 +1890,6 @@
         "containerFieldList": [
             {
                 "fieldlabel": "Packet Trigger Settings",
-                "showFieldByDefault": true,
                 "fieldKey": "TriggerSettings",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
@@ -1839,7 +1935,6 @@
             },
             {
                 "fieldlabel": "Send",
-                "showFieldByDefault": true,
                 "fieldKey": "SendMPPPacketTriggerSettings",
                 "apiEndpoint": "api/Exerciser/PutTriggerForMsg",
                 "apiMethod": "PUT",
@@ -1858,7 +1953,6 @@
             },
             {
                 "fieldlabel": "Controller Settings",
-                "showFieldByDefault": true,
                 "fieldKey": "ControllerSettings",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": 0,
@@ -1879,7 +1973,6 @@
             },
             {
                 "fieldlabel": "Send",
-                "showFieldByDefault": true,
                 "fieldKey": "SendMPPControllerSettings",
                 "apiEndpoint": "api/Exerciser/PutControllerSettings",
                 "apiMethod": "PUT",
