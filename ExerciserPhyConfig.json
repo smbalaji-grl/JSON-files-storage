@@ -1018,6 +1018,16 @@
         "showBlock": true,
         "appPowerProfile": "BPP || EPP",
         "swMode": "Sniffer",
+        "settingsFieldKeys": [
+            "QThershold",
+            "OverVoltageDcLimit",
+            "OverVoltageAcLimit",
+            "UnderVoltageLimit",
+            "OverCurrentLimit",
+            "ControlErrorLimit"
+        ],
+        "settingsIconGridRow": 3,
+        "settingsIconGridColumn": 4,
         "containerRow": 7,
         "containerColumn": 5,
         "containerFieldList": [
