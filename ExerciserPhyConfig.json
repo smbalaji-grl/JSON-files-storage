@@ -86,7 +86,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             }
         ]
     },
@@ -134,7 +134,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "360kHz Modulation",
@@ -165,7 +165,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Base",
@@ -182,7 +182,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Depth",
@@ -199,7 +199,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 6,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             }
         ]
     },
@@ -382,13 +382,13 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Load",
                 "fieldKey": "load",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 32,
+                "fieldDefaultValue": "32",
                 "fieldOptions": [
                     "32",
                     "16",
@@ -407,7 +407,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set Load",
@@ -462,7 +462,7 @@
                 "fieldGridRow": 3,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Max Load",
@@ -479,7 +479,7 @@
                 "fieldGridRow": 3,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Step Load",
@@ -496,7 +496,7 @@
                 "fieldGridRow": 4,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Step Time",
@@ -513,7 +513,7 @@
                 "fieldGridRow": 4,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Test Duration",
@@ -530,7 +530,7 @@
                 "fieldGridRow": 5,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Start Load",
@@ -598,13 +598,17 @@
                 "valueType": "int",
                 "fieldReadonly": true,
                 "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "addThermalChannels",
+                    "equals": true
+                },
                 "labelGridRow": 8,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 8,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "FO Temp",
@@ -619,13 +623,17 @@
                 "valueType": "int",
                 "fieldReadonly": true,
                 "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "addThermalChannels",
+                    "equals": true
+                },
                 "labelGridRow": 9,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 9,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Temp Diff",
@@ -637,6 +645,10 @@
                 "fieldType": "decimal",
                 "valueType": "decimal",
                 "liveDataKey": true,
+                "enabledWhen": {
+                    "fieldKey": "addThermalChannels",
+                    "equals": true
+                },
                 "labelGridRow": 10,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 2,
@@ -690,6 +702,10 @@
                 "valueType": "string",
                 "valuePrefix": ": ",
                 "liveDataKey": true,
+                "tickerWhen": {
+                    "fieldKey": "addThermalChannels",
+                    "equals": true
+                },
                 "labelGridRow": 10,
                 "labelGridColumn": 3,
                 "labelGridColumnSpan": 1,
@@ -718,38 +734,46 @@
                 "fieldUnit": "mA",
                 "fieldType": "number",
                 "valueType": "int",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "labelGridRow": 1,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Load",
                 "fieldKey": "Load",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 50,
+                "fieldDefaultValue": "50",
                 "fieldOptions": [
                     "50"
                 ],
                 "fieldUnit": "mA",
                 "fieldType": "selection",
                 "valueType": "int",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "labelGridRow": 1,
                 "labelGridColumn": 3,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 1,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "ILim",
                 "fieldKey": "ilim",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 0,
+                "fieldDefaultValue": "Enable",
                 "fieldOptions": [
                     "Enable",
                     "Disable"
@@ -757,13 +781,17 @@
                 "fieldUnit": "",
                 "fieldType": "selection",
                 "valueType": "string",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "labelGridRow": 2,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Slew",
@@ -774,13 +802,17 @@
                 "fieldUnit": "",
                 "fieldType": "boolean",
                 "valueType": "bool",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "labelGridRow": 2,
                 "labelGridColumn": 3,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 2,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Slew rate configuration",
@@ -789,32 +821,39 @@
                 "fieldDefaultValue": 40,
                 "fieldOptions": [],
                 "fieldUnit": "mA",
+                "fieldUnitInline": true,
                 "fieldType": "number",
                 "valueType": "int",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "labelGridRow": 3,
                 "labelGridColumn": 1,
                 "labelGridColumnSpan": 1,
                 "fieldGridRow": 3,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
-                "fieldlabel": "/",
+                "fieldlabel": "",
                 "fieldKey": "srConfigSec",
                 "fieldInputType": "text",
                 "fieldDefaultValue": 100,
                 "fieldOptions": [],
                 "fieldUnit": "ms",
+                "fieldUnitInline": true,
+                "fieldPrefix": "/",
                 "fieldType": "number",
                 "valueType": "int",
-                "labelGridRow": 3,
-                "labelGridColumn": 3,
-                "labelGridColumnSpan": 1,
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "fieldGridRow": 3,
-                "fieldGridColumn": 4,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 3,
+                "fieldGridColumnSpan": 1
             },
             {
                 "fieldlabel": "Set Load",
@@ -827,6 +866,10 @@
                 "fieldUnit": "",
                 "fieldType": "action",
                 "valueType": "string",
+                "enabledWhen": {
+                    "fieldKey": "enableAutoNegotiationLoadPower",
+                    "equals": false
+                },
                 "fieldGridRow": 4,
                 "fieldGridColumn": 3,
                 "fieldGridColumnSpan": 1,
@@ -988,6 +1031,10 @@
                 "valueType": "string",
                 "valuePrefix": ": ",
                 "liveDataKey": true,
+                "tickerWhen": {
+                    "fieldKey": "getTemperature",
+                    "equals": true
+                },
                 "labelGridRow": 8,
                 "labelGridColumn": 3,
                 "labelGridColumnSpan": 1,
@@ -1035,7 +1082,7 @@
                 "fieldlabel": "Coil Type",
                 "fieldKey": "CoilType",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "TPR_1A",
+                "fieldDefaultValue": "TPR_MP3",
                 "fieldOptions": [
                     "TPR_MP3",
                     "TPR_5",
@@ -1061,7 +1108,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Enable Coil Detection",
@@ -1078,7 +1125,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Rectified Volt",
@@ -1095,7 +1142,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set Volt",
@@ -1140,7 +1187,7 @@
                 "fieldGridRow": 3,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Q Threshold",
@@ -1157,7 +1204,7 @@
                 "fieldGridRow": 4,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overvoltage DC Limit",
@@ -1174,7 +1221,7 @@
                 "fieldGridRow": 5,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overvoltage AC Limit",
@@ -1191,7 +1238,7 @@
                 "fieldGridRow": 6,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Undervoltage Limit",
@@ -1208,7 +1255,7 @@
                 "fieldGridRow": 7,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overcurrent Limit",
@@ -1225,7 +1272,7 @@
                 "fieldGridRow": 8,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Control Error Limit",
@@ -1242,7 +1289,7 @@
                 "fieldGridRow": 9,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             }
         ]
     },
@@ -1284,7 +1331,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set",
@@ -1322,7 +1369,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Rectified Volt",
@@ -1339,7 +1386,7 @@
                 "fieldGridRow": 3,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set Volt",
@@ -1384,7 +1431,7 @@
                 "fieldGridRow": 4,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Q Threshold",
@@ -1401,7 +1448,7 @@
                 "fieldGridRow": 4,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overvoltage DC Limit",
@@ -1418,7 +1465,7 @@
                 "fieldGridRow": 5,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overvoltage AC Limit",
@@ -1435,7 +1482,7 @@
                 "fieldGridRow": 6,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Undervoltage Limit",
@@ -1452,7 +1499,7 @@
                 "fieldGridRow": 7,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Overcurrent Limit",
@@ -1469,7 +1516,7 @@
                 "fieldGridRow": 8,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Control Error Limit",
@@ -1486,13 +1533,13 @@
                 "fieldGridRow": 9,
                 "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Crx cap",
                 "fieldKey": "crxCap",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 0,
+                "fieldDefaultValue": "710nF",
                 "fieldOptions": [
                     "710nF",
                     "174nF"
@@ -1506,7 +1553,7 @@
                 "fieldGridRow": 5,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set",
@@ -1530,7 +1577,7 @@
                 "fieldlabel": "Gain Linearization",
                 "fieldKey": "gainLinearization",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 0,
+                "fieldDefaultValue": "Disable",
                 "fieldOptions": [
                     "Disable",
                     "Enable"
@@ -1544,7 +1591,7 @@
                 "fieldGridRow": 6,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set",
@@ -1582,7 +1629,7 @@
                 "fieldGridRow": 7,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Set",
@@ -1620,10 +1667,10 @@
                 "fieldGridRow": 8,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
-                "fieldlabel": "DPLC",
+                "fieldlabel": "",
                 "fieldKey": "dplc",
                 "fieldInputType": "dropdown",
                 "fieldDefaultValue": "DPLC - 1",
@@ -1636,13 +1683,9 @@
                 "fieldUnit": "",
                 "fieldType": "selection",
                 "valueType": "string",
-                "labelGridRow": 8,
-                "labelGridColumn": 3,
-                "labelGridColumnSpan": 1,
                 "fieldGridRow": 8,
-                "fieldGridColumn": 4,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 3,
+                "fieldGridColumnSpan": 1
             },
             {
                 "fieldlabel": "Set",
@@ -1656,7 +1699,7 @@
                 "fieldType": "action",
                 "valueType": "string",
                 "fieldGridRow": 8,
-                "fieldGridColumn": 5,
+                "fieldGridColumn": 4,
                 "fieldGridColumnSpan": 1,
                 "relatedFields": [
                     "deltaPLoss",
@@ -1673,13 +1716,10 @@
                 "fieldUnit": "",
                 "fieldType": "boolean",
                 "valueType": "bool",
-                "labelGridRow": 9,
-                "labelGridColumn": 1,
-                "labelGridColumnSpan": 1,
                 "fieldGridRow": 9,
-                "fieldGridColumn": 2,
-                "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "fieldGridColumn": 1,
+                "fieldGridColumnSpan": 5,
+                "alignLabel": "left"
             }
         ]
     },
@@ -1696,7 +1736,7 @@
                 "fieldlabel": "Potential Load Power",
                 "fieldKey": "potentialLoadPower",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "5",
+                "fieldDefaultValue": "15",
                 "fieldOptions": [
                     "5",
                     "8",
@@ -1712,7 +1752,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             }
         ]
     },
@@ -1729,7 +1769,7 @@
                 "fieldlabel": "Potential Load Power",
                 "fieldKey": "potentialLoadPower",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": "15",
+                "fieldDefaultValue": "5",
                 "fieldOptions": [
                     "5",
                     "10",
@@ -1746,7 +1786,42 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
+                "alignLabel": "left"
+            },
+            {
+                "fieldlabel": "PRect Offset",
+                "fieldKey": "prectOffsetValue",
+                "fieldInputType": "text",
+                "fieldDefaultValue": 0,
+                "fieldOptions": [],
+                "fieldUnit": "mW",
+                "fieldType": "number",
+                "valueType": "int",
+                "labelGridRow": 3,
+                "labelGridColumn": 1,
+                "labelGridColumnSpan": 1,
+                "fieldGridRow": 3,
+                "fieldGridColumn": 2,
+                "fieldGridColumnSpan": 1,
                 "alignLabel": "center"
+            },
+            {
+                "fieldlabel": "Set",
+                "fieldKey": "SendMPPPacketprectOffsetValue",
+                "apiEndpoint": "api/Exerciser/PutPRECTOffSetRunTimePacketConfiguration",
+                "apiMethod": "PUT",
+                "fieldInputType": "button",
+                "fieldDefaultValue": "",
+                "fieldOptions": null,
+                "fieldUnit": "",
+                "fieldType": "action",
+                "valueType": "string",
+                "fieldGridRow": 3,
+                "fieldGridColumn": 3,
+                "fieldGridColumnSpan": 1,
+                "relatedFields": [
+                    "prectOffsetValue"
+                ]
             }
         ]
     },
@@ -1829,7 +1904,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Send",
@@ -1867,7 +1942,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Send",
@@ -1902,7 +1977,7 @@
                 "fieldlabel": "Packet Trigger Settings",
                 "fieldKey": "TriggerSettings",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 0,
+                "fieldDefaultValue": "Instant Trigger",
                 "fieldOptions": [
                     "Instant Trigger",
                     "Clear Trigger",
@@ -1941,7 +2016,7 @@
                 "fieldGridRow": 1,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Send",
@@ -1965,7 +2040,7 @@
                 "fieldlabel": "Controller Settings",
                 "fieldKey": "ControllerSettings",
                 "fieldInputType": "dropdown",
-                "fieldDefaultValue": 0,
+                "fieldDefaultValue": "Power Cycle Controller",
                 "fieldOptions": [
                     "Power Cycle Controller",
                     "Reset Controller"
@@ -1979,7 +2054,7 @@
                 "fieldGridRow": 2,
                 "fieldGridColumn": 2,
                 "fieldGridColumnSpan": 1,
-                "alignLabel": "center"
+                "alignLabel": "left"
             },
             {
                 "fieldlabel": "Send",
