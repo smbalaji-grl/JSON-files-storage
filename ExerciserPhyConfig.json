@@ -749,7 +749,7 @@
             {
                 "fieldlabel": "Load",
                 "fieldKey": "Load",
-                "fieldInputType": "range",
+                "fieldInputType": "text",
                 "fieldDefaultValue": 50,
                 "fieldMin": 0,
                 "fieldMax": 1000,
