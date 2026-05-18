@@ -16,8 +16,9 @@
       "CALIB": "CALIBRATION PHASE"
     },
     "Exerciser": {
-      "RESET": "RESET PHASE",
+      "Reset": "RESET PHASE",
       "Ping": "PING PHASE",
+	  "Selection":"SELECTION_PHASE",
       "ID&CFG": "CONFIGURATION PHASE",
       "Nego": "NEGOTIATION PHASE",
       "ReNeg": "RE-NEGOTIATION PHASE",
