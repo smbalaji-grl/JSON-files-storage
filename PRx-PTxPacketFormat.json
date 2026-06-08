@@ -12831,7 +12831,9 @@
         ],
         "PowerProfileSupported": [
           "MPP15",
-          "APP15"
+          "APP15",
+          "MPP25",
+          "APP25"
         ],
         "PacketPhase": "NegotiationPhase",
         "ExtendedConfiguration": [
@@ -13403,6 +13405,7 @@
         "Selector": "",
         "ByteCount": 2,
         "PacketEditable": true,
+        "PacketPhase": "NegotiationPhase",
         "Fields": [
           {
             "FieldName": "Parameter",
