@@ -51,46 +51,6 @@
         "Description": "EPP",
         "CoilType": [
           {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
-          {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
           },
@@ -176,46 +136,6 @@
       "EPP": {
         "Description": "EPP",
         "CoilType": [
-          {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
           {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
@@ -303,46 +223,6 @@
         "Description": "EPP",
         "CoilType": [
           {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
-          {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
           },
@@ -428,46 +308,6 @@
       "EPP": {
         "Description": "EPP",
         "CoilType": [
-          {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
           {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
@@ -555,46 +395,6 @@
         "Description": "EPP",
         "CoilType": [
           {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
-          {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
           },
@@ -681,46 +481,6 @@
         "Description": "EPP",
         "CoilType": [
           {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
-          {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
           },
@@ -806,46 +566,6 @@
       "EPP": {
         "Description": "EPP",
         "CoilType": [
-          {
-            "Name": "TPR_1A",
-            "Description": "TPR#1A"
-          },
-          {
-            "Name": "TPR_1B",
-            "Description": "TPR#1B"
-          },
-          {
-            "Name": "TPR_1C",
-            "Description": "TPR#1C"
-          },
-          {
-            "Name": "TPR_1D",
-            "Description": "TPR#1D"
-          },
-          {
-            "Name": "TPR_1E",
-            "Description": "TPR#1E"
-          },
-          {
-            "Name": "TPR_3",
-            "Description": "TPR#3"
-          },
-          {
-            "Name": "TPR_4",
-            "Description": "TPR#4"
-          },
-          {
-            "Name": "TPR_5",
-            "Description": "TPR#5"
-          },
-          {
-            "Name": "TPR_6",
-            "Description": "TPR#6"
-          },
-          {
-            "Name": "TPR_THERMAL_5W",
-            "Description": "TPR#THERMAL-5W"
-          },
           {
             "Name": "TPR_1F",
             "Description": "TPR#1F"
