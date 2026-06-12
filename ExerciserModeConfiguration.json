@@ -1,5 +1,5 @@
 {
-  "C3-TPR": {
+    "C3_TPR": {
     "V_1_3": {
       "Description": "1.3",
       "BPP": {
@@ -603,7 +603,7 @@
       "Physicalparameter": []
     }
   },
-  "MPP-TPR": {
+    "MPP_TPR": {
     "MPPV_2_0_1": {
       "Description": "2.1",
       "MPP15||APP15": {
@@ -709,7 +709,7 @@
       "Physicalparameter": []
     }
   },
-  "C3-TPT": {
+    "C3_TPT": {
     "V_1_2_4": {
       "Description": "1.2.4",
       "Physicalparameter": [],
@@ -771,7 +771,7 @@
       "Physicalparameter": []
     }
   },
-  "MPP-TPT": {
+    "MPP_TPT": {
     "MPPV_2_1": {
       "Description": "2.1",
       "Physicalparameter": [],
