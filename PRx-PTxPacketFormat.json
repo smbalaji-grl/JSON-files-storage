@@ -1708,11 +1708,7 @@
               "0xEC": "SRQ/MppProp",
               "0xED": "SRQ/MppProp",
               "0xEE": "SRQ/MppProp",
-              "0xEF": "SRQ/MppProp",
-              "0xA0": "SRQ/PLA",
-              "0xA1": "SRQ/xceMethod",
-              "0xA7": "SRQ/verSel",
-              "0xA9": "SRQ/xceGain"
+              "0xEF": "SRQ/MppProp"
             },
             "Editable": true,
             "EditableForPTx": null,
